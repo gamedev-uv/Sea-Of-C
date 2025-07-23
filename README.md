@@ -10,9 +10,8 @@ C programming assignments and lab work completed as part of my undergraduate cou
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
 
-``Answer``
-[hello-world.c](src/hello-world.c)
-![hello-world.c](src/hello-world.c)
+``Answer`` [hello-world.c](src/hello-world.c)
+
 
 ``Output Terminal``
 ```
@@ -31,9 +30,7 @@ The operations which are to be performed are :
 - Division `(/)`
 - Remainder `(%)`
 
-``Answer``
-[arithmetic-operations.c](src/arithmetic-operations.c)
-![arithmetic-operations.c](src/arithmetic-operations.c)
+``Answer`` [arithmetic-operations.c](src/arithmetic-operations.c)
 
 ``Output Terminal``
 ```
