@@ -36,11 +36,10 @@ WAP in C to display "Hello World!" in the output console!
 ``Answer`` [hello-world.c](src/hello-world.c)
 
 
-``Output Terminal``
+`Output Terminal`
 ```
 Hello World!
 ```
-
 
 ### 2. Arithmetic Operations in C
 
@@ -55,7 +54,7 @@ The operations which are to be performed are :
 
 ``Answer`` [arithmetic-operations.c](src/arithmetic-operations.c)
 
-``Output Terminal``
+`Output Terminal`
 ```
 === [INPUT] ===
 Enter the value of A : 8
@@ -69,3 +68,66 @@ Quotient of 8 and 6 is 1.333333
 Remainder of 8 and 6 is 2
 ```
 
+### 3. Swap Variables
+WAP in C to take 2 integers as input from the users, then swap their values with and without using a 3rd variable based on the option chosen by the user.
+
+Example : If `A = 4 and B = 5`, after processing they will be `A = 5 and B = 4`
+
+``Answer`` [swap.c](src/swap.c)
+
+`Output Terminal`
+```
+=== [INPUT] === 
+Enter the value of A : 5
+Enter the value of B : 4
+
+=== [SWAPPING] ===
+Enter 1 to swap with 3rd variable, 0 to do it without another variable : 0
+Swapping variables without a 3rd variable
+
+=== [OUTPUT] ===
+New Value Of A : 4, New Value Of B : 5
+```
+
+```
+=== [INPUT] ===
+Enter the value of A : 6
+Enter the value of B : 9
+
+=== [SWAPPING] ===
+Enter 1 to swap with 3rd variable, 0 to do it without another variable : 1
+Swapping variables using a 3rd variable
+
+=== [OUTPUT] ===
+New Value Of A : 9, New Value Of B : 6
+```
+
+```
+=== [INPUT] === 
+Enter the value of A : 42
+Enter the value of B : 24
+
+=== [SWAPPING] ===
+Enter 1 to swap with 3rd variable, 0 to do it without another variable : 8
+Invalid option was chosen, 8
+Exiting program early with code 1
+```
+
+### 4. Rectangle 
+WAP in C to take the dimensions of a rectangle as input from the user and calculate and print the perimeter and area of the rectangle.
+```
+Perimeter = 2 * (Length + Breadth);
+Area = Length * Breadth;
+```
+
+``Answer`` [rectangle.c](src/rectangle.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length of the rectangle : 5
+Enter the breath of the rectangle : 8 
+=== [OUTPUT] ===
+Perimeter of the rectangle (2 * (L + B)) : 26.000000
+Perimeter of the rectangle (L * B) : 40.000000
+```
