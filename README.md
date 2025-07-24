@@ -131,3 +131,23 @@ Enter the breath of the rectangle : 8
 Perimeter of the rectangle (2 * (L + B)) : 26.000000
 Perimeter of the rectangle (L * B) : 40.000000
 ```
+
+### 5. Circle 
+WAP in C to take the radius of a circle as input from the user and calculate and print the perimeter and area of the circle.
+```
+Perimeter = 2 * PI * Radius;
+Area = PI * Radius * Radius;
+```
+
+``Answer`` [circle.c](src/circle.c)
+> If <math.h>.pow is not available, simply multiply the radius twice
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the radius of the circle : 25.6
+
+=== [OUTPUT] ===
+Perimeter of the circle [2*PI*R] : 160.768005
+Area of the circle [PI*R*R] : 2057.830566
+```
