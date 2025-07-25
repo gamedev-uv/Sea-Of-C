@@ -151,3 +151,33 @@ Enter the radius of the circle : 25.6
 Perimeter of the circle [2*PI*R] : 160.768005
 Area of the circle [PI*R*R] : 2057.830566
 ```
+
+### 6. Variables
+WAP in C to input various details about a student and log them in the console once done.
+The details which are to be taken as input from the user are : 
+
+- The full name of the student (string (char[]))
+- The ID of the student (int)
+- Average Marks of the student (float)
+- Attendance Percentage of the student (double / long float)
+- Grade (char)
+
+``Answer`` [variables.c](src/variables.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the name of the student : Yuvraj Bhowmik
+Enter the student's ID : 342007
+Enter the average marks of the student : 42.069
+Enter the attendance percentage of the student : 75
+Enter the grade of the student : F
+
+=== [OUTPUT] ===
+=== Details of the student ===
+Name          : Yuvraj Bhowmik
+Student ID    : 342007
+Average Marks : 42.07 / 100.00
+Attendance    : 75.000000%
+Grade         : F
+```
