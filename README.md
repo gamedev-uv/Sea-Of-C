@@ -181,3 +181,136 @@ Average Marks : 42.07 / 100.00
 Attendance    : 75.000000%
 Grade         : F
 ```
+
+### 7. Operators in C
+WAP in C to input integers and perform a variety of operations on them including:
+- Binary Arithmetic Operations
+- Unary Arithmetic Operations
+- Relational Operations
+- Logical Operations
+- Assignment Operations
+- Ternary Operations
+- Bitwise Operations
+
+`Answer` [operators.c](src/operators.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the values you want to perform the operations on : 
+Enter the value of A : 5
+Enter the value of B : 8
+
+=== [Arithmetic Operations] ===
+=== [Binary Arithmetic Operation (Operating on 2 operands)] ===
+A (5) + B (8) = 13
+A (5) - B (8) = -3
+A (5) * B (8) = 40
+A (5) / B (8) = 0.6250
+A (5) % B (8) = 5
+
+=== [Unary Arithmetic Operation (Operating on 1 operand)] ===
+A++ : 5
+Value changed to => A : 6
+++A : 7
+Value changed to => A : 7
+--B : 7
+Value changed to => B : 7
+B-- : 7
+Value changed to => B : 6
+
+=== [Relational Operations] ===
+A (7) == B (6) (Is A equal to B?) :                         0
+A (7) != B (6) (Is A not equal to B?) :                     1
+A (7) >  B (6) (Is A greater than B?) :                     1
+A (7) >= B (6) (Is A greater than or equal to B?) :         1
+A (7) <  B (6) (Is A less than B?) :                        0
+A (7) <= B (6) (Is A less than or equal to B?) :            0
+
+=== [Logical Operations] ===
+A (0) % 2 == 0 || B (-4) % 2 == 1 (A is even or B is odd) :         0
+A (1) % 2 == 0 && B (-4) % 2 == 0 (A is even and B is even) :       0
+!(A (7) == B (6)) !(A is equal to B) => (A is not equal to B) :     1
+
+=== [Assignment Operations] ===
+Result = a * 10; Result :
+B -= 2 => B = 4
+A += 10 => A = 17
+A *= 2 => A = 34
+A /= 10 => A = 3
+A = 10 => A = 3
+
+=== [Ternary Operations] ===
+Enter the age : 17
+The user is a minor!
+
+=== [Bitwise Operations] ===
+ A (3) | B (4)  : 7
+ A (3) & B (4)  : 0
+ A (3) ^ B (4)  : 7
+~A (3)           : -4
+~B (4)           : -5
+ A (3) << 2      : 12
+ A (3) >> 2      : 0
+ B (4) << 1      : 8
+ B (4) >> 1      : 2
+```
+
+## Notes
+
+### 🧮 Compound (Shorthand) Assignment Operators
+
+Compound assignment operators like `+=`, `-=`, `*=`, `/=`, and `%=` are used to simplify expressions where a variable is operated on and then reassigned to itself.
+
+Instead of writing :
+```c
+a = a * 2;
+```
+
+You can use : 
+```c
+a *= 2;
+```
+
+> [!NOTE]
+These aren't just syntax sugar—compilers handle them as dedicated operations and may generate slightly different (sometimes more efficient) code than the expanded form.
+
+
+⚠️ Be careful with operand order:
+```c
+a -= b; 
+b -= a;
+```
+The first means `a = a - b`;
+The second means `b = b - a`;
+
+### ❓ Ternary (Conditional) Operator
+The ternary operator is a compact way to conditionally assign values. It behaves like an if-else expression and is often used in single-line assignments.
+
+Traditional if-else:
+
+```c
+int isOver18;
+
+if (age >= 18)
+{
+    isOver18 = 1;
+}
+else
+{
+    isOver18 = 0;
+}
+```
+Same logic using a ternary operator:
+
+
+```c
+int isOver18 = (age >= 18) ? 1 : 0;
+```
+```c
+<variable> = <condition> ? <value_if_true> : <value_if_false>;
+```
+If the condition is true, value_if_true is assigned. Otherwise, `value_if_false` is assigned.
+
+> [!NOTE]
+While it behaves like an if-else, the ternary operator is not rewritten by the compiler into if-else code. The compiler handles it as an expression and may even optimize it more efficiently in some cases. Use it to write "cleaner" and shorter logic when appropriate.
