@@ -5,30 +5,19 @@ C programming assignments and lab work completed as part of my undergraduate cou
 
 ---
 
-## Setup
-All C programs in this repository were written and tested on Windows using:
-
-- [MinGW](https://www.mingw-w64.org/) as the GCC compiler
-- [Visual Studio Code](https://code.visualstudio.com/) as the editor
-- [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) to easily compile and run .c files with a single shortcut key
-
-## Installing MinGW using [Chocolatey](https://chocolatey.org/)
-To install the MinGW compiler, I used [Chocolatey](https://chocolatey.org/), a Windows package manager. If you want to install [choco](https://chocolatey.org/), you can follow this [guide](https://chocolatey.org/install).
-
-And then you can install the compiler by pasting this command in your command prompt  
-```
-choco install wingw
-```
-> You will be recommended to do this while running the shell as an Administrator.
-
-
-## Running  the code
-Press `Ctrl + Alt + N` to compile and run the code (using the [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)).
-The output will appear in the `OUTPUT` tab of the integrated terminal. You can also change the keyboard shortcut in `Settings` or create a custom macro for it.
-
---- 
-
 ## Questions
+
+|    | Title                   | Description 
+|----|------------------------ |---------------------
+| 1  | Hello World             | [View](#1-hello-world-in-c) 
+| 2  | Arithmetic Operations   | [View](#2-arithmetic-operations-in-c) 
+| 3  | Swap Variables          | [View](#3-swap-variables) 
+| 4  | Rectangle               | [View](#4-rectangle) 
+| 5  | Circle                  | [View](#5-circle) 
+| 6  | Variables               | [View](#6-variables) 
+| 7  | Operators in C          | [View](#7-operators-in-c) 
+| 8  | Collinear Points        | [View](#8-collinear-points) 
+
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -314,3 +303,60 @@ If the condition is true, value_if_true is assigned. Otherwise, `value_if_false`
 
 > [!NOTE]
 While it behaves like an if-else, the ternary operator is not rewritten by the compiler into if-else code. The compiler handles it as an expression and may even optimize it more efficiently in some cases. Use it to write "cleaner" and shorter logic when appropriate.
+
+
+### 8. Collinear Points
+WAP in C to input 3 sets of coordinates and check whether they are collinear or not.
+There are several ways you can do this Mathematically, such as considering it points of a triangle and then calculating the area, comparing slopes etc. We will do it by comparing the slope.
+
+If 3 points are collinear then the slope of the 3rd and 2nd point will be equal to the slope of the 2nd and 1st point.
+
+![Collinear Points](.README/collinear.png)
+
+`Answer` [collinearPoints.c](src/collinearPoints.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the coordinates of the points...
+Point A : 1 1
+Point B : 2 2
+Point C : 3 3
+
+=== [OUTPUT] ===
+Points are collinear
+```
+
+```
+=== [INPUT] ===
+Enter the coordinates of the points...
+Point A : 3 5
+Point B : 7 10
+Point C : 67 68
+
+=== [OUTPUT] ===
+Points are non collinear
+```
+
+## Setup
+All C programs in this repository were written and tested on Windows using:
+
+- [MinGW](https://www.mingw-w64.org/) as the GCC compiler
+- [Visual Studio Code](https://code.visualstudio.com/) as the editor
+- [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) to easily compile and run .c files with a single shortcut key
+
+## Installing MinGW using [Chocolatey](https://chocolatey.org/)
+To install the MinGW compiler, I used [Chocolatey](https://chocolatey.org/), a Windows package manager. If you want to install [choco](https://chocolatey.org/), you can follow this [guide](https://chocolatey.org/install).
+
+And then you can install the compiler by pasting this command in your command prompt  
+```
+choco install wingw
+```
+> You will be recommended to do this while running the shell as an Administrator.
+
+
+## Running  the code
+Press `Ctrl + Alt + N` to compile and run the code (using the [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)).
+The output will appear in the `OUTPUT` tab of the integrated terminal. You can also change the keyboard shortcut in `Settings` or create a custom macro for it.
+
+--- 
