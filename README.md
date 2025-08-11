@@ -2,6 +2,7 @@
 
 # Sea Of C
 C programming assignments and lab work completed as part of my undergraduate coursework at Sister Nivedita University. 
+Can't figure out how to run the code? Have a look at [Setup](#setup).
 
 ---
 
@@ -17,6 +18,7 @@ C programming assignments and lab work completed as part of my undergraduate cou
 | 6  | Variables               | [View](#6-variables) 
 | 7  | Operators in C          | [View](#7-operators-in-c) 
 | 8  | Collinear Points        | [View](#8-collinear-points) 
+| 9  | Sign Detector           | [View](#9-sign-detector) 
 
 
 ### 1. Hello World in C
@@ -336,6 +338,36 @@ Point C : 67 68
 
 === [OUTPUT] ===
 Points are non collinear
+```
+
+### 9. Sign Detector
+WAP in C to input an integer and check whether it is zero, a positive number or a negative number.
+
+`Answer` [signDetector.c](src/signDetector.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 25
+
+=== [OUTPUT] ===
+Number is a +ve number
+```
+
+```
+=== [INPUT] ===
+Enter the number : -6
+
+=== [OUTPUT] ===
+Number is a -ve number
+```
+
+```
+=== [INPUT] ===
+Enter the number : 0
+
+=== [OUTPUT] ===
+Number is zero
 ```
 
 ## Setup
