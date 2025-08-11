@@ -24,6 +24,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 12  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
 | 13  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
 | 14  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
+| 15  | 3 Digit Number                           | [View](#15-3-digit-number) 
 
 
 ### 1. Hello World in C
@@ -502,6 +503,28 @@ Enter the breadth : 6
 Perimeter : 22.00
 Area : 30.00
 Area is greater than the perimeter
+```
+
+### 15. 3 Digit Number
+WAP in C to input an integer and check whether it is a 3 digit number or not
+
+`Answer` [digit3Number](src/digit3Number.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 256
+
+=== [OUTPUT] ===
+Number is a 3 digit number
+```
+
+```
+=== [INPUT] ===
+Enter the number : 34
+
+=== [OUTPUT] ===
+Number is not a 3 digit number
 ```
 
 ## Setup
