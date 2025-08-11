@@ -25,6 +25,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 13  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
 | 14  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
 | 15  | 3 Digit Number                           | [View](#15-3-digit-number) 
+| 16  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
 
 
 ### 1. Hello World in C
@@ -526,6 +527,38 @@ Enter the number : 34
 === [OUTPUT] ===
 Number is not a 3 digit number
 ```
+
+### 16. Valid Triangle Sides
+WAP in C to input 3 numbers and check whether they can be used to form a valid triangle. The [Triangle Inequality Theorem](https://en.wikipedia.org/wiki/Triangle_inequality) states that 
+> The sum of the lengths of any two sides must be greater than or equal to the length of the remaining side.
+
+![](.README/triangleInequalityTheorem.png)
+
+`Answer` [validTriangleSides.c](src/validTriangleSides.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the sides...
+Enter the first side : 1
+Enter the second side : 1
+Enter the third side : 2
+
+=== [OUTPUT] ===
+A valid triangle can be formed
+```
+
+```
+=== [INPUT] ===
+Enter the sides...
+Enter the first side : 25
+Enter the second side : 3
+Enter the third side : 2
+
+=== [OUTPUT] ===
+A valid triangle can't be formed
+```
+
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
