@@ -8,18 +8,20 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 
 ## Questions
 
-|     | Title                   | Description 
-|---- |------------------------ |---------------------
-| 1   | Hello World             | [View](#1-hello-world-in-c) 
-| 2   | Arithmetic Operations   | [View](#2-arithmetic-operations-in-c) 
-| 3   | Swap Variables          | [View](#3-swap-variables) 
-| 4   | Rectangle               | [View](#4-rectangle) 
-| 5   | Circle                  | [View](#5-circle) 
-| 6   | Variables               | [View](#6-variables) 
-| 7   | Operators in C          | [View](#7-operators-in-c) 
-| 8   | Collinear Points        | [View](#8-collinear-points) 
-| 9   | Sign Detector           | [View](#9-sign-detector) 
-| 10  | Odd/Even           | [View](#10-oddeven) 
+|     | Title                                    | Description 
+|---- |------------------------                  |---------------------
+| 1   | Hello World                              | [View](#1-hello-world-in-c) 
+| 2   | Arithmetic Operations                    | [View](#2-arithmetic-operations-in-c) 
+| 3   | Swap Variables                           | [View](#3-swap-variables) 
+| 4   | Rectangle                                | [View](#4-rectangle) 
+| 5   | Circle                                   | [View](#5-circle) 
+| 6   | Variables                                | [View](#6-variables) 
+| 7   | Operators in C                           | [View](#7-operators-in-c) 
+| 8   | Collinear Points                         | [View](#8-collinear-points) 
+| 9   | Sign Detector                            | [View](#9-sign-detector) 
+| 10  | Odd/Even                                 | [View](#10-oddeven) 
+| 11  | Maximum between 2 numbers                | [View](#11-maximum-between-2-numbers) 
+| 12  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
 
 
 ### 1. Hello World in C
@@ -391,6 +393,60 @@ Enter the number : 4
 
 === [OUTPUT] ===
 Number is an even number
+```
+
+### 11. Maximum between 2 numbers
+WAP in C to find the maximum between 2 given integers and print the number which is bigger. For example if `A = 2` and `B = 5`, you need to print B which is the bigger number. The value of the number need not be printed.
+
+`Answer` [max2Numbers.c](src/max2Numbers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the numbers...
+Enter the value of A : 25 
+Enter the value of B : 6
+
+=== [OUTPUT] ===
+A is greater than B
+```
+
+```
+=== [INPUT] ===
+Enter the numbers...
+Enter the value of A : 4
+Enter the value of B : 4
+
+=== [OUTPUT] ===
+B is equal to A
+```
+
+### 12. Maximum between 3 numbers
+WAP in C to find the maximum between 3 given integers and print the number which is bigger. For example if `A = 2`, `B = 5`, `C = 6` you need to print C which is the biggest number amongst the three. The value of the number need not be printed.
+
+`Answer` [max3Numbers.c](src/max3Numbers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the numbers...
+Enter the value of A : 2
+Enter the value of B : 5
+Enter the value of C : 6
+
+=== [OUTPUT] ===
+C is the greatest number
+```
+
+```
+=== [INPUT] ===
+Enter the numbers...
+Enter the value of A : 3
+Enter the value of B : 3
+Enter the value of C : 3
+
+=== [OUTPUT] ===
+All the numbers are equal
 ```
 
 ## Setup
