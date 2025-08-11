@@ -8,17 +8,18 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 
 ## Questions
 
-|    | Title                   | Description 
-|----|------------------------ |---------------------
-| 1  | Hello World             | [View](#1-hello-world-in-c) 
-| 2  | Arithmetic Operations   | [View](#2-arithmetic-operations-in-c) 
-| 3  | Swap Variables          | [View](#3-swap-variables) 
-| 4  | Rectangle               | [View](#4-rectangle) 
-| 5  | Circle                  | [View](#5-circle) 
-| 6  | Variables               | [View](#6-variables) 
-| 7  | Operators in C          | [View](#7-operators-in-c) 
-| 8  | Collinear Points        | [View](#8-collinear-points) 
-| 9  | Sign Detector           | [View](#9-sign-detector) 
+|     | Title                   | Description 
+|---- |------------------------ |---------------------
+| 1   | Hello World             | [View](#1-hello-world-in-c) 
+| 2   | Arithmetic Operations   | [View](#2-arithmetic-operations-in-c) 
+| 3   | Swap Variables          | [View](#3-swap-variables) 
+| 4   | Rectangle               | [View](#4-rectangle) 
+| 5   | Circle                  | [View](#5-circle) 
+| 6   | Variables               | [View](#6-variables) 
+| 7   | Operators in C          | [View](#7-operators-in-c) 
+| 8   | Collinear Points        | [View](#8-collinear-points) 
+| 9   | Sign Detector           | [View](#9-sign-detector) 
+| 10  | Odd/Even           | [View](#10-oddeven) 
 
 
 ### 1. Hello World in C
@@ -368,6 +369,28 @@ Enter the number : 0
 
 === [OUTPUT] ===
 Number is zero
+```
+
+### 10. Odd/Even
+WAP in C to input an integer and check whether it is an odd or even number.
+
+`Answer` [oddEven.c](src/oddEven.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 3
+
+=== [OUTPUT] ===
+Number is an odd number
+```
+
+```
+=== [INPUT] ===
+Enter the number : 4
+
+=== [OUTPUT] ===
+Number is an even number
 ```
 
 ## Setup
