@@ -22,6 +22,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 10  | Odd/Even                                 | [View](#10-oddeven) 
 | 11  | Maximum between 2 numbers                | [View](#11-maximum-between-2-numbers) 
 | 12  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
+| 13  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
 
 
 ### 1. Hello World in C
@@ -396,7 +397,7 @@ Number is an even number
 ```
 
 ### 11. Maximum between 2 numbers
-WAP in C to find the maximum between 2 given integers and print the number which is bigger. For example if `A = 2` and `B = 5`, you need to print B which is the bigger number. The value of the number need not be printed.
+WAP in C to find the maximum between 2 given integers and print the number which is bigger. For example if `A = 2` and `B = 5`, you need to print B which is the bigger number. The value of the number need not be printed. (Edge case : Both the numbers might be equal)
 
 `Answer` [max2Numbers.c](src/max2Numbers.c)
 
@@ -422,7 +423,7 @@ B is equal to A
 ```
 
 ### 12. Maximum between 3 numbers
-WAP in C to find the maximum between 3 given integers and print the number which is bigger. For example if `A = 2`, `B = 5`, `C = 6` you need to print C which is the biggest number amongst the three. The value of the number need not be printed.
+WAP in C to find the maximum between 3 given integers and print the number which is bigger. For example if `A = 2`, `B = 5`, `C = 6` you need to print C which is the biggest number amongst the three. The value of the number need not be printed. (Edge case : All the numbers might be the same)
 
 `Answer` [max3Numbers.c](src/max3Numbers.c)
 
@@ -447,6 +448,29 @@ Enter the value of C : 3
 
 === [OUTPUT] ===
 All the numbers are equal
+```
+
+### 13. 3, 5 Divisibility Test
+WAP in C to enter an integer and check whether it is divisible by 3 or 5. (Edge case : It might be divisible by both or none, for which you might or might not need to add a separate output if asked, which will make it the commonly asked [Fizz Buzz Problem](https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/))
+
+`Answer` [div3-5.c](src/div3-5.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 15
+
+=== [OUTPUT] ===
+The number is divisible by 3
+The number is divisible by 5
+```
+
+```
+=== [INPUT] ===
+Enter the number : 7
+
+=== [OUTPUT] ===
+Divisible by neither 3 nor 5
 ```
 
 ## Setup
