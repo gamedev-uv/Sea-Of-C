@@ -23,6 +23,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 11  | Maximum between 2 numbers                | [View](#11-maximum-between-2-numbers) 
 | 12  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
 | 13  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
+| 14  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
 
 
 ### 1. Hello World in C
@@ -471,6 +472,36 @@ Enter the number : 7
 
 === [OUTPUT] ===
 Divisible by neither 3 nor 5
+```
+
+### 14. Rectangle Area vs Perimeter Check
+WAP in C to input the dimensions of a rectangle (width and breadth) and check if the area of the rectangle is greater than its perimeter. [Formulas](#4-rectangle) have already been discussed.
+
+`Answer` [rectangle-area-vs-perimeter.c](src/rectangle-area-vs-perimeter.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the dimensions of the rectangle...
+Enter the width : 3
+Enter the breadth : 4
+
+=== [OUTPUT] ===
+Perimeter : 14.00
+Area : 12.00
+Perimeter is greater than the area
+```
+
+```
+=== [INPUT] ===
+Enter the dimensions of the rectangle...
+Enter the width : 5
+Enter the breadth : 6
+
+=== [OUTPUT] ===
+Perimeter : 22.00
+Area : 30.00
+Area is greater than the perimeter
 ```
 
 ## Setup
