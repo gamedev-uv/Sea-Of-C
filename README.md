@@ -30,6 +30,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 18  | Age Category                             | [View](#18-age-category) 
 | 19  | Discount Calculator                      | [View](#19-discount-calculator) 
 | 20  | Salary Calculator                        | [View](#20-salary-calculator) 
+| 21  | Grade Division Calculator                | [View](#21-grade-division-calculator) 
 
 
 ### 1. Hello World in C
@@ -668,6 +669,33 @@ Enter the base salary : 1500
 
 === [OUTPUT] ===
 Gross Salary : 3470.000
+```
+
+### 21. Grade Division Calculator
+WAP in C to input the marks attained by a student in 5 different subjects and calculate the percentage of marks gained in total. Based on that percentage calculate and display the division attained by the student.
+
+| Percentage   | Division      |
+| -            | -             |
+| >= 60        | 1st Division  |
+| 50 - 59      | 2nd Division  |
+| 40 - 49      | 3rd Division  |
+| <= 40        | Fail          |
+
+`Answer` [gradeDivisionCalculator](src/gradeDivisionCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the marks obtained in the subjects...
+Marks in A : 80
+Marks in B : 98
+Marks in C : 78
+Marks in D : 45
+Marks in E : 100
+
+=== [OUTPUT] ===
+Percentage obtained : 80.20%
+1st Division
 ```
 
 ## Setup
