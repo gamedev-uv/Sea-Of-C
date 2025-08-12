@@ -31,6 +31,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 19  | Discount Calculator                      | [View](#19-discount-calculator) 
 | 20  | Salary Calculator                        | [View](#20-salary-calculator) 
 | 21  | Grade Division Calculator                | [View](#21-grade-division-calculator) 
+| 22  | Character Checker                        | [View](#22-character-checker) 
 
 
 ### 1. Hello World in C
@@ -696,6 +697,28 @@ Marks in E : 100
 === [OUTPUT] ===
 Percentage obtained : 80.20%
 1st Division
+```
+
+### 22. Character Checker
+WAP in C to input an character and check whether it is the following or not without using any pre-built character check methods.
+It might be an upper case alphabet (`A - Z`), lower case (`a - z`) or digit (`0 - 9`) or a special character (`#, @, %, $`, etc)
+
+`Answer` [characterChecker](src/characterChecker.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the character : A
+
+=== [OUTPUT] ===
+Upper Case Character (A - Z)
+```
+```
+=== [INPUT] ===
+Enter the character : #
+
+=== [OUTPUT] ===
+Special Character : #
 ```
 
 ## Setup
