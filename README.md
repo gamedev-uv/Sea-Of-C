@@ -8,30 +8,31 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 
 ## Questions
 
-|     | Title                                    | Description 
-|---- |------------------------                  |---------------------
-| 1   | Hello World                              | [View](#1-hello-world-in-c) 
-| 2   | Arithmetic Operations                    | [View](#2-arithmetic-operations-in-c) 
-| 3   | Swap Variables                           | [View](#3-swap-variables) 
-| 4   | Rectangle                                | [View](#4-rectangle) 
-| 5   | Circle                                   | [View](#5-circle) 
-| 6   | Variables                                | [View](#6-variables) 
-| 7   | Operators in C                           | [View](#7-operators-in-c) 
-| 8   | Collinear Points                         | [View](#8-collinear-points) 
-| 9   | Sign Detector                            | [View](#9-sign-detector) 
-| 10  | Odd/Even                                 | [View](#10-oddeven) 
-| 11  | Maximum between 2 numbers                | [View](#11-maximum-between-2-numbers) 
-| 12  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
-| 13  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
-| 14  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
-| 15  | 3 Digit Number                           | [View](#15-3-digit-number) 
-| 16  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
-| 17  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
-| 18  | Age Category                             | [View](#18-age-category) 
-| 19  | Discount Calculator                      | [View](#19-discount-calculator) 
-| 20  | Salary Calculator                        | [View](#20-salary-calculator) 
-| 21  | Grade Division Calculator                | [View](#21-grade-division-calculator) 
-| 22  | Character Checker                        | [View](#22-character-checker) 
+|      | Title                                    | Description 
+|   -  | -                                        |-
+| 1.   | Hello World                              | [View](#1-hello-world-in-c) 
+| 2.   | Arithmetic Operations                    | [View](#2-arithmetic-operations-in-c) 
+| 3.   | Swap Variables                           | [View](#3-swap-variables) 
+| 4.   | Rectangle                                | [View](#4-rectangle) 
+| 5.   | Circle                                   | [View](#5-circle) 
+| 6.   | Variables                                | [View](#6-variables) 
+| 7.   | Operators in C                           | [View](#7-operators-in-c) 
+| 8.   | Collinear Points                         | [View](#8-collinear-points) 
+| 9.   | Sign Detector                            | [View](#9-sign-detector) 
+| 10   | Odd/Even                                 | [View](#10-oddeven) 
+| 11.  | Maximum between 2 numbers                | [View](#11-maximum-between-2-numbers) 
+| 12.  | Maximum between 3 numbers                | [View](#12-maximum-between-3-numbers) 
+| 13.  | Divisibility check for 3 and 5           | [View](#13-3-5-divisibility-test) 
+| 14.  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
+| 15.  | 3 Digit Number                           | [View](#15-3-digit-number) 
+| 16.  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
+| 17.  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
+| 18.  | Age Category                             | [View](#18-age-category) 
+| 19.  | Discount Calculator                      | [View](#19-discount-calculator) 
+| 20.  | Salary Calculator                        | [View](#20-salary-calculator) 
+| 21.  | Grade Division Calculator                | [View](#21-grade-division-calculator) 
+| 22.  | Character Checker                        | [View](#22-character-checker) 
+| 23.  | Vowel Consonant Checker                  | [View](#23-vowel-consonant-checker) 
 
 
 ### 1. Hello World in C
@@ -654,7 +655,7 @@ Total Amount is : 1536.0000
 ### 20. Salary Calculator
 In a company an employee is paid as under: If their basic salary is less than `Rs. 1500`, then `HRA = 10%` of basic salary and `DA = 90%` of basic salary. If their salary is either equal to or above `Rs. 1500`, then `HRA = Rs. 500` and `DA = 98%` of basic salary. WAP in C to input the basic salary of the employee and calculate their gross salary.
 
-`Answer` [salaryCalculator](src/salaryCalculator.c)
+`Answer` [salaryCalculator.c](src/salaryCalculator.c)
 
 `Output Terminal`
 ```
@@ -703,7 +704,7 @@ Percentage obtained : 80.20%
 WAP in C to input an character and check whether it is the following or not without using any pre-built character check methods.
 It might be an upper case alphabet (`A - Z`), lower case (`a - z`) or digit (`0 - 9`) or a special character (`#, @, %, $`, etc)
 
-`Answer` [characterChecker](src/characterChecker.c)
+`Answer` [characterChecker.c](src/characterChecker.c)
 
 `Output Terminal`
 ```
@@ -719,6 +720,36 @@ Enter the character : #
 
 === [OUTPUT] ===
 Special Character : #
+```
+
+### 23. Vowel Consonant Checker
+WAP in C to input an alphabet and check whether it is a vowel or consonant without using any string functions.
+
+`Answer` [vowelConsonant.c](src/vowelConsonant.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the alphabet : 6
+
+=== [OUTPUT] ===
+Entered character is not an alphabet
+```
+
+```
+=== [INPUT] ===
+Enter the alphabet : a
+
+=== [OUTPUT] ===
+Entered alphabet is a vowel
+```
+
+```
+=== [INPUT] ===
+Enter the alphabet : x
+
+=== [OUTPUT] ===
+Entered alphabet is a consonant
 ```
 
 ## Setup
