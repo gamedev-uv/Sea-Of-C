@@ -28,6 +28,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 16  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
 | 17  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
 | 18  | Age Category                             | [View](#18-age-category) 
+| 19  | Discount Calculator                      | [View](#19-discount-calculator) 
 
 
 ### 1. Hello World in C
@@ -621,6 +622,30 @@ Enter the age : 64
 
 === [OUTPUT] ===
 Category : Old
+```
+
+### 19. Discount Calculator
+While purchasing certain items, a discount of 10% is offered if the quantity purchased is more than 1000. If quantity and price per item are input through the keyboard. WAP in C to calculate the total expenses.
+
+`Answer` [discountCalculator.c](src/discountCal.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the quantity : 1200
+Enter the rate : 10
+
+=== [OUTPUT] ===
+Total Amount is : 10800.0000
+```
+
+```
+=== [INPUT] ===
+Enter the quantity : 512
+Enter the rate : 3 
+
+=== [OUTPUT] ===
+Total Amount is : 1536.0000
 ```
 
 ## Setup
