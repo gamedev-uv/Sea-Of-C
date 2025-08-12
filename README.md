@@ -27,6 +27,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 15  | 3 Digit Number                           | [View](#15-3-digit-number) 
 | 16  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
 | 17  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
+| 18  | Age Category                             | [View](#18-age-category) 
 
 
 ### 1. Hello World in C
@@ -585,6 +586,41 @@ Angle C : 7
 
 === [OUTPUT] ===
 A valid triangle can't be formed using the angles
+```
+
+### 18. Age Category
+WAP in C to input the age of the user and give them their respective category as output.
+
+| Age     | Category 
+|   -     |     -
+| < 18    | Children 
+| 18 - 60 | Young 
+| > 60    | Old 
+
+
+`Answer` [ageCategory.c](src/ageCategory.c)
+
+`Output Terminal`
+```
+=== [OUTPUT] ===
+Enter the age : 17
+
+=== [OUTPUT] ===
+Category : Children
+```
+```
+=== [OUTPUT] ===
+Enter the age : 25
+
+=== [OUTPUT] ===
+Category : Young
+```
+```
+=== [OUTPUT] ===
+Enter the age : 64
+
+=== [OUTPUT] ===
+Category : Old
 ```
 
 ## Setup
