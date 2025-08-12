@@ -29,6 +29,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 17  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
 | 18  | Age Category                             | [View](#18-age-category) 
 | 19  | Discount Calculator                      | [View](#19-discount-calculator) 
+| 20  | Salary Calculator                        | [View](#20-salary-calculator) 
 
 
 ### 1. Hello World in C
@@ -646,6 +647,27 @@ Enter the rate : 3
 
 === [OUTPUT] ===
 Total Amount is : 1536.0000
+```
+
+### 20. Salary Calculator
+In a company an employee is paid as under: If their basic salary is less than `Rs. 1500`, then `HRA = 10%` of basic salary and `DA = 90%` of basic salary. If their salary is either equal to or above `Rs. 1500`, then `HRA = Rs. 500` and `DA = 98%` of basic salary. WAP in C to input the basic salary of the employee and calculate their gross salary.
+
+`Answer` [salaryCalculator](src/salaryCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the base salary : 1200
+
+=== [OUTPUT] ===
+Gross Salary : 2400.000
+```
+```
+=== [INPUT] ===
+Enter the base salary : 1500
+
+=== [OUTPUT] ===
+Gross Salary : 3470.000
 ```
 
 ## Setup
