@@ -33,6 +33,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 21.  | Grade Division Calculator                | [View](#21-grade-division-calculator) 
 | 22.  | Character Checker                        | [View](#22-character-checker) 
 | 23.  | Vowel Consonant Checker                  | [View](#23-vowel-consonant-checker) 
+| 24.  | Leap Year Checker                        | [View](#24-leap-year-checker) 
 
 
 ### 1. Hello World in C
@@ -750,6 +751,29 @@ Enter the alphabet : x
 
 === [OUTPUT] ===
 Entered alphabet is a consonant
+```
+
+### 24. Leap Year Checker
+WAP in C to input a year and check whether it is a leap year or not. Leap year repeat every `4` years (so we can check if it is divisible by `4`) but there is a small exception where leap year is not celebrated on century years such as `1800`, `1500` unless they are also divisible by `400`. 
+
+> Wanna know why that exception exists? Read more about it [here](https://en.wikipedia.org/wiki/Leap_year#Gregorian%20calendar:~:text=in%20leap%20years.-,Gregorian%20calendar,-%5Bedit%5D)
+
+`Answer` [leapYear.c](src/leapYear.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the year : 1600
+
+=== [OUTPUT] ===
+Year 1600 is a leap year
+```
+```
+=== [INPUT] ===
+Enter the year : 1800
+
+=== [OUTPUT] ===
+Year 1800 is not a leap year
 ```
 
 ## Setup
