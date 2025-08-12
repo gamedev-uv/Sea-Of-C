@@ -26,6 +26,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 14  | Rectangle Area vs Perimeter Check        | [View](#14-rectangle-area-vs-perimeter-check) 
 | 15  | 3 Digit Number                           | [View](#15-3-digit-number) 
 | 16  | Valid Triangle Sides                     | [View](#16-valid-triangle-sides) 
+| 17  | Valid Triangle Angles                    | [View](#17-valid-triangle-angles) 
 
 
 ### 1. Hello World in C
@@ -559,6 +560,32 @@ Enter the third side : 2
 A valid triangle can't be formed
 ```
 
+### 17. Valid Triangle Angles
+WAP in C to input 3 numbers and check if those can the angles used to form a triangle. The sum of the angles should be equal to 180.
+
+`Answer` [validTriangleAngles.c](src/validTriangleAngles.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the angles...
+Angle A : 50
+Angle B : 60
+Angle C : 70
+
+=== [OUTPUT] ===
+A valid triangle can be formed using the angles
+```
+```
+=== [INPUT] ===
+Enter the angles...
+Angle A : 5
+Angle B : 6
+Angle C : 7
+
+=== [OUTPUT] ===
+A valid triangle can't be formed using the angles
+```
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
