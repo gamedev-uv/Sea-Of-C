@@ -788,7 +788,7 @@ To install the MinGW compiler, I used [Chocolatey](https://chocolatey.org/), a W
 
 And then you can install the compiler by pasting this command in your command prompt  
 ```
-choco install wingw
+choco install mingw
 ```
 > You will be recommended to do this while running the shell as an Administrator.
 
