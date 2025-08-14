@@ -34,6 +34,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 22.  | Character Checker                        | [View](#22-character-checker) 
 | 23.  | Vowel Consonant Checker                  | [View](#23-vowel-consonant-checker) 
 | 24.  | Leap Year Checker                        | [View](#24-leap-year-checker) 
+| 25.  | Simple Calculator                        | [View](#25-simple-calculator) 
 
 
 ### 1. Hello World in C
@@ -774,6 +775,31 @@ Enter the year : 1800
 
 === [OUTPUT] ===
 Year 1800 is not a leap year
+```
+
+### 25. Simple Calculator
+WAP in C to input 2 operands and a single operand and print out the result.
+The program should support the follow operations : `+`, `-`, `*`, `/`, `%`.
+
+`Answer` [simpleCalculator.c](src/simpleCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the operation...
+4 * 5
+
+=== [OUTPUT] ===
+4.00 * 5.00 = 20.00
+```
+
+```
+=== [INPUT] ===
+Enter the operation...
+25 / 6
+
+=== [OUTPUT] ===
+25.00 / 6.00 = 4.17
 ```
 
 ## Setup
