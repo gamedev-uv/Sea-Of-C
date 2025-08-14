@@ -35,6 +35,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 23.  | Vowel Consonant Checker                  | [View](#23-vowel-consonant-checker) 
 | 24.  | Leap Year Checker                        | [View](#24-leap-year-checker) 
 | 25.  | Simple Calculator                        | [View](#25-simple-calculator) 
+| 26.  | Simple Grade Calculator                  | [View](#26-simple-grade-calculator) 
 
 
 ### 1. Hello World in C
@@ -800,6 +801,30 @@ Enter the operation...
 
 === [OUTPUT] ===
 25.00 / 6.00 = 4.17
+```
+
+### 26. Simple Grade Calculator 
+WAP in C to create a simple grade calculator based on the marks input by the user.
+
+| Marks        | Grade |
+| -            | -     |
+| >= 90        | O     |
+| 80 - 89      | E     |
+| 70 - 79      | A     |
+| 60 - 69      | B     |
+| 50 - 59      | C     |
+| 40 - 49      | D     |
+| < 40         | F     |
+
+`Answer` [simpleGradeCalculator.c](src/simpleGradeCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the marks : 65
+
+=== [OUTPUT] ===
+Grade Attained : B
 ```
 
 ## Setup
