@@ -36,10 +36,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 24.  | Leap Year Checker                        | [View](#24-leap-year-checker) 
 | 25.  | Simple Calculator                        | [View](#25-simple-calculator) 
 | 26.  | Simple Grade Calculator                  | [View](#26-simple-grade-calculator) 
-
-
-### 1. Hello World in C
-WAP in C to display "Hello World!" in the output console!
+| 27.  | Electricity Bill Calculator              | [View](#27-simple-electricity-bill-calculator)
 
 ``Answer`` [hello-world.c](src/hello-world.c)
 
@@ -825,6 +822,21 @@ Enter the marks : 65
 
 === [OUTPUT] ===
 Grade Attained : B
+```
+
+### 27. Simple Electricity Bill Calculator
+WAP in C to enter the number of units used and calculate the total price based on the slabs.
+For the first `102` units the price per unit is `4.89` for the next `58` units the price is `5.40` and for units any higher each unit will be priced at `6.50`
+
+`Answer` [electricityBill.c](src/electricityBill.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of units : 180
+
+=== [OUTPUT] ===
+The total cost for is : 941.980
 ```
 
 ## Setup
