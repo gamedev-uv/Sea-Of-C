@@ -37,9 +37,14 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 25.  | Simple Calculator                        | [View](#25-simple-calculator) 
 | 26.  | Simple Grade Calculator                  | [View](#26-simple-grade-calculator) 
 | 27.  | Electricity Bill Calculator              | [View](#27-simple-electricity-bill-calculator)
+| 28.  | Force Calculation                        | [View](#28-force-calculation)
+| 29.  | Distance Calculation                     | [View](#29-distance-calculation)
+| 30.  | Final Velocity Calculation               | [View](#30-final-velocity-calculation)
+
+### 1. Hello World in C
+WAP in C to display "Hello World!" in the output console!
 
 ``Answer`` [hello-world.c](src/hello-world.c)
-
 
 `Output Terminal`
 ```
@@ -837,6 +842,56 @@ Enter the number of units : 180
 
 === [OUTPUT] ===
 The total cost for is : 941.980
+```
+
+### 28. Force Calculation
+WAP in C to calculate the force after taking `mass (kg)` and `acceleration (m/s^2)` as input from the user. Use the formula : `Force  = Mass * Acceleration`.
+
+`Answer` [forceCal.c](src/forceCal.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the mass of the body : 500
+Enter the acceleration of the body : 10
+
+=== [OUTPUT] ===
+Mass : 500.00 kg(s)
+Acceleration : 10.00 m/s^2
+Force : 5000.00 N
+```
+
+### 29. Distance Calculation
+WAP in C to enter the `distance traveled (d)` after taking the `initial velocity (u) m/s`, `acceleration (f) m/s^2` and `time (t) s` as input from the user. Use the second equation of motion : `d = ut + 1/2ft^2`.
+
+`Answer` [distanceCal.c](src/distanceCal.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the initial velocity (u) : 25
+Enter the acceleration (f) : 6
+Enter the time (t) : 16
+
+=== [OUTPUT] ===
+Distance Traveled : 1168.00 m
+```
+
+### 30. Final Velocity Calculation
+WAP in C to enter the `final velocity (v)` after taking the `initial velocity (u) m/s`, `acceleration (a) m/s^2` and `displacement (d)` as input from the user. Use the third equation of motion : `v^2 = u^2 + 2ad`, `v = sqrt(u^2 + 2ad)`
+
+`Answer` [finalVelCal.c](src/finalVelCal.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the initial velocity (u) :
+5 
+Enter the acceleration (f) : 2
+Enter the distance traveled (t) : 8
+
+=== [OUTPUT] ===
+Final Velocity : 7.55 m/s
 ```
 
 ## Setup
