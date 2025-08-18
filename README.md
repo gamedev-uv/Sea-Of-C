@@ -43,6 +43,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 31.  | Days Convertor                           | [View](#31-days-convertor)
 | 32.  | Seconds Convertor                        | [View](#32-seconds-convertor)
 | 33.  | Time Adder                               | [View](#33-time-adder)
+| 34.  | Distance Adder                           | [View](#34-distance-adder)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -939,6 +940,12 @@ Enter the number of seconds : 6400
 Write a program in C to add two times taken in hours, minutes, and second format `T1 = {hour1, minute1, second1}`, `T2 = {hour2, minute2, second2}` and add them up and display the output in this format : `T3 = {hour3, minute3, second3}`. 
 
 The Maths behind the solution is quite simple, we simply need to add the corresponding values from `T1` and `T2` and if they are more than what they could be then they are to be converted (`Seconds if more than 60 get converted into Minutes and similarly minutes when larger than 60 get converted into hours`)
+```
+Seconds = (T1_Seconds + T2_Seconds) % 60
+Minutes = (T1_Minutes + T2_Minutes) % 60 + (T1_Seconds + T2_Seconds) / 60
+Hours = (T1_Hours + T2_Hours) + (T1_Minutes + T2_Minutes) / 60 + (T1_Seconds + T2_Seconds) / 60
+```
+
 
 `Answer` [timeAdder.c](src/timeAdder.c)
 
@@ -957,6 +964,33 @@ Second : 4
 
 === [OUTPUT] ===
 T3 = 8 hour(s) 36 minute(s) 9 second(s)
+```
+
+### 34. Distance Adder 
+Write a program in C to add two distances taken in feet and inches, format `D1 = {feet1, inch1}`, `D2 = {feet2, inch2}` and add them up and display the output in this format : `D3 = {feet3, inch3}`. 
+
+The Maths behind the solution is once again quite simple, (It is similar to the previous) we simply need to add the corresponding values from `D1` and `D2` and if they are more than what they could be then they are to be converted (`Inches if more than 12 get converted into feet`)
+
+```
+Inches = (D1_Inches + D2_Inches) % 12
+Feet = (D1_Feet + D2_Feet) + ((D1_Inches + D2_Inches) / 12)
+```
+
+`Answer` [distanceAdder.c](src/distanceAdder.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter D1 :
+Feet : 5
+Inch : 11
+
+Enter D2 :
+Feet : 5
+Inch : 4
+
+=== [OUTPUT] ===
+D3 = 11 feet 3 inch(es)
 ```
 
 
