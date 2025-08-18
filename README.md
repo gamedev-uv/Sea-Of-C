@@ -41,6 +41,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 29.  | Distance Calculation                     | [View](#29-distance-calculation)
 | 30.  | Final Velocity Calculation               | [View](#30-final-velocity-calculation)
 | 31.  | Days Convertor                           | [View](#31-days-convertor)
+| 32.  | Seconds Convertor                        | [View](#32-seconds-convertor)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -912,6 +913,25 @@ Enter the number of days : 768
 
 === [OUTPUT] ===
 768 days = 2 year(s) 1 month(s) and 8 day(s)
+```
+
+### 32. Seconds Convertor 
+WAP in C to convert seconds into hours, minutes, and seconds.
+Hint : `Hours = Seconds / 3600`, `Months = Remaining Seconds / 60`, `Seconds = Remaining Seconds`. Putting in the values for the remaining seconds we get : 
+```
+Years = Seconds / 3600
+Months = (Seconds % 3600) / 60
+Days = (Seconds % 3600) % 60
+```
+`Answer` [secondsConvertor.c](src/secondsConvertor.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of seconds : 6400
+
+=== [OUTPUT] ===
+6400 seconds = 1 hours(s) 46 minutes(s) and 40 seconds(s)
 ```
 
 ## Setup
