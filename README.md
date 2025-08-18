@@ -882,7 +882,7 @@ Distance Traveled : 1168.00 m
 ```
 
 ### 30. Final Velocity Calculation
-WAP in C to enter the `final velocity (v)` after taking the `initial velocity (u) m/s`, `acceleration (a) m/s^2` and `displacement (d)` as input from the user. Use the third equation of motion : `v^2 = u^2 + 2ad`, `v = sqrt(u^2 + 2ad)`
+WAP in C to calculate the `final velocity (v)` after taking the `initial velocity (u) m/s`, `acceleration (a) m/s^2` and `displacement (d)` as input from the user. Use the third equation of motion : `v^2 = u^2 + 2ad`, `v = sqrt(u^2 + 2ad)`
 
 `Answer` [finalVelCal.c](src/finalVelCal.c)
 
