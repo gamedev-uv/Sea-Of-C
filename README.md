@@ -40,6 +40,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 28.  | Force Calculation                        | [View](#28-force-calculation)
 | 29.  | Distance Calculation                     | [View](#29-distance-calculation)
 | 30.  | Final Velocity Calculation               | [View](#30-final-velocity-calculation)
+| 31.  | Days Convertor                           | [View](#31-days-convertor)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -892,6 +893,25 @@ Enter the distance traveled (t) : 8
 
 === [OUTPUT] ===
 Final Velocity : 7.55 m/s
+```
+
+### 31. Days Convertor 
+WAP in C to convert days into years, months, weeks, and days.
+Hint : `Years = Days / 365`, `Months = Remaining Days / 30`, `Days = Remaining Days`. Putting in the values for the remaining days we get : 
+```
+Years = Days / 365
+Months = (Days % 365) / 30
+Days = (Days % 365) % 30
+```
+`Answer` [daysConvertor.c](src/daysConvertor.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of days : 768
+
+=== [OUTPUT] ===
+768 days = 2 year(s) 1 month(s) and 8 day(s)
 ```
 
 ## Setup
