@@ -42,6 +42,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 30.  | Final Velocity Calculation               | [View](#30-final-velocity-calculation)
 | 31.  | Days Convertor                           | [View](#31-days-convertor)
 | 32.  | Seconds Convertor                        | [View](#32-seconds-convertor)
+| 33.  | Time Adder                               | [View](#33-time-adder)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -933,6 +934,31 @@ Enter the number of seconds : 6400
 === [OUTPUT] ===
 6400 seconds = 1 hours(s) 46 minutes(s) and 40 seconds(s)
 ```
+
+### 33. Time Adder 
+Write a program in C to add two times taken in hours, minutes, and second format `T1 = {hour1, minute1, second1}`, `T2 = {hour2, minute2, second2}` and add them up and display the output in this format : `T3 = {hour3, minute3, second3}`. 
+
+The Maths behind the solution is quite simple, we simply need to add the corresponding values from `T1` and `T2` and if they are more than what they could be then they are to be converted (`Seconds if more than 60 get converted into Minutes and similarly minutes when larger than 60 get converted into hours`)
+
+`Answer` [timeAdder.c](src/timeAdder.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter T1 : 
+Hour : 5
+Minute : 40
+Second : 5
+
+Enter T2 : 
+Hour : 2
+Minute : 56
+Second : 4
+
+=== [OUTPUT] ===
+T3 = 8 hour(s) 36 minute(s) 9 second(s)
+```
+
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
