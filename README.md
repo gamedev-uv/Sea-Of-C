@@ -900,11 +900,12 @@ Final Velocity : 7.55 m/s
 
 ### 31. Days Convertor 
 WAP in C to convert days into years, months, weeks, and days.
-Hint : `Years = Days / 365`, `Months = Remaining Days / 30`, `Days = Remaining Days`. Putting in the values for the remaining days we get : 
+Hint : `Years = Days / 365`, `Months = Remaining Days / 30`, `Weeks = Remaining Days / 7`,`Days = Remaining Days`. Putting in the values for the remaining days we get : 
 ```
 Years = Days / 365
 Months = (Days % 365) / 30
-Days = (Days % 365) % 30
+Weeks = ((Days % 365) % 30) / 7
+Days = ((Days % 365) % 30) % 7
 ```
 `Answer` [daysConvertor.c](src/daysConvertor.c)
 
@@ -914,7 +915,7 @@ Days = (Days % 365) % 30
 Enter the number of days : 768
 
 === [OUTPUT] ===
-768 days = 2 year(s) 1 month(s) and 8 day(s)
+768 days = 2 year(s) 1 month(s) 1 week(s) 1 day(s)
 ```
 
 ### 32. Seconds Convertor 
