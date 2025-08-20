@@ -810,7 +810,7 @@ Enter the operation...
 ```
 
 ### 26. Simple Grade Calculator 
-WAP in C to create a simple grade calculator based on the marks input by the user.
+WAP in C to create a simple grade calculator based on the average of the marks in 5 subjects which are to be input by the user.
 
 | Marks        | Grade |
 | -            | -     |
