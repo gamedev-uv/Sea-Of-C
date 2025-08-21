@@ -9,6 +9,12 @@ int main()
     scanf("%c", &ch);
 
     printf("\n=== [OUTPUT] ===\n");
+    if(ch < 0 || ch > 127)
+    {
+        printf("\nCharacter is out of range of ASCII Values");
+        return 0;
+    }
+
     if(ch >= 'A' && ch <= 'Z')
         printf("Upper Case Character (A - Z)");
     else if(ch >= 'a' && ch <= 'z')
