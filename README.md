@@ -50,6 +50,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 38.  | Display Numbers                          | [View](#38-display-number)
 | 39.  | Shape Area Calculator                    | [View](#39-shape-area-calculator)
 | 40.  | Temperature Convertor                    | [View](#40-temperature-convertor)
+| 41.  | Odd/Even (Switch Case)                   | [View](#41-odd-even-switch-case) 
+
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1161,6 +1163,38 @@ Enter 0 to convert to Fahrenheit and 1 to convert to Celsius : 1
 
 === [OUTPUT] ===
 Temperature in Celsius : 36.67
+```
+
+### 41. Odd Even Switch Case
+WAP in C to check whether a number is even, odd, or zero using switch case.
+
+`Answer` [oddEvenSwitchCase.c](src/oddEvenSwitchCase.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 0
+
+=== [OUTPUT] ===
+The number is zero
+```
+
+```
+=== [INPUT] ===
+Enter the number : 6
+
+=== [OUTPUT] ===
+The number is non-zero
+The number is even
+```
+
+```
+=== [INPUT] ===
+Enter the number : 5
+
+=== [OUTPUT] ===
+The number is non-zero
+The number is odd
 ```
 
 ## Setup
