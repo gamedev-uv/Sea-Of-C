@@ -47,6 +47,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 35.  | Day Of Week                              | [View](#35-day-of-week)
 | 36.  | Month Name                               | [View](#36-month-name)
 | 37.  | Vowel Consonant Checker (Switch Case)    | [View](#37-vowel-consonant-checker-switch-case)
+| 38.  | Display Numbers                          | [View](#38-display-number)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1069,6 +1070,28 @@ Enter the character : 6
 
 === [OUTPUT] ===
 6 is not an alphabet, Can't be a vowel or consonant
+```
+
+### 38. Display Number
+WAP in C to display numbers (0–9) in words using switch-case.
+
+`Answer` [displayNumber.c](src/displayNumber.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 7
+
+=== [OUTPUT] ===
+Number Name : Seven
+```
+
+```
+=== [INPUT] ===
+Enter the number : 89
+
+=== [OUTPUT] ===
+Number Name : [INVALID OPTION], Can't name 89
 ```
 
 ## Setup
