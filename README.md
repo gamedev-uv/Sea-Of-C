@@ -46,6 +46,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 34.  | Distance Adder                           | [View](#34-distance-adder)
 | 35.  | Day Of Week                              | [View](#35-day-of-week)
 | 36.  | Month Name                               | [View](#36-month-name)
+| 37.  | Vowel Consonant Checker (Switch Case)    | [View](#37-vowel-consonant-checker-switch-case)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1038,6 +1039,36 @@ Enter the month : 13
 
 === [OUTPUT] ===
 The corresponding month is : INVALID, No month was found at 13
+```
+
+### 37. Vowel Consonant Checker (Switch Case)
+WAP in C to check whether a character is a vowel or consonant using switch-case.
+
+`Answer` [vowelConsonantSwitchCase.c](src/vowelConsonantSwitchCase.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the character : y
+
+=== [OUTPUT] ===
+y is a consonant
+```
+
+```
+=== [INPUT] ===
+Enter the character : O
+
+=== [OUTPUT] ===
+O is a vowel
+```
+
+```
+=== [INPUT] ===
+Enter the character : 6
+
+=== [OUTPUT] ===
+6 is not an alphabet, Can't be a vowel or consonant
 ```
 
 ## Setup
