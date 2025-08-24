@@ -49,6 +49,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 37.  | Vowel Consonant Checker (Switch Case)    | [View](#37-vowel-consonant-checker-switch-case)
 | 38.  | Display Numbers                          | [View](#38-display-number)
 | 39.  | Shape Area Calculator                    | [View](#39-shape-area-calculator)
+| 40.  | Temperature Convertor                    | [View](#40-temperature-convertor)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1128,6 +1129,38 @@ Select Shape : 7
 
 === [OUTPUT] ===
 The shape for option 7 is not supported
+```
+
+### 40. Temperature Convertor
+WAP in C to convert temperature (Celsius ↔ Fahrenheit) using switch case.
+You can use the following relations for the conversion
+```
+F = (C * 9/5) + 32
+C = (F - 32) * 5/9
+
+where C = Temperature in Celsius Scale
+      F = Temperature in Fahrenheit Scale
+```
+
+`Answer` [temperatureConvertor.c](src/temperatureConvertor.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the temperature : 32
+Enter 0 to convert to Fahrenheit and 1 to convert to Celsius : 0
+
+=== [OUTPUT] ===
+Temperature in Fahrenheit : 89.60
+```
+
+```
+=== [INPUT] ===
+Enter the temperature : 98
+Enter 0 to convert to Fahrenheit and 1 to convert to Celsius : 1
+
+=== [OUTPUT] ===
+Temperature in Celsius : 36.67
 ```
 
 ## Setup
