@@ -44,6 +44,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 32.  | Seconds Convertor                        | [View](#32-seconds-convertor)
 | 33.  | Time Adder                               | [View](#33-time-adder)
 | 34.  | Distance Adder                           | [View](#34-distance-adder)
+| 35.  | Day Of Week                              | [View](#35-day-of-week)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -992,6 +993,28 @@ Inch : 4
 
 === [OUTPUT] ===
 D3 = 11 feet 3 inch(es)
+```
+
+### 35. Day Of Week
+WAP in C to find the day of the week using switch-case.
+
+`Answer` [dayOfWeek.c](src/dayOfWeek.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the day : 3
+
+=== [OUTPUT] ===
+The corresponding day is : Tuesday
+```
+
+```
+=== [INPUT] ===
+Enter the day : 8
+
+=== [OUTPUT] ===
+The corresponding day is : INVALID, No day was found at 8
 ```
 
 
