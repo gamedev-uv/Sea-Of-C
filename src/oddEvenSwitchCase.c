@@ -29,6 +29,7 @@ int main()
                     printf("The number is odd");
                     break;
             }
+            break;
     }
 
     return 0;

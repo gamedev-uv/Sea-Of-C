@@ -51,6 +51,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 39.  | Shape Area Calculator                    | [View](#39-shape-area-calculator)
 | 40.  | Temperature Convertor                    | [View](#40-temperature-convertor)
 | 41.  | Odd/Even (Switch Case)                   | [View](#41-odd-even-switch-case) 
+| 42.  | Leap Year Checker (Switch Case)          | [View](#42-leap-year-checker-switch-case) 
 
 
 ### 1. Hello World in C
@@ -1195,6 +1196,39 @@ Enter the number : 5
 === [OUTPUT] ===
 The number is non-zero
 The number is odd
+```
+
+### 42. Leap Year Checker Switch Case
+WAP in C to check whether a year is a leap year using switch-case. You can read about the rules of leap years [here](#24-leap-year-checker) (normal leap year question).
+
+`Answer` [leapYearSwitchCase.c](src/leapYearSwitchCase.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the year : 1800
+
+=== [OUTPUT] ===
+Year 1800 is a century year
+Year 1800 is a not leap year
+```
+
+```
+=== [INPUT] ===
+Enter the year : 1600
+
+=== [OUTPUT] ===
+Year 1600 is a century year
+Year 1600 is a leap year
+```
+
+```
+=== [INPUT] ===
+Enter the year : 2024
+
+=== [OUTPUT] ===
+Year 2024 is not a century year
+Year 2024 is a leap year
 ```
 
 ## Setup
