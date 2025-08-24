@@ -48,6 +48,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 36.  | Month Name                               | [View](#36-month-name)
 | 37.  | Vowel Consonant Checker (Switch Case)    | [View](#37-vowel-consonant-checker-switch-case)
 | 38.  | Display Numbers                          | [View](#38-display-number)
+| 39.  | Shape Area Calculator                    | [View](#39-shape-area-calculator)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1092,6 +1093,41 @@ Enter the number : 89
 
 === [OUTPUT] ===
 Number Name : [INVALID OPTION], Can't name 89
+```
+
+### 39. Shape Area Calculator
+WAP in C to calculate the area of any given shape (add at least 3 shapes the user can choose from).
+
+> [!NOTE] 
+I have added Square (a^2), Circle (PI * r^2) and Triangle (1/2 * b * h).
+
+`Answer` [shapeAreaCalculator.c](src/shapeAreaCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Choose the shape for which you want to calculator the area :
+- 0 <=> Square
+- 1 <=> Circle
+- 2 <=> Triangle
+Select Shape : 2
+
+=== [OUTPUT] ===
+Triangle has been selected
+Enter the base of the triangle : 2
+Enter the height of the triangle : 2
+```
+
+```
+=== [INPUT] ===
+Choose the shape for which you want to calculator the area :
+- 0 <=> Square
+- 1 <=> Circle
+- 2 <=> Triangle
+Select Shape : 7
+
+=== [OUTPUT] ===
+The shape for option 7 is not supported
 ```
 
 ## Setup
