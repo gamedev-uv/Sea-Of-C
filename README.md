@@ -45,6 +45,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 33.  | Time Adder                               | [View](#33-time-adder)
 | 34.  | Distance Adder                           | [View](#34-distance-adder)
 | 35.  | Day Of Week                              | [View](#35-day-of-week)
+| 36.  | Month Name                               | [View](#36-month-name)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1017,6 +1018,27 @@ Enter the day : 8
 The corresponding day is : INVALID, No day was found at 8
 ```
 
+### 36. Month Name
+WAP in C to find the month name using switch-case.
+
+`Answer` [monthName.c](src/monthName.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the month : 1
+
+=== [OUTPUT] ===
+The corresponding month is : January
+```
+
+```
+=== [INPUT] ===
+Enter the month : 13
+
+=== [OUTPUT] ===
+The corresponding month is : INVALID, No month was found at 13
+```
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
