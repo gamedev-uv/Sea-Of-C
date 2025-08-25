@@ -52,6 +52,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 40.  | Temperature Convertor                    | [View](#40-temperature-convertor)
 | 41.  | Odd/Even (Switch Case)                   | [View](#41-odd-even-switch-case) 
 | 42.  | Leap Year Checker (Switch Case)          | [View](#42-leap-year-checker-switch-case) 
+| 43.  | Currency Convertor                       | [View](#43-currency-convertor) 
 
 
 ### 1. Hello World in C
@@ -1229,6 +1230,43 @@ Enter the year : 2024
 === [OUTPUT] ===
 Year 2024 is not a century year
 Year 2024 is a leap year
+```
+
+### 43. Currency Convertor
+WAP in C to convert currency (USD ↔ INR, EUR ↔ INR) using switch case.
+
+`Answer` [currencyConvertor.c](src/currentConvertor.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+--- Select the initial currency ---
+0 -> USD
+1 -> EUR
+2 -> INR
+Choice : 2
+Enter the amount : 50
+
+=== [OUTPUT] ===
+--- Enter the target currency ---
+0 -> USD
+1 -> EUR
+Choice : 1
+
+50.00 INR = 0.57 EUR
+```
+
+```
+=== [INPUT] ===
+--- Select the initial currency ---
+0 -> USD
+1 -> EUR
+2 -> INR
+Choice : 0
+Enter the amount : 50
+
+=== [OUTPUT] ===
+50.00 USD = 4370.00 INR
 ```
 
 ## Setup
