@@ -9,7 +9,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 ## Questions
 
 |      | Title                                    | Description 
-|   -  | -                                        |-
+|   -  | -                                        |:---:
 | 1.   | Hello World                              | [View](#1-hello-world-in-c) 
 | 2.   | Arithmetic Operations                    | [View](#2-arithmetic-operations-in-c) 
 | 3.   | Swap Variables                           | [View](#3-swap-variables) 
@@ -55,6 +55,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 43.  | Currency Convertor                       | [View](#43-currency-convertor) 
 | 44.  | Marks Viewer                             | [View](#44-marks-viewer) 
 | 45.  | Traffic Light System                     | [View](#45-traffic-light-system) 
+| 46.  | Customer Electric Bill Calculator        | [View](#46-customer-electric-bill-calculator) 
 
 
 ### 1. Hello World in C
@@ -1327,6 +1328,48 @@ Choice : 1
 
 === [OUTPUT] ===
 Traffic Light was switched to Yellow -- Please SLOW DOWN
+```
+
+### 46. Customer Electric Bill Calculator
+WAP in C to calculate electricity bill for different customer categories using switch case. Input the number of units and the category and display the bill amount.
+
+| Category           | Price Per Unit |
+|-                   |:---:           |
+| Residential        | ₹10            |
+| Commercial         | ₹8             |
+| Industry           | ₹20            |
+
+`Answer` [customerElectricBillCalculator.c](src/customerElectricBillCal.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of units : 50
+
+--- Select the category ---
+- 0 -> Residential
+- 1 -> Commercial
+- 2 -> Industrial
+Choice : 2
+
+=== [OUTPUT] ===
+Bill Amount : 1000
+```
+
+```
+=== [INPUT] ===
+Enter the number of units : 50
+
+--- Select the category ---
+- 0 -> Residential
+- 1 -> Commercial
+- 2 -> Industrial
+Choice : 8
+
+=== [OUTPUT] ===
+Selected category '8' wasn't found
+Residential Rates will be used
+Bill Amount : 500
 ```
 
 ## Setup
