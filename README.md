@@ -54,6 +54,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 42.  | Leap Year Checker (Switch Case)          | [View](#42-leap-year-checker-switch-case) 
 | 43.  | Currency Convertor                       | [View](#43-currency-convertor) 
 | 44.  | Marks Viewer                             | [View](#44-marks-viewer) 
+| 45.  | Traffic Light System                     | [View](#45-traffic-light-system) 
 
 
 ### 1. Hello World in C
@@ -1308,6 +1309,24 @@ Option : 1
 
 === [OUTPUT] ===
 Average Marks : 60.00
+```
+
+### 45. Traffic Light System
+WAP in C to simulate a traffic light system using switch case.
+
+`Answer` [trafficLightSystem.c](src/trafficLightSystem.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+--- Select the light ---
+- 0 => Red
+- 1 => Yellow
+- 2 => Green
+Choice : 1
+
+=== [OUTPUT] ===
+Traffic Light was switched to Yellow -- Please SLOW DOWN
 ```
 
 ## Setup
