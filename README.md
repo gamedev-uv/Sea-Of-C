@@ -53,6 +53,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 41.  | Odd/Even (Switch Case)                   | [View](#41-odd-even-switch-case) 
 | 42.  | Leap Year Checker (Switch Case)          | [View](#42-leap-year-checker-switch-case) 
 | 43.  | Currency Convertor                       | [View](#43-currency-convertor) 
+| 44.  | Marks Viewer                             | [View](#44-marks-viewer) 
 
 
 ### 1. Hello World in C
@@ -1267,6 +1268,46 @@ Enter the amount : 50
 
 === [OUTPUT] ===
 50.00 USD = 4370.00 INR
+```
+
+### 44. Marks Viewer  
+WAP in C to display student result (Total, Average, Pass/Fail) using switch case. After inputting marks in 3 subjects.
+
+`Answer` [marksViewer.c](src/marksViewer.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+--- Enter the marks ---
+Marks in A : 50
+Marks in B : 70
+Marks in C : 40
+
+--- Select option ---
+- 0 -> Total Marks
+- 1 -> Average Marks
+- 2 -> Pass/Fail Status
+Option : 2
+
+=== [OUTPUT] ===
+Status : Pass
+```
+
+```
+=== [INPUT] ===
+--- Enter the marks ---
+Marks in A : 50
+Marks in B : 90
+Marks in C : 40
+
+--- Select option ---
+- 0 -> Total Marks
+- 1 -> Average Marks
+- 2 -> Pass/Fail Status
+Option : 1
+
+=== [OUTPUT] ===
+Average Marks : 60.00
 ```
 
 ## Setup
