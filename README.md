@@ -1239,7 +1239,7 @@ Year 2024 is a leap year
 ### 43. Currency Convertor
 WAP in C to convert currency (USD ↔ INR, EUR ↔ INR) using switch case.
 
-`Answer` [currencyConvertor.c](src/currentConvertor.c)
+`Answer` [currencyConvertor.c](src/currencyConvertor.c)
 
 `Output Terminal`
 ```
