@@ -58,7 +58,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 46.  | Customer Electric Bill Calculator        | [View](#46-customer-electric-bill-calculator) 
 | 47.  | Sum of numbers up to n                   | [View](#47-sum-of-numbers-up-to-n) 
 | 47.  | Sum of even numbers up to n                   | [View](#48-sum-of-even-numbers-up-to-n) 
-
+| 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1400,6 +1400,20 @@ Enter n : 5
 
 === [OUTPUT] ===
 Sum of even integers up to 5 : 6
+```
+
+### 49. Sum of Digits
+WAP in C to input a number `n` and use any type of loop to find the sum of all its digits print it out as the output.
+
+`Answer` [sumOfDigits.c](src/sumOfDigits.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 256
+
+=== [OUTPUT] ===
+Sum of digits of 256 : 13
 ```
 
 ## Setup
