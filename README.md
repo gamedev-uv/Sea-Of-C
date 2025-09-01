@@ -56,6 +56,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 44.  | Marks Viewer                             | [View](#44-marks-viewer) 
 | 45.  | Traffic Light System                     | [View](#45-traffic-light-system) 
 | 46.  | Customer Electric Bill Calculator        | [View](#46-customer-electric-bill-calculator) 
+| 47.  | Sum of numbers up to N                   | [View](#47-sum-of-numbers-up-to-n) 
 
 
 ### 1. Hello World in C
@@ -1370,6 +1371,20 @@ Choice : 8
 Selected category '8' wasn't found
 Residential Rates will be used
 Bill Amount : 500
+```
+
+### 47. Sum of numbers up to N
+WAP in C to input a number `n` and use any type of loop to find the sum of all +ve integers up to `n` and print it out as the output.
+
+`Answer` [sumUptoN.c](src/sumUptoN.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 5
+
+=== [OUTPUT] ===
+Sum of integers up to 5 : 10
 ```
 
 ## Setup
