@@ -59,6 +59,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 47.  | Sum of numbers up to n                   | [View](#47-sum-of-numbers-up-to-n) 
 | 47.  | Sum of even numbers up to n                   | [View](#48-sum-of-even-numbers-up-to-n) 
 | 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
+| 50.  | Reverse Digits                           | [View](#50-reverse-digits)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1414,6 +1415,20 @@ Enter n : 256
 
 === [OUTPUT] ===
 Sum of digits of 256 : 13
+```
+
+### 50. Reverse Digits
+WAP in C to input a number `n` and use any type of loop to find reverse the number by reversing the order of its digits and print the reversed number as output.
+
+`Answer` [reverseDigits.c](src/reverseDigits.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 256
+
+=== [OUTPUT] ===
+Reverse of 256 <=> 652
 ```
 
 ## Setup
