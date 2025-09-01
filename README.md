@@ -60,6 +60,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 47.  | Sum of even numbers up to n                   | [View](#48-sum-of-even-numbers-up-to-n) 
 | 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
 | 50.  | Reverse Digits                           | [View](#50-reverse-digits)
+| 51.  | Palindrome Number                        | [View](#51-palindrome-number)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1429,6 +1430,28 @@ Enter n : 256
 
 === [OUTPUT] ===
 Reverse of 256 <=> 652
+```
+
+### 51. Palindrome Number
+WAP in C to input a number `n` and check whether it is palindrome number or not. A palindrome number is one which reads the same from the front and back. So its reverse and itself are the same number. Example : `121 = 121`, where as `52 != 25`
+
+`Answer` [palindromeNumber.c](src/palindromeNumber.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 55
+
+=== [OUTPUT] ===
+Reverse of 55 <=> 55, thus 55 is a palindrome
+```
+
+```
+=== [INPUT] ===
+Enter n : 256
+
+=== [OUTPUT] ===
+Reverse of 256 <=> 652, thus 256 is not a palindrome
 ```
 
 ## Setup
