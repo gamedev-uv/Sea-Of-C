@@ -61,6 +61,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
 | 50.  | Reverse Digits                           | [View](#50-reverse-digits)
 | 51.  | Palindrome Number                        | [View](#51-palindrome-number)
+| 52.  | Factorial of a number                    | [View](#52-factorial-of-number)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1452,6 +1453,35 @@ Enter n : 256
 
 === [OUTPUT] ===
 Reverse of 256 <=> 652, thus 256 is not a palindrome
+```
+
+### 52. Factorial of a number
+WAP in C to input a number `n` and find and print its factorial (`n!`). 
+```
+Where, 
+n! = n * (n-1)!, and 1! = 1
+
+Example : 
+(3)! = 3! * 2!
+     = 3! * 2 * 1!
+     = 3! * 2 * 1
+```
+
+`Answer` [factorial.c](src/factorial.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 5
+
+=== [OUTPUT] ===
+5! = 120
+```
+
+```
+=== [INPUT] ===
+Enter n : -8
+-ve numbers are not supported!
 ```
 
 ## Setup
