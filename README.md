@@ -61,7 +61,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
 | 50.  | Reverse Digits                           | [View](#50-reverse-digits)
 | 51.  | Palindrome Number                        | [View](#51-palindrome-number)
-| 52.  | Factorial of a number                    | [View](#52-factorial-of-number)
+| 52.  | Factorial of a number                    | [View](#52-factorial-of-a-number)
+| 53.  | Fibonacci Sequence                       | [View](#53-fibonacci-sequence)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1482,6 +1483,36 @@ Enter n : 5
 === [INPUT] ===
 Enter n : -8
 -ve numbers are not supported!
+```
+
+### 53. Fibonacci Sequence
+WAP in C to input a number `n` and print the first n elements of the Fibonacci Sequence.
+The Fibonacci Sequence starts with `0` and `1` and then every consecutive element is found by adding the previous 2 elements.
+
+```
+So 
+0, 1, 0 + 1 => 0, 1, 2
+0, 1, 2, 1 + 2 => 0, 1, 2, 3
+...
+...
+0, 1, 2, 3, 5, 8, 13...
+```
+
+`Answer` [fibonacci.c](src/fibonacci.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter n : 25
+
+=== [OUTPUT] ===
+Sequence : 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368
+```
+
+```
+=== [INPUT] ===
+Enter n : -5
+Invalid number of elements!
 ```
 
 ## Setup
