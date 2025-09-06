@@ -64,6 +64,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 52.  | Factorial of a number                    | [View](#52-factorial-of-a-number)
 | 53.  | Fibonacci Sequence                       | [View](#53-fibonacci-sequence)
 | 54.  | Parking Fee Calculator                   | [View](#54-parking-fee-calculator)
+| 55.  | Currency Note Calculator                 | [View](#55-currency-note-calculator)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1515,6 +1516,7 @@ Sequence : 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 
 Enter n : -5
 Invalid number of elements!
 ```
+
 ### 54. Parking Fee Calculator
 WAP in C to input parking hours and calculate the total fee based on hourly rates.
 Use if for special rates like “first hour free”, “flat rate after 10 hours", "flat rates after 24 hours".
@@ -1536,6 +1538,39 @@ Enter the number of hours parked : 1
 
 === [OUTPUT] ===
 Price for 1 hour(s) of parking : 0.00
+```
+
+### 55. Currency Note Calculator
+Write a program in C to input an amount and calculate minimum number of notes
+(500, 200, 100, 50, 10, coins etc) So for example : `1544` will require `3 x 500`, `4 x 10` notes and `4 x 1 coins`.
+
+`Answer` [currencyNoteCalculator.c](src/currencyNoteCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the amount : 2563
+
+=== [OUTPUT] ===
+500 x 5 = 2500
+200 x 0 = 0
+100 x 0 = 0
+50  x 1 = 50
+10  x 1 = 10
+1   x 3 = 3
+```
+
+```
+=== [INPUT] ===
+Enter the amount : 512
+
+=== [OUTPUT] ===
+500 x 1 = 500
+200 x 0 = 0
+100 x 0 = 0
+50  x 0 = 0
+10  x 1 = 10
+1   x 2 = 2
 ```
 
 ## Setup
