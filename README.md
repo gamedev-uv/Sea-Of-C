@@ -63,6 +63,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 51.  | Palindrome Number                        | [View](#51-palindrome-number)
 | 52.  | Factorial of a number                    | [View](#52-factorial-of-a-number)
 | 53.  | Fibonacci Sequence                       | [View](#53-fibonacci-sequence)
+| 54.  | Parking Fee Calculator                   | [View](#54-parking-fee-calculator)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1513,6 +1514,28 @@ Sequence : 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 
 === [INPUT] ===
 Enter n : -5
 Invalid number of elements!
+```
+### 54. Parking Fee Calculator
+WAP in C to input parking hours and calculate the total fee based on hourly rates.
+Use if for special rates like “first hour free”, “flat rate after 10 hours", "flat rates after 24 hours".
+
+`Answer` [parkingFeeCalculator.c](src/parkingFeeCalculator.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of hours parked : 45
+
+=== [OUTPUT] ===
+Price for 45 hour(s) of parking : 2000.00
+```
+
+```
+=== [INPUT] ===
+Enter the number of hours parked : 1
+
+=== [OUTPUT] ===
+Price for 1 hour(s) of parking : 0.00
 ```
 
 ## Setup
