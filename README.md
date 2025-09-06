@@ -1541,7 +1541,7 @@ Price for 1 hour(s) of parking : 0.00
 ```
 
 ### 55. Currency Note Calculator
-Write a program in C to input an amount and calculate minimum number of notes
+WAP in C to input an amount and calculate minimum number of notes
 (500, 200, 100, 50, 10, coins etc) So for example : `1544` will require `3 x 500`, `4 x 10` notes and `4 x 1 coins`.
 
 `Answer` [currencyNoteCalculator.c](src/currencyNoteCalculator.c)
