@@ -65,6 +65,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 53.  | Fibonacci Sequence                       | [View](#53-fibonacci-sequence)
 | 54.  | Parking Fee Calculator                   | [View](#54-parking-fee-calculator)
 | 55.  | Currency Note Calculator                 | [View](#55-currency-note-calculator)
+| 56.  | ArmStrong Number                         | [View](#56-armstrong-number)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1571,6 +1572,36 @@ Enter the amount : 512
 50  x 0 = 0
 10  x 1 = 10
 1   x 2 = 2
+```
+
+### 56. ArmStrong Number
+WAP in C to input a number and check if it is an armstrong number or not.
+A number is said to be an armstrong number if the sum of its digits raised to the power of the number of digits is equal to the number itself.
+
+For example : 
+```
+153 has 3 digits
+1^3 + 5^3 + 3^3 = 153
+Thus 153 is an armstrong number
+```
+
+`Answer` [armStrong.c](src/armStrong.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 153
+
+=== [OUTPUT] ===
+153 is an armstrong number
+```
+
+```
+=== [INPUT] ===
+Enter the number : 96
+
+=== [OUTPUT] ===
+96 is not an armstrong number
 ```
 
 ## Setup
