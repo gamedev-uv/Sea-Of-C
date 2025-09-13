@@ -66,6 +66,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 54.  | Parking Fee Calculator                   | [View](#54-parking-fee-calculator)
 | 55.  | Currency Note Calculator                 | [View](#55-currency-note-calculator)
 | 56.  | ArmStrong Number                         | [View](#56-armstrong-number)
+| 57.  | Perfect Number                           | [View](#57-perfect-number)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1602,6 +1603,35 @@ Enter the number : 96
 
 === [OUTPUT] ===
 96 is not an armstrong number
+```
+
+### 57. Perfect Number
+WAP in C to input a number and check whether it is a perfect number or not.
+A perfect number is a number which is equal to the sum of all its proper divisors (Of course excluding the number itself).
+
+For example : 
+```
+6 is a perfect number as 1, 2, 3 are 6's proper divisors (excluding 6) 
+and 1 + 2 + 3 = 6
+```
+
+`Answer` [perfectNumber.c](src/perfectNumber.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 6
+
+=== [OUTPUT] ===
+6 is a perfect number
+```
+
+```
+=== [INPUT] ===
+Enter the number : 5
+
+=== [OUTPUT] ===
+5 is not a perfect number
 ```
 
 ## Setup
