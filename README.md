@@ -67,6 +67,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 55.  | Currency Note Calculator                 | [View](#55-currency-note-calculator)
 | 56.  | ArmStrong Number                         | [View](#56-armstrong-number)
 | 57.  | Perfect Number                           | [View](#57-perfect-number)
+| 58.  | Greatest Common Divisor                  | [View](#58-greatest-common-divisor)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1632,6 +1633,36 @@ Enter the number : 5
 
 === [OUTPUT] ===
 5 is not a perfect number
+```
+
+### 58. Greatest Common Divisor
+WAP in C to input 2 numbers `(a, b)` and calculate their G.C.D. (Greatest Common Denominator), then use that G.C.D. to calculate its L.C.M. (Least Common Multiple) using the relation - `LCM(a, b) * GCD(a, b) = a * b`.<br>
+
+To calculate the G.C.D. one can use [Euclidean Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) which is an efficient method developed by ancient Greek mathematician Euclid. The algorithm works by repeatedly applying the division algorithm, where the larger number is replaced by the remainder of the division until the remainder becomes zero. The last non-zero remainder is the GCD of the original two numbers. 
+
+![](.README/euclideanAlgorithm.png)
+
+`Answer` [gcd.c](src/gcd.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter A : 78
+Enter B : 66
+
+=== [OUTPUT] ===
+GCD(78, 66) = 6
+LCM(78, 66) = 858
+```
+
+```
+=== [INPUT] ===
+Enter A : 15
+Enter B : 45
+
+=== [OUTPUT] ===
+GCD(15, 45) = 15
+LCM(15, 45) = 45
 ```
 
 ## Setup
