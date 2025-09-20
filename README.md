@@ -70,7 +70,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 58.  | Greatest Common Divisor                  | [View](#58-greatest-common-divisor)
 | 59.  | Star (*) Triangle                        | [View](#59-star--triangle)
 | 60.  | Alphabet Triangle - I                    | [View](#60-alphabet-triangle-i)
-| 61.  | Alphabet Triangle - II                   | [View](#60-alphabet-triangle-ii)
+| 61.  | Alphabet Triangle - II                   | [View](#61-alphabet-triangle-ii)
+| 62.  | Array Initialization                     | [View](#62-array-initialization)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1784,6 +1785,52 @@ Enter the number of rows (n) : 3
 A
 B C
 D E F
+```
+
+### 62. Array Initialization
+WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then display it however you want (each element on a new line, all on the same line, etc).
+
+```
+Example : n = 3
+
+Element at 0 : 1
+Element at 1 : 2
+Element at 2 : 3
+
+Array : [1, 2, 3]
+```
+`Answer` [arrayInit.c](src/arrayInit.c)
+
+> [!NOTE]
+One can use directly print each element on a new line if they want to avoid the `[` and `,` logic.
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 3
+
+---Enter the elements---
+Element at 0 : 1
+Element at 1 : 2
+Element at 2 : 3
+
+=== [OUTPUT] ===
+Array : [1,2,3]
+```
+
+```
+=== [INPUT] ===
+Enter the length : 5
+
+---Enter the elements---
+Element at 0 : 4
+Element at 1 : 9
+Element at 2 : 7
+Element at 3 : 6
+Element at 4 : 2
+
+=== [OUTPUT] ===
+Array : [4,9,7,6,2]
 ```
 
 ## Setup
