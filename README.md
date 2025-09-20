@@ -76,6 +76,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 64.  | Largest Array Element                    | [View](#64-largest-array-element)
 | 65.  | Smallest Array Element                   | [View](#65-smallest-array-element)
 | 66.  | Selection Sort                           | [View](#66-selection-sort)
+| 67.  | Linear Search                            | [View](#67-linear-search)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1947,6 +1948,46 @@ Initial Array : [753, 159, 789]
 Sorted Array : [159, 753, 789]
 Min Element : 159
 Max Element : 789
+```
+
+### 67. Linear Search 
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then enter another value `n` and search for `n` in the array using linear search. If it was found then print the index at which it was found.
+
+`Linear Search` also known as sequential search, is a straightforward algorithm used to find a specific element within a list or array. It operates by examining each element in the collection one by one, in sequence, until the desired element is found or the entire list has been traversed. 
+
+![](.README/linearSearch.webp)
+
+`Answer` [linearSearch.c](src/linearSearch.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 4
+
+---Enter the elements---
+Element at 0 : 1
+Element at 1 : 5
+Element at 2 : 8
+Element at 3 : 9
+Enter the element which is to be searched : 5
+
+=== [OUTPUT] ===
+'5' was found at 1
+```
+
+```
+=== [INPUT] ===
+Enter the length : 4
+
+---Enter the elements---
+Element at 0 : 1
+Element at 1 : 5
+Element at 2 : 8
+Element at 3 : 9
+Enter the element which is to be searched : 3
+
+=== [OUTPUT] ===
+'3' was not found
 ```
 
 ## Setup
