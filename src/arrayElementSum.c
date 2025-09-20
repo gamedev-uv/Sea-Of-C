@@ -2,29 +2,24 @@
 
 int main()
 {
-    int length;
+    int length, sum = 0;
 
     printf("=== [INPUT] ===");
     printf("\nEnter the length : ");
     scanf("%d", &length);
 
-    printf("\n---Enter the elements---\n");
     int array[length];
+
+    printf("\n---Enter the elements---\n");
     for(int i = 0; i < length; i++)
     {
         printf("Element at %d : ", i);
         scanf("%d", &array[i]);
+        sum += array[i];
     }
 
     printf("\n=== [OUTPUT] ===");
-    printf("\nArray : [");
+    printf("\nSum of elements : %d", sum);
 
-    for(int i = 0; i < length; i++)
-    {
-        //Put commas after every element unless it is the last
-        printf("%d%s", array[i], i == length - 1 ? "" : ","); 
-    }
-    
-    printf("]");
     return 0;
 }

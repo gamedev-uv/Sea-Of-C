@@ -72,6 +72,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 60.  | Alphabet Triangle - I                    | [View](#60-alphabet-triangle-i)
 | 61.  | Alphabet Triangle - II                   | [View](#61-alphabet-triangle-ii)
 | 62.  | Array Initialization                     | [View](#62-array-initialization)
+| 63.  | Array Element Sum                        | [View](#63-array-element-sum)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1831,6 +1832,39 @@ Element at 4 : 2
 
 === [OUTPUT] ===
 Array : [4,9,7,6,2]
+```
+
+### 63. Array Element Sum
+WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the sum of all its elements and print it.
+
+`Answer` [arrayElementSum.c](src/arrayElementSum.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 5
+
+---Enter the elements---
+Element at 0 : 7
+Element at 1 : 9
+Element at 2 : 6
+Element at 3 : 4
+Element at 4 : 1
+
+=== [OUTPUT] ===
+Sum of elements : 27
+```
+```
+=== [INPUT] ===
+Enter the length : 3
+
+---Enter the elements---
+Element at 0 : 2  
+Element at 1 : 5
+Element at 2 : 6
+
+=== [OUTPUT] ===
+Sum of elements : 13
 ```
 
 ## Setup
