@@ -75,6 +75,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 63.  | Array Element Sum                        | [View](#63-array-element-sum)
 | 64.  | Largest Array Element                    | [View](#64-largest-array-element)
 | 65.  | Smallest Array Element                   | [View](#65-smallest-array-element)
+| 66.  | Selection Sort                           | [View](#66-selection-sort)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1791,7 +1792,7 @@ D E F
 ```
 
 ### 62. Array Initialization
-WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then display it however you want (each element on a new line, all on the same line, etc).
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then display it however you want (each element on a new line, all on the same line, etc).
 
 ```
 Example : n = 3
@@ -1837,7 +1838,7 @@ Array : [4,9,7,6,2]
 ```
 
 ### 63. Array Element Sum
-WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the sum of all its elements and print it.
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then find the sum of all its elements and print it.
 
 `Answer` [arrayElementSum.c](src/arrayElementSum.c)
 
@@ -1870,7 +1871,7 @@ Sum of elements : 13
 ```
 
 ### 64. Largest Array Element
-WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the largest element in that array. Assume that the elements are all positive (So the smallest can be 0 and the largest can be infinity).
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then find the largest element in that array. Assume that the elements are all positive (So the smallest can be 0 and the largest can be infinity).
 
 > [!NOTE]
 So we can assume the maximum to be 0 and then compare this maximum with every element of the array. If the element is larger than the previous maximum then we set maximum equal to this element and continue till the end.
@@ -1895,7 +1896,7 @@ Largest element : 8795
 ```
 
 ### 65. Smallest Array Element
-WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the smallest element in that array.
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then find the smallest element in that array.
 
 > [!NOTE]
 So we can assume the minimum to be `INT_MAX` and then compare this minimum with every element of the array. If the element is smaller than the previous minimum then we set minimum equal to this element and continue till the end.
@@ -1917,6 +1918,36 @@ Element at 2 : 512
 
 === [OUTPUT] ===
 Smallest element : 256
+```
+
+### 66. Selection Sort
+WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then sort the array in ascending order using selection sort. Then display the sorted array in any form you want along with the smallest and largest values.
+
+`Selection Sort` is a simple, in-place comparison based sorting algorithm. It works by repeatedly finding the minimum element from the unsorted part of the array and placing it at the beginning of the unsorted part.
+
+![](.README/selectionSort.png)
+
+`Answer` [selectionSort.c](src/selectionSort.c)
+
+> [!NOTE]
+Once the array is sorted in ascending order, the first element will be the smallest while the last element will be the largest.
+
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 3
+
+---Enter the elements---
+Element at 0 : 753
+Element at 1 : 159
+Element at 2 : 789 
+
+=== [OUTPUT] ===
+Initial Array : [753, 159, 789]
+Sorted Array : [159, 753, 789]
+Min Element : 159
+Max Element : 789
 ```
 
 ## Setup
