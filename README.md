@@ -1927,11 +1927,10 @@ WAP in C to input a number `length` and create an array of length `length`, ente
 
 ![](.README/selectionSort.png)
 
-`Answer` [selectionSort.c](src/selectionSort.c)
-
 > [!NOTE]
 Once the array is sorted in ascending order, the first element will be the smallest while the last element will be the largest.
 
+`Answer` [selectionSort.c](src/selectionSort.c)
 
 `Output Terminal`
 ```
