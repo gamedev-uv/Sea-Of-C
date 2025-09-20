@@ -68,6 +68,9 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 56.  | ArmStrong Number                         | [View](#56-armstrong-number)
 | 57.  | Perfect Number                           | [View](#57-perfect-number)
 | 58.  | Greatest Common Divisor                  | [View](#58-greatest-common-divisor)
+| 59.  | Star (*) Triangle                        | [View](#59-star--triangle)
+| 60.  | Alphabet Triangle - I                    | [View](#60-alphabet-triangle-i)
+| 61.  | Alphabet Triangle - II                   | [View](#60-alphabet-triangle-ii)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1663,6 +1666,124 @@ Enter B : 45
 === [OUTPUT] ===
 GCD(15, 45) = 15
 LCM(15, 45) = 45
+```
+
+### 59. Star (*) Triangle
+WAP in C to create a triangle like this : 
+```
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Here n is 5
+```
+Your program should input `n` which describes the number of rows and you should print a triangle made with `*`. 
+
+`Answer` [starTriangle.c](src/starTriangle.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of rows (n) : +5
+
+=== [OUTPUT] ===
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+```
+
+```
+=== [INPUT] ===
+Enter the number of rows (n) : 3
+
+=== [OUTPUT] ===
+*
+* *
+* * *
+```
+
+### 60. Alphabet Triangle I
+WAP in C to create a triangle like this : 
+```
+A
+B B
+C C C
+D D D D
+E E E E E
+F F F F F F
+
+Here n is 6
+```
+Your program should input `n` which describes the number of rows and you should print a triangle made with the alphabets. You can assume `(n <= 26) So it never goes past Z` 
+
+`Answer` [alphabetTriangleI.c](src/alphabetTriangleI.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of rows (n) : 6
+
+=== [OUTPUT] ===
+A
+B B
+C C C
+D D D D
+E E E E E
+F F F F F F
+```
+
+```
+=== [INPUT] ===
+Enter the number of rows (n) : 3
+
+=== [OUTPUT] ===
+A 
+B B 
+C C C 
+```
+
+### 61. Alphabet Triangle II
+WAP in C to create a triangle like this : 
+```
+A
+B C
+D E F
+G H I J
+K L M N O
+P Q R S T U
+
+Here n is 6
+```
+Your program should input `n` which describes the number of rows and you should print a triangle made with the alphabets. You can assume `(n <= 6) So it never goes past Z` 
+
+`Answer` [alphabetTriangleII.c](src/alphabetTriangleII.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of rows (n) : 6
+
+=== [OUTPUT] ===
+A
+B C
+D E F
+G H I J
+K L M N O
+P Q R S T U
+```
+
+```
+=== [INPUT] ===
+Enter the number of rows (n) : 3
+
+=== [OUTPUT] ===
+A
+B C
+D E F
 ```
 
 ## Setup
