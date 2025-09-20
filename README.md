@@ -73,6 +73,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 61.  | Alphabet Triangle - II                   | [View](#61-alphabet-triangle-ii)
 | 62.  | Array Initialization                     | [View](#62-array-initialization)
 | 63.  | Array Element Sum                        | [View](#63-array-element-sum)
+| 64.  | Largest Array Element                    | [View](#64-largest-array-element)
+| 65.  | Smallest Array Element                   | [View](#65-smallest-array-element)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1865,6 +1867,56 @@ Element at 2 : 6
 
 === [OUTPUT] ===
 Sum of elements : 13
+```
+
+### 64. Largest Array Element
+WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the largest element in that array. Assume that the elements are all positive (So the smallest can be 0 and the largest can be infinity).
+
+> [!NOTE]
+So we can assume the maximum to be 0 and then compare this maximum with every element of the array. If the element is larger than the previous maximum then we set maximum equal to this element and continue till the end.
+
+> [!NOTE]
+If all sorts of values are allowed, then the default value of max must be INT_MIN and not 0. For which one must use the `limit.h` file. We use this header in the next question.
+
+`Answer` [largestArrayElement.c](src/largestArrayElement.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 3
+
+---Enter the elements---
+Element at 0 : 256
+Element at 1 : 8795
+Element at 2 : 512   
+
+=== [OUTPUT] ===
+Largest element : 8795
+```
+
+### 65. Smallest Array Element
+WAP in C to input a number `n` and create an array of length `n`, enter elements into that array and then find the smallest element in that array.
+
+> [!NOTE]
+So we can assume the minimum to be `INT_MAX` and then compare this minimum with every element of the array. If the element is smaller than the previous minimum then we set minimum equal to this element and continue till the end.
+
+> [!NOTE]
+If one knows the upper limit of the values of the elements then they can use that value as the default value for minimum instead of `INT_MAX`.
+
+`Answer` [smallestArrayElement.c](src/smallestArrayElement.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length : 3
+
+---Enter the elements---
+Element at 0 : 256
+Element at 1 : 8795 
+Element at 2 : 512
+
+=== [OUTPUT] ===
+Smallest element : 256
 ```
 
 ## Setup
