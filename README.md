@@ -57,7 +57,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 45.  | Traffic Light System                     | [View](#45-traffic-light-system) 
 | 46.  | Customer Electric Bill Calculator        | [View](#46-customer-electric-bill-calculator) 
 | 47.  | Sum of numbers up to n                   | [View](#47-sum-of-numbers-up-to-n) 
-| 47.  | Sum of even numbers up to n                   | [View](#48-sum-of-even-numbers-up-to-n) 
+| 47.  | Sum of even numbers up to n              | [View](#48-sum-of-even-numbers-up-to-n) 
 | 49.  | Sum of Digits                            | [View](#49-sum-of-digits)
 | 50.  | Reverse Digits                           | [View](#50-reverse-digits)
 | 51.  | Palindrome Number                        | [View](#51-palindrome-number)
@@ -77,6 +77,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 65.  | Smallest Array Element                   | [View](#65-smallest-array-element)
 | 66.  | Selection Sort                           | [View](#66-selection-sort)
 | 67.  | Linear Search                            | [View](#67-linear-search)
+| 68.  | 2D Array Initialization                  | [View](#68-2d-array-initialization)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -1988,6 +1989,35 @@ Enter the element which is to be searched : 3
 
 === [OUTPUT] ===
 '3' was not found
+```
+
+### 68. 2D Array Initialization
+WAP in C to declare a 2D array of order `n * m` where `n` is the number of rows and `m` is the number of columns. Take input for the elements and store it in the array and then display it as a matrix.
+
+`Answer` [2D-arrayInit.c](src/2D-arrayInit.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+---Enter order of the array---
+Enter the number of rows : 3
+Enter the number of columns : 3
+
+---Enter elements of the array---
+Element at 0, 0 : 1
+Element at 0, 1 : 2
+Element at 0, 2 : 3
+Element at 1, 0 : 4
+Element at 1, 1 : 5
+Element at 1, 2 : 6
+Element at 2, 0 : 7
+Element at 2, 1 : 8
+Element at 2, 2 : 9
+
+=== [OUTPUT] ===
+1 2 3 
+4 5 6 
+7 8 9
 ```
 
 ## Setup
