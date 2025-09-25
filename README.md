@@ -78,6 +78,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 66.  | Selection Sort                           | [View](#66-selection-sort)
 | 67.  | Linear Search                            | [View](#67-linear-search)
 | 68.  | 2D Array Initialization                  | [View](#68-2d-array-initialization)
+| 69.  | Prime Checker                            | [View](#69-prime-checker)
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
@@ -2019,6 +2020,35 @@ Element at 2, 2 : 9
 4 5 6 
 7 8 9
 ```
+
+### 69. Prime Checker
+WAP in C to input a number `n` from the user and check whether it is prime or composite.
+A number is a prime number if it is a `+ve` number more than 1 `(n > 1)` and has only 2 factors, them being `1` and the number itself `(n)`.<br />
+
+1 itself is considered to be neither prime nor composite as it only has one factor that being itself. And `-ve` numbers are considered to be neither prime nor composite as they are not `+ve` which goes against the definition of a prime number.
+
+> [!NOTE]
+We can solve this in various ways, but most of them work on the principle of simply counting the number of factors the number has. So we can start a loop from 1 till `n` and count the numbers which are `n`'s factors. To optimize it we can optimize it further by running the loop from `2` to `n/2` or even better to `sqrt(n)` as if any other number in that range is a factor of `n` that directly means `n` is composite.
+
+`Answer` [primeChecker.c](src/primeChecker.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number : 3
+
+=== [OUTPUT] ===
+3 is prime
+```
+
+```
+=== [INPUT] ===
+Enter the number : 25
+
+=== [OUTPUT] ===
+25 is composite
+```
+
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
