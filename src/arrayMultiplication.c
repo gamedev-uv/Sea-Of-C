@@ -48,7 +48,7 @@ int main()
         }
     }
 
-    printf("\n===[OUTPUT] ===");
+    printf("\n=== [OUTPUT] ===");
     printf("\nOutput Matrix: \n");
     for(int i = 0; i < n1; i++)
     {

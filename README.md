@@ -86,6 +86,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 69.  | Prime Checker                            | [View](#69-prime-checker)
 | 70.  | Matrix Addition                          | [View](#70-matrix-addition)
 | 71.  | Matrix Multiplication                    | [View](#71-matrix-multiplication)
+| 72.  | Matrix Transpose                         | [View](#72-matrix-transpose) |
 </details>
 
 <details>
@@ -206,7 +207,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | :-: | ----------------------- | :---------------------------------: |
 |  68 | 2D Array Initialization | [View](#68-2d-array-initialization) |
 |  70 | Matrix Addition              | [View](#70-matrix-addition) |
-|  70 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
+|  71 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
+|  72 | Matrix Transpose             | [View](#72-matrix-transpose) |
 
 </details>
 
@@ -2209,7 +2211,7 @@ Enter elements for array B:
 - Enter element at (1, 0): 3
 - Enter element at (1, 1): 4
 
-===[OUTPUT] ===
+=== [OUTPUT] ===
 Output Matrix:
 2 4
 6 8
@@ -2252,10 +2254,42 @@ Enter elements for array B:
 - Enter element at (2, 0): 30
 - Enter element at (2, 1): 31
 
-===[OUTPUT] ===
+=== [OUTPUT] ===
 Output Matrix:
 140 146
 320 335
+```
+
+### 72. Matrix Transpose
+WAP in C to enter a matrix of order `n` * `m` and find its transpose of order `m` * `n` and print it to the console.
+
+![](.README/matrix-transpose.png)
+
+`Answer` [matrixTranspose.c](src/matrixTranspose.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the row count (n): 2
+Enter the column count (m): 3
+
+Enter elements for array: 
+- Enter element at (0, 0): 1
+- Enter element at (0, 1): 2
+- Enter element at (0, 2): 3
+- Enter element at (1, 0): 4
+- Enter element at (1, 1): 5
+- Enter element at (1, 2): 6
+
+=== [OUTPUT] ===
+Original Matrix:
+1 2 3
+4 5 6
+
+Transpose Matrix:
+1 4
+2 5
+3 6
 ```
 
 ## Setup
