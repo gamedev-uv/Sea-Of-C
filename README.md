@@ -84,6 +84,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 67.  | Linear Search                            | [View](#67-linear-search)
 | 68.  | 2D Array Initialization                  | [View](#68-2d-array-initialization)
 | 69.  | Prime Checker                            | [View](#69-prime-checker)
+| 70.  | Matrix Sum                               | [View](#70-matrix-sum)
 </details>
 
 <details>
@@ -203,6 +204,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | No. | Title                   |             Description             |
 | :-: | ----------------------- | :---------------------------------: |
 |  68 | 2D Array Initialization | [View](#68-2d-array-initialization) |
+|  70 | Matrix Sum              | [View](#70-matrix-sum) |
 
 </details>
 
@@ -2175,6 +2177,41 @@ Enter the number : 25
 25 is composite
 ```
 
+### 70. Matrix Sum
+WAP in C to input 2 matrices of the same order `n` * `m` and then add them up then print the output matrix in the console. 
+
+> ![NOTE]
+> Matrix addition works by adding each element of the first element with each element of the second matrix. This is why the order of the matrices need to be the same in order to be added together.
+> ![](.README/addition-matrix.png)
+
+`Answer` [matrixSum.c](src/matrixSum.c)
+
+> ![NOTE]
+> This answer has repetitive blocks of code for input for matrix, if one has covered functions it will be recommended to turn those in functions to make the code cleaner and the logic clearer.
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the row count (n): 2
+Enter the column count (m): 2
+
+Enter elements for array A: 
+- Enter element at (0, 0): 1
+- Enter element at (0, 1): 2
+- Enter element at (1, 0): 3
+- Enter element at (1, 1): 4
+
+Enter elements for array B: 
+- Enter element at (0, 0): 1
+- Enter element at (0, 1): 2
+- Enter element at (1, 0): 3
+- Enter element at (1, 1): 4
+
+===[OUTPUT] ===
+Output Matrix:
+2 4
+6 8
+```
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
