@@ -84,7 +84,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 67.  | Linear Search                            | [View](#67-linear-search)
 | 68.  | 2D Array Initialization                  | [View](#68-2d-array-initialization)
 | 69.  | Prime Checker                            | [View](#69-prime-checker)
-| 70.  | Matrix Sum                               | [View](#70-matrix-sum)
+| 70.  | Matrix Addition                          | [View](#70-matrix-addition)
+| 71.  | Matrix Multiplication                    | [View](#71-matrix-multiplication)
 </details>
 
 <details>
@@ -204,7 +205,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | No. | Title                   |             Description             |
 | :-: | ----------------------- | :---------------------------------: |
 |  68 | 2D Array Initialization | [View](#68-2d-array-initialization) |
-|  70 | Matrix Sum              | [View](#70-matrix-sum) |
+|  70 | Matrix Addition              | [View](#70-matrix-addition) |
+|  70 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
 
 </details>
 
@@ -2177,16 +2179,16 @@ Enter the number : 25
 25 is composite
 ```
 
-### 70. Matrix Sum
+### 70. Matrix Addition
 WAP in C to input 2 matrices of the same order `n` * `m` and then add them up then print the output matrix in the console. 
 
-> ![NOTE]
+> [!NOTE]
 > Matrix addition works by adding each element of the first element with each element of the second matrix. This is why the order of the matrices need to be the same in order to be added together.
-> ![](.README/addition-matrix.png)
+> ![](.README/matrix-addition.png)
 
 `Answer` [matrixSum.c](src/matrixSum.c)
 
-> ![NOTE]
+> [!NOTE]
 > This answer has repetitive blocks of code for input for matrix, if one has covered functions it will be recommended to turn those in functions to make the code cleaner and the logic clearer.
 
 `Output Terminal`
@@ -2211,6 +2213,49 @@ Enter elements for array B:
 Output Matrix:
 2 4
 6 8
+```
+### 71. Matrix Multiplication
+WAP in C to enter 2 matrices of order `n1` * `m1` and `n2` * `m2` and multiply them to form a matrix of order `n1` * `m2` and print the output matrix.
+
+> [!NOTE]
+> To find an element in the resulting matrix, you multiply the corresponding elements of a row from the first matrix and a column from the second matrix, then add the products together.  
+> The requirement for matrix multiplication is that the number of columns of the first matrix should be equal to the number of rows of the second matrix. 
+> The output matrix has the order equal to the row count of the 1st matrix and the column count of the 2nd matrix.
+> ![](.README/matrix-multiplication.png)
+
+`Answer` [matrixMultiplication.c](src/arrayMultiplication.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+---ARRAY A---
+Enter the row count (n): 2
+Enter the column count (m): 3
+
+---ARRAY B---
+Enter the row count (n): 3
+Enter the column count (m): 2
+
+Enter elements for array A: 
+- Enter element at (0, 0): 1
+- Enter element at (0, 1): 2
+- Enter element at (0, 2): 3
+- Enter element at (1, 0): 4
+- Enter element at (1, 1): 5
+- Enter element at (1, 2): 6
+
+Enter elements for array B:
+- Enter element at (0, 0): 10
+- Enter element at (0, 1): 11
+- Enter element at (1, 0): 20
+- Enter element at (1, 1): 21
+- Enter element at (2, 0): 30
+- Enter element at (2, 1): 31
+
+===[OUTPUT] ===
+Output Matrix:
+140 146
+320 335
 ```
 
 ## Setup
