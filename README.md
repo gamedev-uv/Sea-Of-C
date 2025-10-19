@@ -87,6 +87,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 70.  | Matrix Addition                          | [View](#70-matrix-addition)
 | 71.  | Matrix Multiplication                    | [View](#71-matrix-multiplication)
 | 72.  | Matrix Transpose                         | [View](#72-matrix-transpose) |
+| 73.  | Symmetric Matrix                         | [View](#73-symmetric-matrix) |
 </details>
 
 <details>
@@ -209,6 +210,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  70 | Matrix Addition              | [View](#70-matrix-addition) |
 |  71 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
 |  72 | Matrix Transpose             | [View](#72-matrix-transpose) |
+|  73 | Symmetric Matrix             | [View](#73-symmetric-matrix) |
 
 </details>
 
@@ -2290,6 +2292,37 @@ Transpose Matrix:
 1 4
 2 5
 3 6
+```
+
+### 73. Symmetric Matrix
+WAP in C to input a `n` * `m` matrix and check whether it is symmetric or not. A matrix is called a symmetric matrix if for all values of `i` and `j`, `a[i][j]` is equal to the value at `a[j][i]`, thus the transpose of the matrix is equal to the original matrix.
+
+![](.README/matrix-symmetric.webp)
+
+`Answer` [symmetric-matrix.c](src/symmetric-matrix.c)
+
+> [!NOTE]
+> Here it is implemented using a simple check, one can first find the transpose and then compare the matrices.
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the row count (n): 3
+Enter the column count (m): 3
+
+---Enter the elements of the array---
+-Enter element at (0, 0): 1
+-Enter element at (0, 1): 2
+-Enter element at (0, 2): 3
+-Enter element at (1, 0): 2
+-Enter element at (1, 1): 4
+-Enter element at (1, 2): 5
+-Enter element at (2, 0): 3
+-Enter element at (2, 1): 5
+-Enter element at (2, 2): 6
+
+=== [OUTPUT] ===
+The matrix is symmetric
 ```
 
 ## Setup
