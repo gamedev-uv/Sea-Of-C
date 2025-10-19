@@ -88,6 +88,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 71.  | Matrix Multiplication                    | [View](#71-matrix-multiplication)
 | 72.  | Matrix Transpose                         | [View](#72-matrix-transpose) |
 | 73.  | Symmetric Matrix                         | [View](#73-symmetric-matrix) |
+| 74.  | Diagonal Elements Sum                    | [View](#74-diagonal-element-sum) |
 </details>
 
 <details>
@@ -211,6 +212,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  71 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
 |  72 | Matrix Transpose             | [View](#72-matrix-transpose) |
 |  73 | Symmetric Matrix             | [View](#73-symmetric-matrix) |
+|  74 | Diagonal Elements Sum        | [View](#74-diagonal-element-sum) |
 
 </details>
 
@@ -2323,6 +2325,38 @@ Enter the column count (m): 3
 
 === [OUTPUT] ===
 The matrix is symmetric
+```
+
+### 74. Diagonal Element Sum
+WAP in C to enter a matrix of order `n` * `m`and print all the elements of the primary diagonal and their sum.
+
+> [!NOTE]
+> Primary diagonal elements has a simple property where their column and row indices are the same. (`i = j`)
+> ![](.README/diagonal-of-matrix.png)
+
+
+`Answer` [diagonal-elements-matrix.c](src/diagonal-elements-matrix.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the row count (n): 3
+Enter the column count (m): 3
+
+---Enter the elements of the array---
+-Enter element at (0, 0): 1
+-Enter element at (0, 1): 2
+-Enter element at (0, 2): 3
+-Enter element at (1, 0): 4
+-Enter element at (1, 1): 5
+-Enter element at (1, 2): 6
+-Enter element at (2, 0): 7
+-Enter element at (2, 1): 8
+-Enter element at (2, 2): 9
+
+=== [OUTPUT] ===
+Diagonal Elements: {1, 5, 9}
+Sum of diagonal elements: 15
 ```
 
 ## Setup
