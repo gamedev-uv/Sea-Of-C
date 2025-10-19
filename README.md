@@ -89,6 +89,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 72.  | Matrix Transpose                         | [View](#72-matrix-transpose) |
 | 73.  | Symmetric Matrix                         | [View](#73-symmetric-matrix) |
 | 74.  | Diagonal Elements Sum                    | [View](#74-diagonal-element-sum) |
+| 75.  | 2nd Largest Array Element                | [View](#75-2nd-largest-number) |
+| 76.  | Odd Even Element Frequency               | [View](#76-odd-even-element-frequency) |
 </details>
 
 <details>
@@ -160,54 +162,56 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 ### Switch Case
 | No. | Title | Description   |
 | :-: | ------------------------------------- | :---------------------------------------------: |
-|  25 | Simple Calculator                     |          [View](#25-simple-calculator)          |
-|  35 | Day Of Week       |    [View](#35-day-of-week)    |
-|  36 | Month Name        |     [View](#36-month-name)    |
-|  37 | Vowel Consonant Checker | [View](#37-vowel-consonant-checker-switch-case) |
-|  38 | Display Numbers                       |            [View](#38-display-number)           |
-|  39 | Shape Area Calculator                 |        [View](#39-shape-area-calculator)        |
-|  40 | Temperature Convertor                 |        [View](#40-temperature-convertor)        |
-|  41 | Odd/Even             |         [View](#41-odd-even-switch-case)        |
-|  42 | Leap Year Checker      |    [View](#42-leap-year-checker-switch-case)    |
-|  43 | Currency Convertor                    |          [View](#43-currency-convertor)         |
-|  44 | Marks Viewer                          |             [View](#44-marks-viewer)            |
-|  45 | Traffic Light System                  |         [View](#45-traffic-light-system)        |
-|  46 | Customer Electric Bill Calculator     |  [View](#46-customer-electric-bill-calculator)  |
+|  25 | Simple Calculator                     | [View](#25-simple-calculator)          |
+|  35 | Day Of Week                           | [View](#35-day-of-week)    |
+|  36 | Month Name                            | [View](#36-month-name)    |
+|  37 | Vowel Consonant Checker               | [View](#37-vowel-consonant-checker-switch-case) |
+|  38 | Display Numbers                       | [View](#38-display-number)           |
+|  39 | Shape Area Calculator                 | [View](#39-shape-area-calculator)        |
+|  40 | Temperature Convertor                 | [View](#40-temperature-convertor)        |
+|  41 | Odd/Even                              | [View](#41-odd-even-switch-case)        |
+|  42 | Leap Year Checker                     | [View](#42-leap-year-checker-switch-case)    |
+|  43 | Currency Convertor                    | [View](#43-currency-convertor)         |
+|  44 | Marks Viewer                          | [View](#44-marks-viewer)            |
+|  45 | Traffic Light System                  | [View](#45-traffic-light-system)        |
+|  46 | Customer Electric Bill Calculator     | [View](#46-customer-electric-bill-calculator)  |
 
 ### Loops
 | No. | Title                       |               Description               |
 | :-: | --------------------------- | :-------------------------------------: |
-|  47 | Sum of numbers up to n      |    [View](#47-sum-of-numbers-up-to-n)   |
-|  48 | Sum of even numbers up to n | [View](#48-sum-of-even-numbers-up-to-n) |
-|  49 | Sum of Digits               |        [View](#49-sum-of-digits)        |
-|  50 | Reverse Digits              |        [View](#50-reverse-digits)       |
-|  51 | Palindrome Number           |      [View](#51-palindrome-number)      |
-|  52 | Factorial of a number       |    [View](#52-factorial-of-a-number)    |
-|  53 | Fibonacci Sequence          |      [View](#53-fibonacci-sequence)     |
-|  56 | ArmStrong Number            |       [View](#56-armstrong-number)      |
-|  57 | Perfect Number              |        [View](#57-perfect-number)       |
+|  47 | Sum of numbers up to n      |   [View](#47-sum-of-numbers-up-to-n)   |
+|  48 | Sum of even numbers up to n |   [View](#48-sum-of-even-numbers-up-to-n) |
+|  49 | Sum of Digits               |   [View](#49-sum-of-digits)        |
+|  50 | Reverse Digits              |   [View](#50-reverse-digits)       |
+|  51 | Palindrome Number           |   [View](#51-palindrome-number)      |
+|  52 | Factorial of a number       |   [View](#52-factorial-of-a-number)    |
+|  53 | Fibonacci Sequence          |   [View](#53-fibonacci-sequence)     |
+|  56 | ArmStrong Number            |   [View](#56-armstrong-number)      |
+|  57 | Perfect Number              |   [View](#57-perfect-number)       |
 
 ### Patterns
-| No. | Title                  |            Description           |
-| :-: | ---------------------- | :------------------------------: |
-|  59 | Star Triangle      |    [View](#59-star--triangle)    |
-|  60 | Alphabet Triangle - I  |  [View](#60-alphabet-triangle-i) |
-|  61 | Alphabet Triangle - II | [View](#61-alphabet-triangle-ii) |
+| No. | Title                   |            Description           |
+| :-: | ----------------------  | :------------------------------: |
+|  59 | Star Triangle           | [View](#59-star--triangle)    |
+|  60 | Alphabet Triangle - I   | [View](#60-alphabet-triangle-i) |
+|  61 | Alphabet Triangle - II  | [View](#61-alphabet-triangle-ii) |
 
 ### 1D Array
-| No. | Title                  |             Description            |
-| :-: | ---------------------- | :--------------------------------: |
-|  62 | Array Initialization   |  [View](#62-array-initialization)  |
-|  63 | Array Element Sum      |    [View](#63-array-element-sum)   |
-|  64 | Largest Array Element  |  [View](#64-largest-array-element) |
-|  65 | Smallest Array Element | [View](#65-smallest-array-element) |
-|  66 | Selection Sort         |     [View](#66-selection-sort)     |
-|  67 | Linear Search          |      [View](#67-linear-search)     |
+| No. | Title                            |             Description            |
+| :-: | ----------------------           | :--------------------------------: |
+|  62 | Array Initialization             |  [View](#62-array-initialization)  |
+|  63 | Array Element Sum                |  [View](#63-array-element-sum)   |
+|  64 | Largest Array Element            |  [View](#64-largest-array-element) |
+|  65 | Smallest Array Element           |  [View](#65-smallest-array-element) |
+|  66 | Selection Sort                   |  [View](#66-selection-sort)     |
+|  67 | Linear Search                    |  [View](#67-linear-search)     |
+|  75 | 2nd Largest Array Element        | [View](#75-2nd-largest-number) |
+|  76 | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
 
 ### 2D Array
-| No. | Title                   |             Description             |
-| :-: | ----------------------- | :---------------------------------: |
-|  68 | 2D Array Initialization | [View](#68-2d-array-initialization) |
+| No. | Title                        |             Description             |
+| :-: | -----------------------      | :---------------------------------: |
+|  68 | 2D Array Initialization      | [View](#68-2d-array-initialization) |
 |  70 | Matrix Addition              | [View](#70-matrix-addition) |
 |  71 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
 |  72 | Matrix Transpose             | [View](#72-matrix-transpose) |
@@ -2357,6 +2361,48 @@ Enter the column count (m): 3
 === [OUTPUT] ===
 Diagonal Elements: {1, 5, 9}
 Sum of diagonal elements: 15
+```
+
+### 75. 2nd Largest Number
+WAP in C to enter an array of length `n` and find the 2nd largest number in the array and print it to the console.
+
+`Answer` [2ndLargestNumber.c](src/2ndLargestNumber.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter length (n): 5
+---Enter elements---
+Enter element at (0): 54
+Enter element at (1): 23
+Enter element at (2): 342
+Enter element at (3): 6
+Enter element at (4): 46
+
+=== [OUTPUT] ===
+Second Largest Element: 54
+```
+
+
+### 76. Odd Even Element Frequency
+WAP in C to enter an array of length `n` and find the frequency (number of) odd and even elements.
+
+`Answer` [oddEvenElementFreq.c](src/oddEvenElementFreq.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter length (n): 5
+---Enter elements---
+Enter element at (0): 1
+Enter element at (1): 2
+Enter element at (2): 3
+Enter element at (3): 4
+Enter element at (4): 5
+
+=== [OUTPUT] ===
+Even Element Frequency: 2
+Odd  Element Frequency: 3
 ```
 
 ## Setup
