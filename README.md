@@ -2447,6 +2447,22 @@ Product:      40
 Quotient:     0.63
 ```
 
+### 79. Factorial Series
+WAP in C to find the factorial of a given number using a function. And then utilize it to compute the value of `sigma(x! / x)` from `1` to `n` (Both inclusive).
+
+![](.README/factorial-series.jpeg)
+
+`Answer` [factorialSeries.c](src/factorialSeries.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of n: 10
+
+=== [OUTPUT] ===
+Sum of series up to 10: 409114
+```
+
 ## Setup
 All C programs in this repository were written and tested on Windows using:
 
