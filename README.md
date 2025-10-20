@@ -92,6 +92,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 75.  | 2nd Largest Array Element                | [View](#75-2nd-largest-number) |
 | 76.  | Odd Even Element Frequency               | [View](#76-odd-even-element-frequency) |
 | 77.  | Maximum Function                         | [View](#77-maximum-function) |
+| 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
 </details>
 
 <details>
@@ -222,7 +223,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 ### Functions
 | No. | Title                        |             Description             |
 | :-: | -----------------------      | :---------------------------------: |
-| 77  | Maximum Function                         | [View](#77-maximum-function) |
+| 77.  | Maximum Function                         | [View](#77-maximum-function) |
+| 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
 
 
 
@@ -2427,6 +2429,24 @@ Enter the value of B: 6
 Maximum: 6
 ```
 
+### 78. Arithmetic Functions
+WAP in C to input 2 numbers and perform the arithmetic operations using functions — addition, subtraction, multiplication, and division — on two given numbers. The program should define separate functions for each operation and display the sum, difference, product, and quotient as output.
+
+`Answer` [arithFunc.c](src/arithFunc.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of A: 5 
+Enter the value of B: 8
+
+=== [OUTPUT] ===
+Sum:          13
+Difference:   -3
+Product:      40
+Quotient:     0.63
+```
+
 ## Setup
 All C programs in this repository were written and tested on Windows using:
 
@@ -2447,5 +2467,4 @@ choco install mingw
 ## Running  the code
 Press `Ctrl + Alt + N` to compile and run the code (using the [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)).
 The output will appear in the `OUTPUT` tab of the integrated terminal. You can also change the keyboard shortcut in `Settings` or create a custom macro for it.
-
 --- 
