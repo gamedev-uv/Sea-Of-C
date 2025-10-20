@@ -91,6 +91,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 74.  | Diagonal Elements Sum                    | [View](#74-diagonal-element-sum) |
 | 75.  | 2nd Largest Array Element                | [View](#75-2nd-largest-number) |
 | 76.  | Odd Even Element Frequency               | [View](#76-odd-even-element-frequency) |
+| 77.  | Maximum Function                         | [View](#77-maximum-function) |
 </details>
 
 <details>
@@ -99,124 +100,131 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 ### Basic Programs
 | No. | Title | Description |
 | :-: | -- | :--: |
-| 1 | Hello World | [View](#1-hello-world-in-c) |
-| 2 | Arithmetic Operations | [View](#2-arithmetic-operations-in-c) |
-| 3 | Swap Variables | [View](#3-swap-variables) |
-| 6 | Variables | [View](#6-variables) |
-| 7 | Operators in C | [View](#7-operators-in-c) |
+| 1. | Hello World | [View](#1-hello-world-in-c) |
+| 2. | Arithmetic Operations | [View](#2-arithmetic-operations-in-c) |
+| 3. | Swap Variables | [View](#3-swap-variables) |
+| 6. | Variables | [View](#6-variables) |
+| 7. | Operators in C | [View](#7-operators-in-c) |
 
 ### Simple Programs
 | No. | Title                          |              Description              |
 | :-: | ------------------------------ | :-----------------------------------: |
-|  9  | Sign Detector                  |        [View](#9-sign-detector)       |
-|  10 | Odd/Even                       |          [View](#10-oddeven)          |
-|  11 | Maximum between 2 numbers      | [View](#11-maximum-between-2-numbers) |
-|  12 | Maximum between 3 numbers      | [View](#12-maximum-between-3-numbers) |
-|  13 | Divisibility check for 3 and 5 |   [View](#13-3-5-divisibility-test)   |
-|  15 | 3 Digit Number                 |       [View](#15-3-digit-number)      |
-|  24 | Leap Year Checker              |     [View](#24-leap-year-checker)     |
-|  69 | Prime Checker                  |       [View](#69-prime-checker)       |
-|  55 | Currency Note Calculator       |  [View](#55-currency-note-calculator) |
+|  9.  | Sign Detector                  |        [View](#9-sign-detector)       |
+|  10. | Odd/Even                       |          [View](#10-oddeven)          |
+|  11. | Maximum between 2 numbers      | [View](#11-maximum-between-2-numbers) |
+|  12. | Maximum between 3 numbers      | [View](#12-maximum-between-3-numbers) |
+|  13. | Divisibility check for 3 and 5 |   [View](#13-3-5-divisibility-test)   |
+|  15. | 3 Digit Number                 |       [View](#15-3-digit-number)      |
+|  24. | Leap Year Checker              |     [View](#24-leap-year-checker)     |
+|  69. | Prime Checker                  |       [View](#69-prime-checker)       |
+|  55. | Currency Note Calculator       |  [View](#55-currency-note-calculator) |
 
 ### Simple Maths Programs
 | No. | Title                             |                  Description                  |
 | :-: | --------------------------------- | :-------------------------------------------: |
-|  4  | Rectangle                         |              [View](#4-rectangle)             |
-|  5  | Circle                            |               [View](#5-circle)               |
-|  8  | Collinear Points                  |          [View](#8-collinear-points)          |
-|  14 | Rectangle Area vs Perimeter Check | [View](#14-rectangle-area-vs-perimeter-check) |
-|  16 | Valid Triangle Sides              |        [View](#16-valid-triangle-sides)       |
-|  17 | Valid Triangle Angles             |       [View](#17-valid-triangle-angles)       |
-|  58 | Greatest Common Divisor           |      [View](#58-greatest-common-divisor)      |
+|  4. | Rectangle                         |              [View](#4-rectangle)             |
+|  5. | Circle                            |               [View](#5-circle)               |
+|  8. | Collinear Points                  |          [View](#8-collinear-points)          |
+|  14. | Rectangle Area vs Perimeter Check | [View](#14-rectangle-area-vs-perimeter-check) |
+|  16. | Valid Triangle Sides              |        [View](#16-valid-triangle-sides)       |
+|  17. | Valid Triangle Angles             |       [View](#17-valid-triangle-angles)       |
+|  58. | Greatest Common Divisor           |      [View](#58-greatest-common-divisor)      |
 
 ### Simple Physics Programs
 | No. | Title                      |               Description              |
 | :-: | -------------------------- | :------------------------------------: |
-|  28 | Force Calculation          |      [View](#28-force-calculation)     |
-|  29 | Distance Calculation       |    [View](#29-distance-calculation)    |
-|  30 | Final Velocity Calculation | [View](#30-final-velocity-calculation) |
+|  28. | Force Calculation          |      [View](#28-force-calculation)     |
+|  29. | Distance Calculation       |    [View](#29-distance-calculation)    |
+|  30. | Final Velocity Calculation | [View](#30-final-velocity-calculation) |
 
 ### Date and Time Programs
 
 | No. | Title             |          Description          |
 | :-: | ----------------- | :---------------------------: |
-|  31 | Days Convertor    |   [View](#31-days-convertor)  |
-|  32 | Seconds Convertor | [View](#32-seconds-convertor) |
-|  33 | Time Adder        |     [View](#33-time-adder)    |
-|  34 | Distance Adder    |   [View](#34-distance-adder)  |
+|  31. | Days Convertor    |   [View](#31-days-convertor)  |
+|  32. | Seconds Convertor | [View](#32-seconds-convertor) |
+|  33. | Time Adder        |     [View](#33-time-adder)    |
+|  34. | Distance Adder    |   [View](#34-distance-adder)  |
 
 ### Basic Conditional
 | No. | Title                       |                   Description                  |
 | :-: | --------------------------- | :--------------------------------------------: |
-|  18 | Age Category                |            [View](#18-age-category)            |
-|  19 | Discount Calculator         |         [View](#19-discount-calculator)        |
-|  20 | Salary Calculator           |          [View](#20-salary-calculator)         |
-|  21 | Grade Division Calculator   |      [View](#21-grade-division-calculator)     |
-|  22 | Character Checker           |          [View](#22-character-checker)         |
-|  23 | Vowel Consonant Checker     |       [View](#23-vowel-consonant-checker)      |
-|  26 | Simple Grade Calculator     |       [View](#26-simple-grade-calculator)      |
-|  27 | Electricity Bill Calculator | [View](#27-simple-electricity-bill-calculator) |
-|  54 | Parking Fee Calculator      |       [View](#54-parking-fee-calculator)       |
+|  18. | Age Category                |            [View](#18-age-category)            |
+|  19. | Discount Calculator         |         [View](#19-discount-calculator)        |
+|  20. | Salary Calculator           |          [View](#20-salary-calculator)         |
+|  21. | Grade Division Calculator   |      [View](#21-grade-division-calculator)     |
+|  22. | Character Checker           |          [View](#22-character-checker)         |
+|  23. | Vowel Consonant Checker     |       [View](#23-vowel-consonant-checker)      |
+|  26. | Simple Grade Calculator     |       [View](#26-simple-grade-calculator)      |
+|  27. | Electricity Bill Calculator | [View](#27-simple-electricity-bill-calculator) |
+|  54. | Parking Fee Calculator      |       [View](#54-parking-fee-calculator)       |
 
 
 ### Switch Case
 | No. | Title | Description   |
 | :-: | ------------------------------------- | :---------------------------------------------: |
-|  25 | Simple Calculator                     | [View](#25-simple-calculator)          |
-|  35 | Day Of Week                           | [View](#35-day-of-week)    |
-|  36 | Month Name                            | [View](#36-month-name)    |
-|  37 | Vowel Consonant Checker               | [View](#37-vowel-consonant-checker-switch-case) |
-|  38 | Display Numbers                       | [View](#38-display-number)           |
-|  39 | Shape Area Calculator                 | [View](#39-shape-area-calculator)        |
-|  40 | Temperature Convertor                 | [View](#40-temperature-convertor)        |
-|  41 | Odd/Even                              | [View](#41-odd-even-switch-case)        |
-|  42 | Leap Year Checker                     | [View](#42-leap-year-checker-switch-case)    |
-|  43 | Currency Convertor                    | [View](#43-currency-convertor)         |
-|  44 | Marks Viewer                          | [View](#44-marks-viewer)            |
-|  45 | Traffic Light System                  | [View](#45-traffic-light-system)        |
-|  46 | Customer Electric Bill Calculator     | [View](#46-customer-electric-bill-calculator)  |
+|  25. | Simple Calculator                     | [View](#25-simple-calculator)          |
+|  35. | Day Of Week                           | [View](#35-day-of-week)    |
+|  36. | Month Name                            | [View](#36-month-name)    |
+|  37. | Vowel Consonant Checker               | [View](#37-vowel-consonant-checker-switch-case) |
+|  38. | Display Numbers                       | [View](#38-display-number)           |
+|  39. | Shape Area Calculator                 | [View](#39-shape-area-calculator)        |
+|  40. | Temperature Convertor                 | [View](#40-temperature-convertor)        |
+|  41. | Odd/Even                              | [View](#41-odd-even-switch-case)        |
+|  42. | Leap Year Checker                     | [View](#42-leap-year-checker-switch-case)    |
+|  43. | Currency Convertor                    | [View](#43-currency-convertor)         |
+|  44. | Marks Viewer                          | [View](#44-marks-viewer)            |
+|  45. | Traffic Light System                  | [View](#45-traffic-light-system)        |
+|  46. | Customer Electric Bill Calculator     | [View](#46-customer-electric-bill-calculator)  |
 
 ### Loops
 | No. | Title                       |               Description               |
 | :-: | --------------------------- | :-------------------------------------: |
-|  47 | Sum of numbers up to n      |   [View](#47-sum-of-numbers-up-to-n)   |
-|  48 | Sum of even numbers up to n |   [View](#48-sum-of-even-numbers-up-to-n) |
-|  49 | Sum of Digits               |   [View](#49-sum-of-digits)        |
-|  50 | Reverse Digits              |   [View](#50-reverse-digits)       |
-|  51 | Palindrome Number           |   [View](#51-palindrome-number)      |
-|  52 | Factorial of a number       |   [View](#52-factorial-of-a-number)    |
-|  53 | Fibonacci Sequence          |   [View](#53-fibonacci-sequence)     |
-|  56 | ArmStrong Number            |   [View](#56-armstrong-number)      |
-|  57 | Perfect Number              |   [View](#57-perfect-number)       |
+|  47. | Sum of numbers up to n      |   [View](#47-sum-of-numbers-up-to-n)   |
+|  48. | Sum of even numbers up to n |   [View](#48-sum-of-even-numbers-up-to-n) |
+|  49. | Sum of Digits               |   [View](#49-sum-of-digits)        |
+|  50. | Reverse Digits              |   [View](#50-reverse-digits)       |
+|  51. | Palindrome Number           |   [View](#51-palindrome-number)      |
+|  52. | Factorial of a number       |   [View](#52-factorial-of-a-number)    |
+|  53. | Fibonacci Sequence          |   [View](#53-fibonacci-sequence)     |
+|  56. | ArmStrong Number            |   [View](#56-armstrong-number)      |
+|  57. | Perfect Number              |   [View](#57-perfect-number)       |
 
 ### Patterns
 | No. | Title                   |            Description           |
 | :-: | ----------------------  | :------------------------------: |
-|  59 | Star Triangle           | [View](#59-star--triangle)    |
-|  60 | Alphabet Triangle - I   | [View](#60-alphabet-triangle-i) |
-|  61 | Alphabet Triangle - II  | [View](#61-alphabet-triangle-ii) |
+|  59. | Star Triangle           | [View](#59-star--triangle)    |
+|  60. | Alphabet Triangle - I   | [View](#60-alphabet-triangle-i) |
+|  61. | Alphabet Triangle - II  | [View](#61-alphabet-triangle-ii) |
 
 ### 1D Array
 | No. | Title                            |             Description            |
 | :-: | ----------------------           | :--------------------------------: |
-|  62 | Array Initialization             |  [View](#62-array-initialization)  |
-|  63 | Array Element Sum                |  [View](#63-array-element-sum)   |
-|  64 | Largest Array Element            |  [View](#64-largest-array-element) |
-|  65 | Smallest Array Element           |  [View](#65-smallest-array-element) |
-|  66 | Selection Sort                   |  [View](#66-selection-sort)     |
-|  67 | Linear Search                    |  [View](#67-linear-search)     |
-|  75 | 2nd Largest Array Element        | [View](#75-2nd-largest-number) |
-|  76 | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
+|  62. | Array Initialization             |  [View](#62-array-initialization)  |
+|  63. | Array Element Sum                |  [View](#63-array-element-sum)   |
+|  64. | Largest Array Element            |  [View](#64-largest-array-element) |
+|  65. | Smallest Array Element           |  [View](#65-smallest-array-element) |
+|  66. | Selection Sort                   |  [View](#66-selection-sort)     |
+|  67. | Linear Search                    |  [View](#67-linear-search)     |
+|  75. | 2nd Largest Array Element        | [View](#75-2nd-largest-number) |
+|  76. | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
 
 ### 2D Array
 | No. | Title                        |             Description             |
 | :-: | -----------------------      | :---------------------------------: |
-|  68 | 2D Array Initialization      | [View](#68-2d-array-initialization) |
-|  70 | Matrix Addition              | [View](#70-matrix-addition) |
-|  71 | Matrix Multiplication        | [View](#71-matrix-multiplication) |
-|  72 | Matrix Transpose             | [View](#72-matrix-transpose) |
-|  73 | Symmetric Matrix             | [View](#73-symmetric-matrix) |
-|  74 | Diagonal Elements Sum        | [View](#74-diagonal-element-sum) |
+|  68. | 2D Array Initialization      | [View](#68-2d-array-initialization) |
+|  70. | Matrix Addition              | [View](#70-matrix-addition) |
+|  71. | Matrix Multiplication        | [View](#71-matrix-multiplication) |
+|  72. | Matrix Transpose             | [View](#72-matrix-transpose) |
+|  73. | Symmetric Matrix             | [View](#73-symmetric-matrix) |
+|  74. | Diagonal Elements Sum        | [View](#74-diagonal-element-sum) |
+
+### Functions
+| No. | Title                        |             Description             |
+| :-: | -----------------------      | :---------------------------------: |
+| 77  | Maximum Function                         | [View](#77-maximum-function) |
+
+
 
 </details>
 
@@ -2383,7 +2391,6 @@ Enter element at (4): 46
 Second Largest Element: 54
 ```
 
-
 ### 76. Odd Even Element Frequency
 WAP in C to enter an array of length `n` and find the frequency (number of) odd and even elements.
 
@@ -2403,6 +2410,21 @@ Enter element at (4): 5
 === [OUTPUT] ===
 Even Element Frequency: 2
 Odd  Element Frequency: 3
+```
+
+### 77. Maximum Function
+WAP in C to find the maximum between two numbers using functions.
+
+`Answer` [maximumFunc.c](src/maximumFunc.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of A: 5
+Enter the value of B: 6
+
+=== [OUTPUT] ===
+Maximum: 6
 ```
 
 ## Setup
