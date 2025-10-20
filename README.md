@@ -93,6 +93,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 76.  | Odd Even Element Frequency               | [View](#76-odd-even-element-frequency) |
 | 77.  | Maximum Function                         | [View](#77-maximum-function) |
 | 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
+| 79.  | Factorial Series                         | [View](#79-factorial-series) |
+| 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
 </details>
 
 <details>
@@ -225,8 +227,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | :-: | -----------------------      | :---------------------------------: |
 | 77.  | Maximum Function                         | [View](#77-maximum-function) |
 | 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
-
-
+| 79.  | Factorial Series                         | [View](#79-factorial-series) |
+| 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
 
 </details>
 
@@ -2461,6 +2463,29 @@ Enter the value of n: 10
 
 === [OUTPUT] ===
 Sum of series up to 10: 409114
+```
+
+### 80. Palindrome Checker
+WAP in C to input a number and find its reverse and check if it is a palindrome number using function. A palindrome number is a number which is the same read backwards as read normally, i.e. its reverse and itself are the same number. Example: `121`, `1331` are palindrome numbers.
+
+
+`Answer` [palindromeChecker.c](src/palindromeChecker.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number: 121
+
+=== [OUTPUT] ===
+121 is a palindrome number
+```
+
+```
+=== [INPUT] ===
+Enter the number: 256
+
+=== [OUTPUT] ===
+256 is not a palindrome number
 ```
 
 ## Setup
