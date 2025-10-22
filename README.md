@@ -2495,7 +2495,7 @@ All C programs in this repository were written and tested on Windows using:
 - [Visual Studio Code](https://code.visualstudio.com/) as the editor
 - [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) to easily compile and run .c files with a single shortcut key
 
-## Installing MinGW using [Chocolatey](https://chocolatey.org/)
+### Installing MinGW using [Chocolatey](https://chocolatey.org/)
 To install the MinGW compiler, I used [Chocolatey](https://chocolatey.org/), a Windows package manager. If you want to install [choco](https://chocolatey.org/), you can follow this [guide](https://chocolatey.org/install).
 
 And then you can install the compiler by pasting this command in your command prompt  
@@ -2504,8 +2504,6 @@ choco install mingw
 ```
 > You will be recommended to do this while running the shell as an Administrator.
 
-
-## Running  the code
+### Running  the code
 Press `Ctrl + Alt + N` to compile and run the code (using the [Code Runner extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)).
 The output will appear in the `OUTPUT` tab of the integrated terminal. You can also change the keyboard shortcut in `Settings` or create a custom macro for it.
---- 
