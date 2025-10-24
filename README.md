@@ -95,6 +95,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
 | 79.  | Factorial Series                         | [View](#79-factorial-series) |
 | 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
+| 81.  | Reverse Array                            | [View](#81-reverse-array) |
 </details>
 
 <details>
@@ -209,8 +210,9 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  65. | Smallest Array Element           |  [View](#65-smallest-array-element) |
 |  66. | Selection Sort                   |  [View](#66-selection-sort)     |
 |  67. | Linear Search                    |  [View](#67-linear-search)     |
-|  75. | 2nd Largest Array Element        | [View](#75-2nd-largest-number) |
+|  75. | 2nd Largest Array Element        |  [View](#75-2nd-largest-number) |
 |  76. | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
+|  81. | Reverse Array                    |  [View](#81-reverse-array) |
 
 ### 2D Array
 | No. | Title                        |             Description             |
@@ -2486,6 +2488,27 @@ Enter the number: 256
 
 === [OUTPUT] ===
 256 is not a palindrome number
+```
+
+### 81. Reverse Array 
+WAP in C to input an array of length `n` and print its elements in reverse order.
+
+`Answer` [reverseArray.c](src/reverseArray.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length of the array(n): 5
+
+--- Enter the elements of the array ---
+-Enter element at (0): 1
+-Enter element at (1): 2
+-Enter element at (2): 3 
+-Enter element at (3): 4
+-Enter element at (4): 5
+
+=== [OUTPUT] ===
+Reverse: 5 4 3 2 1
 ```
 
 ## Setup
