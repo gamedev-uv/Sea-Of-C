@@ -98,6 +98,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 81.  | Reverse Array                            | [View](#81-reverse-array) |
 | 82.  | Merge Array                              | [View](#82-merge-arrays) |
 | 83.  | Insert Element                           | [View](#83-insert-element) |
+| 84.  | Frequency of Elements                    | [View](#84-frequency-of-elements) |
 </details>
 
 <details>
@@ -217,6 +218,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  81. | Reverse Array                    |  [View](#81-reverse-array) |
 |  82. | Merge Array                      |  [View](#82-merge-arrays) |
 |  83. | Insert Element                   |  [View](#83-insert-element) |
+|  84. | Frequency of Elements            |  [View](#84-frequency-of-elements) |
 
 ### 2D Array
 | No. | Title                        |             Description             |
@@ -2581,6 +2583,58 @@ Enter the position(p): 2
 Final Array: [1, 2, 3, 4]
 ```
 
+### 84. Frequency of Elements
+WAP in C to take in an array of length `n` and find the individual frequencies of all its elements.
+
+`Answer` [frequencyMap.c](src/frequencyMap.c)
+> [!NOTE]
+> Currently the frequency of the same element is displayed multiple times, one can add some more code to keep a record of the elements for which have been checked and thus remove any duplicate prints and optimize it as well.
+>``` 
+>   int frequencies[n];
+>   for(int i = 0; i < n; i++)
+>   {
+>       //If already checked
+>       if(frequencies[i] == -1) continue;
+>
+>       int cElement = a[i];
+>       frequencies[i] = 1; 
+>
+>       for(int j = 0; j < n; j++)
+>       {
+>           if(i == j) continue;
+>
+>           if(cElement == a[j])
+>           {
+>               frequencies[i]++;
+>               frequencies[j] = -1;   //We mark it as checked
+>           }
+>       }
+>   }
+>```
+> And then while printing the frequencies one can skip all elements which have frequencies equal to -1 as then they are the duplicates.
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length of the array(n): 6
+
+--- Enter the elements of the array ---
+-Enter element at (0): 1
+-Enter element at (1): 2
+-Enter element at (2): 2
+-Enter element at (3): 1
+-Enter element at (4): 1
+-Enter element at (5): 5
+
+=== [OUTPUT] ===
+Element | Frequency
+-> 1    : 3
+-> 2    : 2
+-> 2    : 2
+-> 1    : 3
+-> 1    : 3
+-> 5    : 1
+```
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
