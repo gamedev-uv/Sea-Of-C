@@ -96,7 +96,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 79.  | Factorial Series                         | [View](#79-factorial-series) |
 | 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
 | 81.  | Reverse Array                            | [View](#81-reverse-array) |
-| 82. | Merge Array                               | [View](#82-merge-arrays) |
+| 82.  | Merge Array                              | [View](#82-merge-arrays) |
+| 83.  | Insert Element                           | [View](#83-insert-element) |
 </details>
 
 <details>
@@ -215,6 +216,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  76. | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
 |  81. | Reverse Array                    |  [View](#81-reverse-array) |
 |  82. | Merge Array                      |  [View](#82-merge-arrays) |
+|  83. | Insert Element                   |  [View](#83-insert-element) |
 
 ### 2D Array
 | No. | Title                        |             Description             |
@@ -2541,6 +2543,44 @@ Enter the length of the array B (m): 4
 === [OUTPUT] ===
 Merged Array: 1 2 3 4 5 6 7
 ```
+
+### 83. Insert Element
+WAP in C to insert an element `x` into a given position `p` within an array of length `n`. If the provided value of `p` is more than `n` insert `x` at the end of the array. 
+
+`Answer` [insertElement.c](src/insertElement.c)
+> [!NOTE]
+> You can also directly just print the final array without creating another array 
+> It would look something like this: 
+> ```
+> for(int i = 0; i < n + 1; i++)
+> {
+>     if(i < p - 1) 
+>         printf("%d", a[i]);
+>     else if(i == p - 1)
+>         printf("%d", x);
+>     else                   
+>         printf("%d", a[i - 1]);
+> }
+> ```
+> So we simply print the values out without needing to first put them into `b`
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length of the array(n): 3
+
+--- Enter the elements of the array ---
+-Enter element at (0): 1
+-Enter element at (1): 3
+-Enter element at (2): 4
+
+Enter the value which is to be inserted(x): 2
+Enter the position(p): 2
+
+=== [OUTPUT] ===
+Final Array: [1, 2, 3, 4]
+```
+
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
