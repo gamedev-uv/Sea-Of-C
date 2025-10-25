@@ -96,6 +96,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 79.  | Factorial Series                         | [View](#79-factorial-series) |
 | 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
 | 81.  | Reverse Array                            | [View](#81-reverse-array) |
+| 82. | Merge Array                               | [View](#82-merge-arrays) |
 </details>
 
 <details>
@@ -213,6 +214,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  75. | 2nd Largest Array Element        |  [View](#75-2nd-largest-number) |
 |  76. | Odd Even Element Frequency       |  [View](#76-odd-even-element-frequency) |
 |  81. | Reverse Array                    |  [View](#81-reverse-array) |
+|  82. | Merge Array                      |  [View](#82-merge-arrays) |
 
 ### 2D Array
 | No. | Title                        |             Description             |
@@ -2509,6 +2511,35 @@ Enter the length of the array(n): 5
 
 === [OUTPUT] ===
 Reverse: 5 4 3 2 1
+```
+
+### 82. Merge Arrays
+WAP in C to to input 2 arrays and print the merged array. You can directly just print the merged 'array', creating a new array for the merged array is optional. 
+
+![](.README/mergeArray.jpg)
+
+`Answer` [mergeArray.c](src/mergeArray.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the length of the array A (n): 3
+
+--- Enter the elements of the array A---
+-Enter element at (0): 1
+-Enter element at (1): 2
+-Enter element at (2): 3
+
+Enter the length of the array B (m): 4
+
+--- Enter the elements of the array B---
+-Enter element at (0): 4
+-Enter element at (1): 5
+-Enter element at (2): 6
+-Enter element at (3): 7
+
+=== [OUTPUT] ===
+Merged Array: 1 2 3 4 5 6 7
 ```
 
 ## Setup
