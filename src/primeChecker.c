@@ -8,6 +8,13 @@ int main()
     printf("\nEnter the number : ");
     scanf("%d", &n);
 
+    printf("\n=== [OUTPUT] ===\n");
+    if(n <= 1)
+    {
+        printf("%d is neither prime nor composite", n);
+        return 0;
+    }
+
     int isPrime = 1; //We assume it is prime (1 = true, 0 = false)
 
     //As discussed in the note we can loop till n, n/2 but those would be less efficient
@@ -21,11 +28,10 @@ int main()
         }
     }
 
-    printf("\n=== [OUTPUT] ===");
     if(isPrime)
-        printf("\n%d is prime", n);
+        printf("%d is prime", n);
     else
-        printf("\n%d is composite", n);
+        printf("%d is composite", n);
 
     return 0;
 }

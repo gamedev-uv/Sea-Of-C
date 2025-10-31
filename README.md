@@ -83,7 +83,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 66.  | Selection Sort                           | [View](#66-selection-sort)
 | 67.  | Linear Search                            | [View](#67-linear-search)
 | 68.  | 2D Array Initialization                  | [View](#68-2d-array-initialization)
-| 69.  | Prime Checker                            | [View](#69-prime-checker)
+| 69.  | Prime Number                             | [View](#69-prime-number)
 | 70.  | Matrix Addition                          | [View](#70-matrix-addition)
 | 71.  | Matrix Multiplication                    | [View](#71-matrix-multiplication)
 | 72.  | Matrix Transpose                         | [View](#72-matrix-transpose) |
@@ -99,6 +99,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 82.  | Merge Array                              | [View](#82-merge-arrays) |
 | 83.  | Insert Element                           | [View](#83-insert-element) |
 | 84.  | Frequency of Elements                    | [View](#84-frequency-of-elements) |
+| 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
+| 86.  | Prime Checker                            | [View](#86-prime-checker) |
 </details>
 
 <details>
@@ -123,7 +125,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 |  13. | Divisibility check for 3 and 5 |   [View](#13-3-5-divisibility-test)   |
 |  15. | 3 Digit Number                 |       [View](#15-3-digit-number)      |
 |  24. | Leap Year Checker              |     [View](#24-leap-year-checker)     |
-|  69. | Prime Checker                  |       [View](#69-prime-checker)       |
+|  69. | Prime Number                  |       [View](#69-prime-number)       |
 |  55. | Currency Note Calculator       |  [View](#55-currency-note-calculator) |
 
 ### Simple Maths Programs
@@ -237,6 +239,8 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 78.  | Arithmetic Functions                     | [View](#78-arithmetic-functions) |
 | 79.  | Factorial Series                         | [View](#79-factorial-series) |
 | 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
+| 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
+| 86.  | Prime Checker                            | [View](#86-prime-checker) |
 
 </details>
 
@@ -2181,7 +2185,7 @@ Element at 2, 2 : 9
 7 8 9
 ```
 
-### 69. Prime Checker
+### 69. Prime Number
 WAP in C to input a number `n` from the user and check whether it is prime or composite.
 A number is a prime number if it is a `+ve` number more than 1 `(n > 1)` and has only 2 factors, them being `1` and the number itself `(n)`.<br />
 
@@ -2634,6 +2638,60 @@ Element | Frequency
 -> 1    : 3
 -> 1    : 3
 -> 5    : 1
+```
+
+### 85. Armstrong Checker
+WAP in C to check if a given number is an armstrong number using functions.
+
+`Answer` [armStrongChecker.c](src/armStrongChecker.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number (n): 56
+
+=== [OUTPUT] ===
+56 is not an armstrong number
+```
+
+```
+=== [INPUT] ===
+Enter the number (n): 153
+
+=== [OUTPUT] ===
+153 is an armstrong number
+```
+
+### 86. Prime Checker
+WAP in C to check if a given number is a prime, composite or neither. Any number `<= 1` is neither prime nor composite, as `1` and `0` only have one factor and `negative ( < 0)` numbers are neither prime or composite by the definition of prime or composite numbers.
+
+`Answer` [primeComChecker.c](src/primeComChecker.c)
+> [!NOTE]
+> The logic is equivalent to the previous prime checker we made, so if you haven't already you will be recommended to have a look at the normal [prime number program](#69-prime-number) first.
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number: 2
+
+=== [OUTPUT] ===
+2 is prime
+```
+
+```
+=== [INPUT] ===
+Enter the number: 56
+
+=== [OUTPUT] ===
+56 is composite
+```
+
+```
+=== [INPUT] ===
+Enter the number: 1
+
+=== [OUTPUT] ===
+1 is neither prime nor composite
 ```
 
 ## Setup
