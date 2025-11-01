@@ -103,6 +103,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
+| 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
 </details>
 
 <details>
@@ -245,7 +246,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
-
+| 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
 </details>
 
 ### 1. Hello World in C
@@ -2734,6 +2735,20 @@ Enter the length of the rectangle: 3
 Enter the breadth of the rectangle : 4
 
 Area: 12.00, Perimeter: 14.00
+```
+
+### 89. Fibonacci Generator
+WAP to enter a number `n` and generate the fibonacci series up to `n` terms using functions.
+
+`Answer` [fibGenerator.c](src/fibGen.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of n: 10
+
+=== [OUTPUT] ===
+0 1 1 2 3 5 8 13 21 34
 ```
 
 ## Setup
