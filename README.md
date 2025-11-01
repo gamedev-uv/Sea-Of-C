@@ -101,6 +101,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 84.  | Frequency of Elements                    | [View](#84-frequency-of-elements) |
 | 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
+| 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 </details>
 
 <details>
@@ -241,6 +242,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 80.  | Palindrome Checker                       | [View](#80-palindrome-checker) |
 | 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
+| 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 
 </details>
 
@@ -2692,6 +2694,22 @@ Enter the number: 1
 
 === [OUTPUT] ===
 1 is neither prime nor composite
+```
+
+### 87. GCD LCM Finder
+WAP in C to input 2 numbers and find their GCD and LCM. Have a look at the previous [greatest-common-divisor](#58-greatest-common-divisor) program. 
+
+`Answer` [GCDLCMFinder.c](src/GCDLCMFinder.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter A: 15
+Enter B: 20
+
+=== [OUTPUT] ===
+GCD(15, 20): 5
+LCM(15, 20): 60
 ```
 
 ## Setup
