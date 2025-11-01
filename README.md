@@ -104,6 +104,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 | 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
+| 90.  | Leap Year Checker (Function)             | [View](#90-leap-year-checker) |
 </details>
 
 <details>
@@ -247,6 +248,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 | 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
+| 90.  | Leap Year Checker                        | [View](#90-leap-year-checker) |
 </details>
 
 ### 1. Hello World in C
@@ -2749,6 +2751,28 @@ Enter the value of n: 10
 
 === [OUTPUT] ===
 0 1 1 2 3 5 8 13 21 34
+```
+
+### 90. Leap Year Checker
+WAP in C using functions to check whether a given year is leap year or not. The logic used is similar to the one used in [24.Leap Year Checker](#24-leap-year-checker)
+
+`Answer` [leapYearChecker.c](src/leapYearChecker.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the year: 1500
+
+=== [OUTPUT] ===
+1500 is not a leap year
+```
+
+```
+=== [INPUT] ===
+Enter the year: 1600
+
+=== [OUTPUT] ===
+1600 is a leap year
 ```
 
 ## Setup
