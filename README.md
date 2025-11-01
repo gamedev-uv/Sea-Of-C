@@ -102,6 +102,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
+| 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 </details>
 
 <details>
@@ -243,6 +244,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 85.  | Armstrong Checker                        | [View](#85-armstrong-checker) |
 | 86.  | Prime Checker                            | [View](#86-prime-checker) |
 | 87.  | GCD LCM Finder                           | [View](#87-gcd-lcm-finder) |
+| 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 
 </details>
 
@@ -2710,6 +2712,28 @@ Enter B: 20
 === [OUTPUT] ===
 GCD(15, 20): 5
 LCM(15, 20): 60
+```
+
+### 88. Area Perimeter Finder
+WAP in C to find the area and perimeter of the geometric shapes - Circle, Rectangle, and Triangle. Have separate functions for the areas and perimeters for the individual shapes. 
+
+`Answer` [areaPerimeterFinder.c](src/areaPerimeterFinder.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Choose the shape: 
+- 0 <=> Circle
+- 1 <=> Rectangle
+- 2 <=> Triangle
+Select Shape : 1
+
+=== [OUTPUT] ===
+Rectangle has been selected
+Enter the length of the rectangle: 3
+Enter the breadth of the rectangle : 4
+
+Area: 12.00, Perimeter: 14.00
 ```
 
 ## Setup

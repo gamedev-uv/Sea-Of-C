@@ -5,7 +5,7 @@ int main()
     int choosenShape;
 
     printf("=== [INPUT] ===");
-    printf("\nChoose the shape for which you want to calculator the area : ");
+    printf("\nChoose the shape for which you want to calculate the area : ");
     printf("\n- 0 <=> Square");
     printf("\n- 1 <=> Circle");
     printf("\n- 2 <=> Triangle");
