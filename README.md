@@ -1126,11 +1126,11 @@ Enter the number of days : 768
 
 ### 32. Seconds Convertor 
 WAP in C to convert seconds into hours, minutes, and seconds.
-Hint : `Hours = Seconds / 3600`, `Months = Remaining Seconds / 60`, `Seconds = Remaining Seconds`. Putting in the values for the remaining seconds we get : 
+Hint : `Hours = Seconds / 3600`, `Minutes = Remaining Seconds / 60`, `Seconds = Remaining Seconds`. Putting in the values for the remaining seconds we get : 
 ```
-Years = Seconds / 3600
-Months = (Seconds % 3600) / 60
-Days = (Seconds % 3600) % 60
+Hours = Seconds / 3600
+Minutes = (Seconds % 3600) / 60
+Seconds = (Seconds % 3600) % 60
 ```
 `Answer` [secondsConvertor.c](src/secondsConvertor.c)
 
