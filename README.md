@@ -6,12 +6,17 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 
 ---
 
-> [!NOTE]
-> ## 🧾 Questions
-> Expand below to view all questions. You can also find topic-wise ones under the next list.
+## 🧾 Questions
+Below are all the questions arranged based on their semester and topic.
 
+| Semester | Question List | Topic Wise Question List |
+| - | - | - |
+| 1| [Question List](#question-list-semester-i)| [Topic Wise List](#topic-wise-questions-list-semester-i)  |
 
-<details><summary><strong>Question List</strong></summary>
+### Semester I
+The problems which were covered in Semester I.
+
+### Question List (Semester I)
 
 |      | Title                                    | Description 
 |   -  | -                                        |:---:
@@ -107,8 +112,7 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 90.  | Leap Year Checker (Function)             | [View](#90-leap-year-checker) |
 </details>
 
-<details>
-<summary><strong>Topic wise questions list</strong></summary>
+### Topic wise Questions List (Semester I)
 
 ### Basic Programs
 | No. | Title | Description |
@@ -249,7 +253,6 @@ Can't figure out how to run the code? Have a look at [Setup](#setup).
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 | 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
 | 90.  | Leap Year Checker                        | [View](#90-leap-year-checker) |
-</details>
 
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
