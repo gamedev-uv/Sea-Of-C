@@ -257,7 +257,7 @@ The problems which were covered in Semester I.
 ### 1. Hello World in C
 WAP in C to display "Hello World!" in the output console!
 
-``Answer`` [hello-world.c](src/hello-world.c)
+``Answer`` [hello-world.c](src/sem-1/hello-world.c)
 
 `Output Terminal`
 ```
@@ -275,7 +275,7 @@ The operations which are to be performed are :
 - Division `(/)`
 - Remainder `(%)`
 
-``Answer`` [arithmetic-operations.c](src/arithmetic-operations.c)
+``Answer`` [arithmetic-operations.c](src/sem-1/arithmetic-operations.c)
 
 `Output Terminal`
 ```
@@ -296,7 +296,7 @@ WAP in C to take 2 integers as input from the users, then swap their values with
 
 Example : If `A = 4 and B = 5`, after processing they will be `A = 5 and B = 4`
 
-``Answer`` [swap.c](src/swap.c)
+``Answer`` [swap.c](src/sem-1/swap.c)
 
 `Output Terminal`
 ```
@@ -343,7 +343,7 @@ Perimeter = 2 * (Length + Breadth);
 Area = Length * Breadth;
 ```
 
-``Answer`` [rectangle.c](src/rectangle.c)
+``Answer`` [rectangle.c](src/sem-1/rectangle.c)
 
 `Output Terminal`
 ```
@@ -362,7 +362,7 @@ Perimeter = 2 * PI * Radius;
 Area = PI * Radius * Radius;
 ```
 
-``Answer`` [circle.c](src/circle.c)
+``Answer`` [circle.c](src/sem-1/circle.c)
 > If <math.h>.pow is not available, simply multiply the radius twice
 
 `Output Terminal`
@@ -385,7 +385,7 @@ The details which are to be taken as input from the user are :
 - Attendance Percentage of the student (double / long float)
 - Grade (char)
 
-``Answer`` [variables.c](src/variables.c)
+``Answer`` [variables.c](src/sem-1/variables.c)
 
 `Output Terminal`
 ```
@@ -415,7 +415,7 @@ WAP in C to input integers and perform a variety of operations on them including
 - Ternary Operations
 - Bitwise Operations
 
-`Answer` [operators.c](src/operators.c)
+`Answer` [operators.c](src/sem-1/operators.c)
 
 `Output Terminal`
 ```
@@ -547,7 +547,7 @@ If 3 points are collinear then the slope of the 3rd and 2nd point will be equal 
 
 ![Collinear Points](.README/collinear.png)
 
-`Answer` [collinearPoints.c](src/collinearPoints.c)
+`Answer` [collinearPoints.c](src/sem-1/collinearPoints.c)
 
 `Output Terminal`
 ```
@@ -575,7 +575,7 @@ Points are non collinear
 ### 9. Sign Detector
 WAP in C to input an integer and check whether it is zero, a positive number or a negative number.
 
-`Answer` [signDetector.c](src/signDetector.c)
+`Answer` [signDetector.c](src/sem-1/signDetector.c)
 
 `Output Terminal`
 ```
@@ -605,7 +605,7 @@ Number is zero
 ### 10. Odd/Even
 WAP in C to input an integer and check whether it is an odd or even number.
 
-`Answer` [oddEven.c](src/oddEven.c)
+`Answer` [oddEven.c](src/sem-1/oddEven.c)
 
 `Output Terminal`
 ```
@@ -627,7 +627,7 @@ Number is an even number
 ### 11. Maximum between 2 numbers
 WAP in C to find the maximum between 2 given integers and print the number which is bigger. For example if `A = 2` and `B = 5`, you need to print B which is the bigger number. The value of the number need not be printed. (Edge case : Both the numbers might be equal)
 
-`Answer` [max2Numbers.c](src/max2Numbers.c)
+`Answer` [max2Numbers.c](src/sem-1/max2Numbers.c)
 
 `Output Terminal`
 ```
@@ -653,7 +653,7 @@ B is equal to A
 ### 12. Maximum between 3 numbers
 WAP in C to find the maximum between 3 given integers and print the number which is bigger. For example if `A = 2`, `B = 5`, `C = 6` you need to print C which is the biggest number amongst the three. The value of the number need not be printed. (Edge case : All the numbers might be the same)
 
-`Answer` [max3Numbers.c](src/max3Numbers.c)
+`Answer` [max3Numbers.c](src/sem-1/max3Numbers.c)
 
 `Output Terminal`
 ```
@@ -681,7 +681,7 @@ All the numbers are equal
 ### 13. 3, 5 Divisibility Test
 WAP in C to enter an integer and check whether it is divisible by 3 or 5. (Edge case : It might be divisible by both or none, for which you might or might not need to add a separate output if asked, which will make it the commonly asked [Fizz Buzz Problem](https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/))
 
-`Answer` [div3-5.c](src/div3-5.c)
+`Answer` [div3-5.c](src/sem-1/div3-5.c)
 
 `Output Terminal`
 ```
@@ -704,7 +704,7 @@ Divisible by neither 3 nor 5
 ### 14. Rectangle Area vs Perimeter Check
 WAP in C to input the dimensions of a rectangle (width and breadth) and check if the area of the rectangle is greater than its perimeter. [Formulas](#4-rectangle) have already been discussed.
 
-`Answer` [rectangle-area-vs-perimeter.c](src/rectangle-area-vs-perimeter.c)
+`Answer` [rectangle-area-vs-perimeter.c](src/sem-1/rectangle-area-vs-perimeter.c)
 
 `Output Terminal`
 ```
@@ -734,7 +734,7 @@ Area is greater than the perimeter
 ### 15. 3 Digit Number
 WAP in C to input an integer and check whether it is a 3 digit number or not
 
-`Answer` [digit3Number](src/digit3Number.c)
+`Answer` [digit3Number](src/sem-1/digit3Number.c)
 
 `Output Terminal`
 ```
@@ -759,7 +759,7 @@ WAP in C to input 3 numbers and check whether they can be used to form a valid t
 
 ![](.README/triangleInequalityTheorem.png)
 
-`Answer` [validTriangleSides.c](src/validTriangleSides.c)
+`Answer` [validTriangleSides.c](src/sem-1/validTriangleSides.c)
 
 `Output Terminal`
 ```
@@ -787,7 +787,7 @@ A valid triangle can't be formed
 ### 17. Valid Triangle Angles
 WAP in C to input 3 numbers and check if those can the angles used to form a triangle. The sum of the angles should be equal to 180.
 
-`Answer` [validTriangleAngles.c](src/validTriangleAngles.c)
+`Answer` [validTriangleAngles.c](src/sem-1/validTriangleAngles.c)
 
 `Output Terminal`
 ```
@@ -821,7 +821,7 @@ WAP in C to input the age of the user and give them their respective category as
 | > 60    | Old 
 
 
-`Answer` [ageCategory.c](src/ageCategory.c)
+`Answer` [ageCategory.c](src/sem-1/ageCategory.c)
 
 `Output Terminal`
 ```
@@ -849,7 +849,7 @@ Category : Old
 ### 19. Discount Calculator
 While purchasing certain items, a discount of 10% is offered if the quantity purchased is more than 1000. If quantity and price per item are input through the keyboard. WAP in C to calculate the total expenses.
 
-`Answer` [discountCalculator.c](src/discountCal.c)
+`Answer` [discountCalculator.c](src/sem-1/discountCal.c)
 
 `Output Terminal`
 ```
@@ -873,7 +873,7 @@ Total Amount is : 1536.0000
 ### 20. Salary Calculator
 In a company an employee is paid as under: If their basic salary is less than `Rs. 1500`, then `HRA = 10%` of basic salary and `DA = 90%` of basic salary. If their salary is either equal to or above `Rs. 1500`, then `HRA = Rs. 500` and `DA = 98%` of basic salary. WAP in C to input the basic salary of the employee and calculate their gross salary.
 
-`Answer` [salaryCalculator.c](src/salaryCalculator.c)
+`Answer` [salaryCalculator.c](src/sem-1/salaryCalculator.c)
 
 `Output Terminal`
 ```
@@ -901,7 +901,7 @@ WAP in C to input the marks attained by a student in 5 different subjects and ca
 | 40 - 49      | 3rd Division  |
 | <= 40        | Fail          |
 
-`Answer` [gradeDivisionCalculator](src/gradeDivisionCalculator.c)
+`Answer` [gradeDivisionCalculator](src/sem-1/gradeDivisionCalculator.c)
 
 `Output Terminal`
 ```
@@ -922,7 +922,7 @@ Percentage obtained : 80.20%
 WAP in C to input an character and check whether it is the following or not without using any pre-built character check methods.
 It might be an upper case alphabet (`A - Z`), lower case (`a - z`) or digit (`0 - 9`) or a special character (`#, @, %, $`, etc)
 
-`Answer` [characterChecker.c](src/characterChecker.c)
+`Answer` [characterChecker.c](src/sem-1/characterChecker.c)
 
 `Output Terminal`
 ```
@@ -943,7 +943,7 @@ Special Character : #
 ### 23. Vowel Consonant Checker
 WAP in C to input an alphabet and check whether it is a vowel or consonant without using any string functions.
 
-`Answer` [vowelConsonant.c](src/vowelConsonant.c)
+`Answer` [vowelConsonant.c](src/sem-1/vowelConsonant.c)
 
 `Output Terminal`
 ```
@@ -975,7 +975,7 @@ WAP in C to input a year and check whether it is a leap year or not. Leap year r
 
 > Wanna know why that exception exists? Read more about it [here](https://en.wikipedia.org/wiki/Leap_year#Gregorian%20calendar:~:text=in%20leap%20years.-,Gregorian%20calendar,-%5Bedit%5D)
 
-`Answer` [leapYear.c](src/leapYear.c)
+`Answer` [leapYear.c](src/sem-1/leapYear.c)
 
 `Output Terminal`
 ```
@@ -997,7 +997,7 @@ Year 1800 is not a leap year
 WAP in C to input 2 operands and a single operand and print out the result.
 The program should support the follow operations : `+`, `-`, `*`, `/`, `%`.
 
-`Answer` [simpleCalculator.c](src/simpleCalculator.c)
+`Answer` [simpleCalculator.c](src/sem-1/simpleCalculator.c)
 
 `Output Terminal`
 ```
@@ -1031,7 +1031,7 @@ WAP in C to create a simple grade calculator based on the average of the marks i
 | 40 - 49      | D     |
 | < 40         | F     |
 
-`Answer` [simpleGradeCalculator.c](src/simpleGradeCalculator.c)
+`Answer` [simpleGradeCalculator.c](src/sem-1/simpleGradeCalculator.c)
 
 `Output Terminal`
 ```
@@ -1046,7 +1046,7 @@ Grade Attained : B
 WAP in C to enter the number of units used and calculate the total price based on the slabs.
 For the first `102` units the price per unit is `4.89` for the next `58` units the price is `5.40` and for units any higher each unit will be priced at `6.50`
 
-`Answer` [electricityBill.c](src/electricityBill.c)
+`Answer` [electricityBill.c](src/sem-1/electricityBill.c)
 
 `Output Terminal`
 ```
@@ -1060,7 +1060,7 @@ The total cost for is : 941.980
 ### 28. Force Calculation
 WAP in C to calculate the force after taking `mass (kg)` and `acceleration (m/s^2)` as input from the user. Use the formula : `Force  = Mass * Acceleration`.
 
-`Answer` [forceCal.c](src/forceCal.c)
+`Answer` [forceCal.c](src/sem-1/forceCal.c)
 
 `Output Terminal`
 ```
@@ -1077,7 +1077,7 @@ Force : 5000.00 N
 ### 29. Distance Calculation
 WAP in C to enter the `distance traveled (d)` after taking the `initial velocity (u) m/s`, `acceleration (f) m/s^2` and `time (t) s` as input from the user. Use the second equation of motion : `d = ut + 1/2ft^2`.
 
-`Answer` [distanceCal.c](src/distanceCal.c)
+`Answer` [distanceCal.c](src/sem-1/distanceCal.c)
 
 `Output Terminal`
 ```
@@ -1093,7 +1093,7 @@ Distance Traveled : 1168.00 m
 ### 30. Final Velocity Calculation
 WAP in C to calculate the `final velocity (v)` after taking the `initial velocity (u) m/s`, `acceleration (a) m/s^2` and `displacement (d)` as input from the user. Use the third equation of motion : `v^2 = u^2 + 2ad`, `v = sqrt(u^2 + 2ad)`
 
-`Answer` [finalVelCal.c](src/finalVelCal.c)
+`Answer` [finalVelCal.c](src/sem-1/finalVelCal.c)
 
 `Output Terminal`
 ```
@@ -1116,7 +1116,7 @@ Months = (Days % 365) / 30
 Weeks = ((Days % 365) % 30) / 7
 Days = ((Days % 365) % 30) % 7
 ```
-`Answer` [daysConvertor.c](src/daysConvertor.c)
+`Answer` [daysConvertor.c](src/sem-1/daysConvertor.c)
 
 `Output Terminal`
 ```
@@ -1135,7 +1135,7 @@ Hours = Seconds / 3600
 Minutes = (Seconds % 3600) / 60
 Seconds = (Seconds % 3600) % 60
 ```
-`Answer` [secondsConvertor.c](src/secondsConvertor.c)
+`Answer` [secondsConvertor.c](src/sem-1/secondsConvertor.c)
 
 `Output Terminal`
 ```
@@ -1157,7 +1157,7 @@ Hours = (T1_Hours + T2_Hours) + (T1_Minutes + T2_Minutes) / 60 + (T1_Seconds + T
 ```
 
 
-`Answer` [timeAdder.c](src/timeAdder.c)
+`Answer` [timeAdder.c](src/sem-1/timeAdder.c)
 
 `Output Terminal`
 ```
@@ -1186,7 +1186,7 @@ Inches = (D1_Inches + D2_Inches) % 12
 Feet = (D1_Feet + D2_Feet) + ((D1_Inches + D2_Inches) / 12)
 ```
 
-`Answer` [distanceAdder.c](src/distanceAdder.c)
+`Answer` [distanceAdder.c](src/sem-1/distanceAdder.c)
 
 `Output Terminal`
 ```
@@ -1206,7 +1206,7 @@ D3 = 11 feet 3 inch(es)
 ### 35. Day Of Week
 WAP in C to find the day of the week using switch-case.
 
-`Answer` [dayOfWeek.c](src/dayOfWeek.c)
+`Answer` [dayOfWeek.c](src/sem-1/dayOfWeek.c)
 
 `Output Terminal`
 ```
@@ -1228,7 +1228,7 @@ The corresponding day is : INVALID, No day was found at 8
 ### 36. Month Name
 WAP in C to find the month name using switch-case.
 
-`Answer` [monthName.c](src/monthName.c)
+`Answer` [monthName.c](src/sem-1/monthName.c)
 
 `Output Terminal`
 ```
@@ -1250,7 +1250,7 @@ The corresponding month is : INVALID, No month was found at 13
 ### 37. Vowel Consonant Checker (Switch Case)
 WAP in C to check whether a character is a vowel or consonant using switch-case.
 
-`Answer` [vowelConsonantSwitchCase.c](src/vowelConsonantSwitchCase.c)
+`Answer` [vowelConsonantSwitchCase.c](src/sem-1/vowelConsonantSwitchCase.c)
 
 `Output Terminal`
 ```
@@ -1280,7 +1280,7 @@ Enter the character : 6
 ### 38. Display Number
 WAP in C to display numbers (0–9) in words using switch-case.
 
-`Answer` [displayNumber.c](src/displayNumber.c)
+`Answer` [displayNumber.c](src/sem-1/displayNumber.c)
 
 `Output Terminal`
 ```
@@ -1305,7 +1305,7 @@ WAP in C to calculate the area of any given shape (add at least 3 shapes the use
 > [!NOTE] 
 I have added Square (a^2), Circle (PI * r^2) and Triangle (1/2 * b * h).
 
-`Answer` [shapeAreaCalculator.c](src/shapeAreaCalculator.c)
+`Answer` [shapeAreaCalculator.c](src/sem-1/shapeAreaCalculator.c)
 
 `Output Terminal`
 ```
@@ -1345,7 +1345,7 @@ where C = Temperature in Celsius Scale
       F = Temperature in Fahrenheit Scale
 ```
 
-`Answer` [temperatureConvertor.c](src/temperatureConvertor.c)
+`Answer` [temperatureConvertor.c](src/sem-1/temperatureConvertor.c)
 
 `Output Terminal`
 ```
@@ -1369,7 +1369,7 @@ Temperature in Celsius : 36.67
 ### 41. Odd Even Switch Case
 WAP in C to check whether a number is even, odd, or zero using switch case.
 
-`Answer` [oddEvenSwitchCase.c](src/oddEvenSwitchCase.c)
+`Answer` [oddEvenSwitchCase.c](src/sem-1/oddEvenSwitchCase.c)
 
 `Output Terminal`
 ```
@@ -1401,7 +1401,7 @@ The number is odd
 ### 42. Leap Year Checker Switch Case
 WAP in C to check whether a year is a leap year using switch-case. You can read about the rules of leap years [here](#24-leap-year-checker) (normal leap year question).
 
-`Answer` [leapYearSwitchCase.c](src/leapYearSwitchCase.c)
+`Answer` [leapYearSwitchCase.c](src/sem-1/leapYearSwitchCase.c)
 
 `Output Terminal`
 ```
@@ -1434,7 +1434,7 @@ Year 2024 is a leap year
 ### 43. Currency Convertor
 WAP in C to convert currency (USD ↔ INR, EUR ↔ INR) using switch case.
 
-`Answer` [currencyConvertor.c](src/currencyConvertor.c)
+`Answer` [currencyConvertor.c](src/sem-1/currencyConvertor.c)
 
 `Output Terminal`
 ```
@@ -1471,7 +1471,7 @@ Enter the amount : 50
 ### 44. Marks Viewer  
 WAP in C to display student result (Total, Average, Pass/Fail) using switch case. After inputting marks in 3 subjects.
 
-`Answer` [marksViewer.c](src/marksViewer.c)
+`Answer` [marksViewer.c](src/sem-1/marksViewer.c)
 
 `Output Terminal`
 ```
@@ -1511,7 +1511,7 @@ Average Marks : 60.00
 ### 45. Traffic Light System
 WAP in C to simulate a traffic light system using switch case.
 
-`Answer` [trafficLightSystem.c](src/trafficLightSystem.c)
+`Answer` [trafficLightSystem.c](src/sem-1/trafficLightSystem.c)
 
 `Output Terminal`
 ```
@@ -1535,7 +1535,7 @@ WAP in C to calculate electricity bill for different customer categories using s
 | Commercial         | ₹8             |
 | Industry           | ₹20            |
 
-`Answer` [customerElectricBillCalculator.c](src/customerElectricBillCal.c)
+`Answer` [customerElectricBillCalculator.c](src/sem-1/customerElectricBillCal.c)
 
 `Output Terminal`
 ```
@@ -1571,7 +1571,7 @@ Bill Amount : 500
 ### 47. Sum of numbers up to n
 WAP in C to input a number `n` and use any type of loop to find the sum of all +ve integers up to `n` and print it out as the output.
 
-`Answer` [sumUptoN.c](src/sumUptoN.c)
+`Answer` [sumUptoN.c](src/sem-1/sumUptoN.c)
 
 `Output Terminal`
 ```
@@ -1585,7 +1585,7 @@ Sum of integers up to 5 : 10
 ### 48. Sum of even numbers up to n
 WAP in C to input a number `n` and use any type of loop to find the sum of all +ve even integers up to `n` and print it out as the output.
 
-`Answer` [evenSumUptoN.c](src/evenSumUptoN.c)
+`Answer` [evenSumUptoN.c](src/sem-1/evenSumUptoN.c)
 
 `Output Terminal`
 ```
@@ -1599,7 +1599,7 @@ Sum of even integers up to 5 : 6
 ### 49. Sum of Digits
 WAP in C to input a number `n` and use any type of loop to find the sum of all its digits print it out as the output.
 
-`Answer` [sumOfDigits.c](src/sumOfDigits.c)
+`Answer` [sumOfDigits.c](src/sem-1/sumOfDigits.c)
 
 `Output Terminal`
 ```
@@ -1613,7 +1613,7 @@ Sum of digits of 256 : 13
 ### 50. Reverse Digits
 WAP in C to input a number `n` and use any type of loop to find reverse the number by reversing the order of its digits and print the reversed number as output.
 
-`Answer` [reverseDigits.c](src/reverseDigits.c)
+`Answer` [reverseDigits.c](src/sem-1/reverseDigits.c)
 
 `Output Terminal`
 ```
@@ -1627,7 +1627,7 @@ Reverse of 256 <=> 652
 ### 51. Palindrome Number
 WAP in C to input a number `n` and check whether it is palindrome number or not. A palindrome number is one which reads the same from the front and back. So its reverse and itself are the same number. Example : `121 = 121`, where as `52 != 25`
 
-`Answer` [palindromeNumber.c](src/palindromeNumber.c)
+`Answer` [palindromeNumber.c](src/sem-1/palindromeNumber.c)
 
 `Output Terminal`
 ```
@@ -1658,7 +1658,7 @@ Example :
      = 3! * 2 * 1
 ```
 
-`Answer` [factorial.c](src/factorial.c)
+`Answer` [factorial.c](src/sem-1/factorial.c)
 
 `Output Terminal`
 ```
@@ -1688,7 +1688,7 @@ So
 0, 1, 2, 3, 5, 8, 13...
 ```
 
-`Answer` [fibonacci.c](src/fibonacci.c)
+`Answer` [fibonacci.c](src/sem-1/fibonacci.c)
 
 `Output Terminal`
 ```
@@ -1709,7 +1709,7 @@ Invalid number of elements!
 WAP in C to input parking hours and calculate the total fee based on hourly rates.
 Use if for special rates like “first hour free”, “flat rate after 10 hours", "flat rates after 24 hours".
 
-`Answer` [parkingFeeCalculator.c](src/parkingFeeCalculator.c)
+`Answer` [parkingFeeCalculator.c](src/sem-1/parkingFeeCalculator.c)
 
 `Output Terminal`
 ```
@@ -1732,7 +1732,7 @@ Price for 1 hour(s) of parking : 0.00
 WAP in C to input an amount and calculate minimum number of notes
 (500, 200, 100, 50, 10, coins etc) So for example : `1544` will require `3 x 500`, `4 x 10` notes and `4 x 1 coins`.
 
-`Answer` [currencyNoteCalculator.c](src/currencyNoteCalculator.c)
+`Answer` [currencyNoteCalculator.c](src/sem-1/currencyNoteCalculator.c)
 
 `Output Terminal`
 ```
@@ -1772,7 +1772,7 @@ For example :
 Thus 153 is an armstrong number
 ```
 
-`Answer` [armStrong.c](src/armStrong.c)
+`Answer` [armStrong.c](src/sem-1/armStrong.c)
 
 `Output Terminal`
 ```
@@ -1801,7 +1801,7 @@ For example :
 and 1 + 2 + 3 = 6
 ```
 
-`Answer` [perfectNumber.c](src/perfectNumber.c)
+`Answer` [perfectNumber.c](src/sem-1/perfectNumber.c)
 
 `Output Terminal`
 ```
@@ -1827,7 +1827,7 @@ To calculate the G.C.D. one can use [Euclidean Algorithm](https://en.wikipedia.o
 
 ![](.README/euclideanAlgorithm.png)
 
-`Answer` [gcd.c](src/gcd.c)
+`Answer` [gcd.c](src/sem-1/gcd.c)
 
 `Output Terminal`
 ```
@@ -1863,7 +1863,7 @@ Here n is 5
 ```
 Your program should input `n` which describes the number of rows and you should print a triangle made with `*`. 
 
-`Answer` [starTriangle.c](src/starTriangle.c)
+`Answer` [starTriangle.c](src/sem-1/starTriangle.c)
 
 `Output Terminal`
 ```
@@ -1902,7 +1902,7 @@ Here n is 6
 ```
 Your program should input `n` which describes the number of rows and you should print a triangle made with the alphabets. You can assume `(n <= 26) So it never goes past Z` 
 
-`Answer` [alphabetTriangleI.c](src/alphabetTriangleI.c)
+`Answer` [alphabetTriangleI.c](src/sem-1/alphabetTriangleI.c)
 
 `Output Terminal`
 ```
@@ -1942,7 +1942,7 @@ Here n is 6
 ```
 Your program should input `n` which describes the number of rows and you should print a triangle made with the alphabets. You can assume `(n <= 6) So it never goes past Z` 
 
-`Answer` [alphabetTriangleII.c](src/alphabetTriangleII.c)
+`Answer` [alphabetTriangleII.c](src/sem-1/alphabetTriangleII.c)
 
 `Output Terminal`
 ```
@@ -1980,7 +1980,7 @@ Element at 2 : 3
 
 Array : [1, 2, 3]
 ```
-`Answer` [arrayInit.c](src/arrayInit.c)
+`Answer` [arrayInit.c](src/sem-1/arrayInit.c)
 
 > [!NOTE]
 One can use directly print each element on a new line if they want to avoid the `[` and `,` logic.
@@ -2017,7 +2017,7 @@ Array : [4,9,7,6,2]
 ### 63. Array Element Sum
 WAP in C to input a number `length` and create an array of length `length`, enter elements into that array and then find the sum of all its elements and print it.
 
-`Answer` [arrayElementSum.c](src/arrayElementSum.c)
+`Answer` [arrayElementSum.c](src/sem-1/arrayElementSum.c)
 
 `Output Terminal`
 ```
@@ -2056,7 +2056,7 @@ So we can assume the maximum to be 0 and then compare this maximum with every el
 > [!NOTE]
 If all sorts of values are allowed, then the default value of max must be INT_MIN and not 0. For which one must use the `limit.h` file. We use this header in the next question.
 
-`Answer` [largestArrayElement.c](src/largestArrayElement.c)
+`Answer` [largestArrayElement.c](src/sem-1/largestArrayElement.c)
 
 `Output Terminal`
 ```
@@ -2081,7 +2081,7 @@ So we can assume the minimum to be `INT_MAX` and then compare this minimum with 
 > [!NOTE]
 If one knows the upper limit of the values of the elements then they can use that value as the default value for minimum instead of `INT_MAX`.
 
-`Answer` [smallestArrayElement.c](src/smallestArrayElement.c)
+`Answer` [smallestArrayElement.c](src/sem-1/smallestArrayElement.c)
 
 `Output Terminal`
 ```
@@ -2107,7 +2107,7 @@ WAP in C to input a number `length` and create an array of length `length`, ente
 > [!NOTE]
 Once the array is sorted in ascending order, the first element will be the smallest while the last element will be the largest.
 
-`Answer` [selectionSort.c](src/selectionSort.c)
+`Answer` [selectionSort.c](src/sem-1/selectionSort.c)
 
 `Output Terminal`
 ```
@@ -2133,7 +2133,7 @@ WAP in C to input a number `length` and create an array of length `length`, ente
 
 ![](.README/linearSearch.webp)
 
-`Answer` [linearSearch.c](src/linearSearch.c)
+`Answer` [linearSearch.c](src/sem-1/linearSearch.c)
 
 `Output Terminal`
 ```
@@ -2169,7 +2169,7 @@ Enter the element which is to be searched : 3
 ### 68. 2D Array Initialization
 WAP in C to declare a 2D array of order `n * m` where `n` is the number of rows and `m` is the number of columns. Take input for the elements and store it in the array and then display it as a matrix.
 
-`Answer` [2D-arrayInit.c](src/2D-arrayInit.c)
+`Answer` [2D-arrayInit.c](src/sem-1/2D-arrayInit.c)
 
 `Output Terminal`
 ```
@@ -2204,7 +2204,7 @@ A number is a prime number if it is a `+ve` number more than 1 `(n > 1)` and has
 > [!NOTE]
 We can solve this in various ways, but most of them work on the principle of simply counting the number of factors the number has. So we can start a loop from 1 till `n` and count the numbers which are `n`'s factors. To optimize it we can optimize it further by running the loop from `2` to `n/2` or even better to `sqrt(n)` as if any other number in that range is a factor of `n` that directly means `n` is composite.
 
-`Answer` [primeChecker.c](src/primeChecker.c)
+`Answer` [primeChecker.c](src/sem-1/primeChecker.c)
 
 `Output Terminal`
 ```
@@ -2230,7 +2230,7 @@ WAP in C to input 2 matrices of the same order `n` * `m` and then add them up th
 > Matrix addition works by adding each element of the first element with each element of the second matrix. This is why the order of the matrices need to be the same in order to be added together.
 > ![](.README/matrix-addition.png)
 
-`Answer` [matrixSum.c](src/matrixSum.c)
+`Answer` [matrixSum.c](src/sem-1/matrixSum.c)
 
 > [!NOTE]
 > This answer has repetitive blocks of code for input for matrix, if one has covered functions it will be recommended to turn those in functions to make the code cleaner and the logic clearer.
@@ -2267,7 +2267,7 @@ WAP in C to enter 2 matrices of order `n1` * `m1` and `n2` * `m2` and multiply t
 > The output matrix has the order equal to the row count of the 1st matrix and the column count of the 2nd matrix.
 > ![](.README/matrix-multiplication.png)
 
-`Answer` [matrixMultiplication.c](src/arrayMultiplication.c)
+`Answer` [matrixMultiplication.c](src/sem-1/arrayMultiplication.c)
 
 `Output Terminal`
 ```
@@ -2307,7 +2307,7 @@ WAP in C to enter a matrix of order `n` * `m` and find its transpose of order `m
 
 ![](.README/matrix-transpose.png)
 
-`Answer` [matrixTranspose.c](src/matrixTranspose.c)
+`Answer` [matrixTranspose.c](src/sem-1/matrixTranspose.c)
 
 `Output Terminal`
 ```
@@ -2339,7 +2339,7 @@ WAP in C to input a `n` * `m` matrix and check whether it is symmetric or not. A
 
 ![](.README/matrix-symmetric.webp)
 
-`Answer` [symmetric-matrix.c](src/symmetric-matrix.c)
+`Answer` [symmetric-matrix.c](src/sem-1/symmetric-matrix.c)
 
 > [!NOTE]
 > Here it is implemented using a simple check, one can first find the transpose and then compare the matrices.
@@ -2373,7 +2373,7 @@ WAP in C to enter a matrix of order `n` * `m`and print all the elements of the p
 > ![](.README/diagonal-of-matrix.png)
 
 
-`Answer` [diagonal-elements-matrix.c](src/diagonal-elements-matrix.c)
+`Answer` [diagonal-elements-matrix.c](src/sem-1/diagonal-elements-matrix.c)
 
 `Output Terminal`
 ```
@@ -2400,7 +2400,7 @@ Sum of diagonal elements: 15
 ### 75. 2nd Largest Number
 WAP in C to enter an array of length `n` and find the 2nd largest number in the array and print it to the console.
 
-`Answer` [2ndLargestNumber.c](src/2ndLargestNumber.c)
+`Answer` [2ndLargestNumber.c](src/sem-1/2ndLargestNumber.c)
 
 `Output Terminal`
 ```
@@ -2420,7 +2420,7 @@ Second Largest Element: 54
 ### 76. Odd Even Element Frequency
 WAP in C to enter an array of length `n` and find the frequency (number of) odd and even elements.
 
-`Answer` [oddEvenElementFreq.c](src/oddEvenElementFreq.c)
+`Answer` [oddEvenElementFreq.c](src/sem-1/oddEvenElementFreq.c)
 
 `Output Terminal`
 ```
@@ -2441,7 +2441,7 @@ Odd  Element Frequency: 3
 ### 77. Maximum Function
 WAP in C to find the maximum between two numbers using functions.
 
-`Answer` [maximumFunc.c](src/maximumFunc.c)
+`Answer` [maximumFunc.c](src/sem-1/maximumFunc.c)
 
 `Output Terminal`
 ```
@@ -2456,7 +2456,7 @@ Maximum: 6
 ### 78. Arithmetic Functions
 WAP in C to input 2 numbers and perform the arithmetic operations using functions — addition, subtraction, multiplication, and division — on two given numbers. The program should define separate functions for each operation and display the sum, difference, product, and quotient as output.
 
-`Answer` [arithFunc.c](src/arithFunc.c)
+`Answer` [arithFunc.c](src/sem-1/arithFunc.c)
 
 `Output Terminal`
 ```
@@ -2476,7 +2476,7 @@ WAP in C to find the factorial of a given number using a function. And then util
 
 ![](.README/factorial-series.jpeg)
 
-`Answer` [factorialSeries.c](src/factorialSeries.c)
+`Answer` [factorialSeries.c](src/sem-1/factorialSeries.c)
 
 `Output Terminal`
 ```
@@ -2491,7 +2491,7 @@ Sum of series up to 10: 409114
 WAP in C to input a number and find its reverse and check if it is a palindrome number using function. A palindrome number is a number which is the same read backwards as read normally, i.e. its reverse and itself are the same number. Example: `121`, `1331` are palindrome numbers.
 
 
-`Answer` [palindromeChecker.c](src/palindromeChecker.c)
+`Answer` [palindromeChecker.c](src/sem-1/palindromeChecker.c)
 
 `Output Terminal`
 ```
@@ -2513,7 +2513,7 @@ Enter the number: 256
 ### 81. Reverse Array 
 WAP in C to input an array of length `n` and print its elements in reverse order.
 
-`Answer` [reverseArray.c](src/reverseArray.c)
+`Answer` [reverseArray.c](src/sem-1/reverseArray.c)
 
 `Output Terminal`
 ```
@@ -2536,7 +2536,7 @@ WAP in C to to input 2 arrays and print the merged array. You can directly just 
 
 ![](.README/mergeArray.jpg)
 
-`Answer` [mergeArray.c](src/mergeArray.c)
+`Answer` [mergeArray.c](src/sem-1/mergeArray.c)
 
 `Output Terminal`
 ```
@@ -2563,7 +2563,7 @@ Merged Array: 1 2 3 4 5 6 7
 ### 83. Insert Element
 WAP in C to insert an element `x` into a given position `p` within an array of length `n`. If the provided value of `p` is more than `n` insert `x` at the end of the array. 
 
-`Answer` [insertElement.c](src/insertElement.c)
+`Answer` [insertElement.c](src/sem-1/insertElement.c)
 > [!NOTE]
 > You can also directly just print the final array without creating another array 
 > It would look something like this: 
@@ -2600,7 +2600,7 @@ Final Array: [1, 2, 3, 4]
 ### 84. Frequency of Elements
 WAP in C to take in an array of length `n` and find the individual frequencies of all its elements.
 
-`Answer` [frequencyMap.c](src/frequencyMap.c)
+`Answer` [frequencyMap.c](src/sem-1/frequencyMap.c)
 > [!NOTE]
 > Currently the frequency of the same element is displayed multiple times, one can add some more code to keep a record of the elements for which have been checked and thus remove any duplicate prints and optimize it as well.
 >``` 
@@ -2653,7 +2653,7 @@ Element | Frequency
 ### 85. Armstrong Checker
 WAP in C to check if a given number is an armstrong number using functions.
 
-`Answer` [armStrongChecker.c](src/armStrongChecker.c)
+`Answer` [armStrongChecker.c](src/sem-1/armStrongChecker.c)
 
 `Output Terminal`
 ```
@@ -2675,7 +2675,7 @@ Enter the number (n): 153
 ### 86. Prime Checker
 WAP in C to check if a given number is a prime, composite or neither. Any number `<= 1` is neither prime nor composite, as `1` and `0` only have one factor and `negative ( < 0)` numbers are neither prime or composite by the definition of prime or composite numbers.
 
-`Answer` [primeComChecker.c](src/primeComChecker.c)
+`Answer` [primeComChecker.c](src/sem-1/primeComChecker.c)
 > [!NOTE]
 > The logic is equivalent to the previous prime checker we made, so if you haven't already you will be recommended to have a look at the normal [prime number program](#69-prime-number) first.
 
@@ -2707,7 +2707,7 @@ Enter the number: 1
 ### 87. GCD LCM Finder
 WAP in C to input 2 numbers and find their GCD and LCM. Have a look at the previous [greatest-common-divisor](#58-greatest-common-divisor) program. 
 
-`Answer` [GCDLCMFinder.c](src/GCDLCMFinder.c)
+`Answer` [GCDLCMFinder.c](src/sem-1/GCDLCMFinder.c)
 
 `Output Terminal`
 ```
@@ -2723,7 +2723,7 @@ LCM(15, 20): 60
 ### 88. Area Perimeter Finder
 WAP in C to find the area and perimeter of the geometric shapes - Circle, Rectangle, and Triangle. Have separate functions for the areas and perimeters for the individual shapes. 
 
-`Answer` [areaPerimeterFinder.c](src/areaPerimeterFinder.c)
+`Answer` [areaPerimeterFinder.c](src/sem-1/areaPerimeterFinder.c)
 
 `Output Terminal`
 ```
@@ -2745,7 +2745,7 @@ Area: 12.00, Perimeter: 14.00
 ### 89. Fibonacci Generator
 WAP to enter a number `n` and generate the fibonacci series up to `n` terms using functions.
 
-`Answer` [fibGenerator.c](src/fibGen.c)
+`Answer` [fibGenerator.c](src/sem-1/fibGen.c)
 
 `Output Terminal`
 ```
@@ -2759,7 +2759,7 @@ Enter the value of n: 10
 ### 90. Leap Year Checker
 WAP in C using functions to check whether a given year is leap year or not. The logic used is similar to the one used in [24.Leap Year Checker](#24-leap-year-checker)
 
-`Answer` [leapYearChecker.c](src/leapYearChecker.c)
+`Answer` [leapYearChecker.c](src/sem-1/leapYearChecker.c)
 
 `Output Terminal`
 ```
