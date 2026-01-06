@@ -165,7 +165,7 @@ The problems which were covered in Semester I.
 
 ### Basic Conditional
 | No. | Title                        |                   Description                  |
-| :-: | ---------------------------  `| :--------------------------------------------: |
+| :-: | ---------------------------  | :--------------------------------------------: |
 |  18. | Age Category                |            [View](#18-age-category)            |
 |  19. | Discount Calculator         |         [View](#19-discount-calculator)        |
 |  20. | Salary Calculator           |          [View](#20-salary-calculator)         |
@@ -2788,16 +2788,31 @@ The problems which were covered in Semester II.
 | 1.   | Using Pointers            | [View](#1-use-pointers) 
 | 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
 | 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
+| 4.   | Array using Pointers        | [View](#4-array-using-pointers) 
+| 5.   | Copy Array using Pointers   |[View](#5-copy-array-using-pointers) 
+| 6.   | Swap Arrays using Pointers   |[View](#6-swap-arrays-using-pointers) 
+| 7.   | Reverse Array using Pointers|[View](#7-reverse-array-using-pointers) 
+| 8.   | Search Element using Pointers|[View](#8-search-element-using-pointers) 
 
 
 ### Topic wise Questions List (Semester II)
 
 ### Basic Pointer Programs
 | No. | Title | Description        |
-| - | - | -                        |
+| - | - | :---:                        |
 | 1.   | Using Pointers            | [View](#1-use-pointers) 
 | 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
 | 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
+
+### 1D Array Pointer Programs
+| No. | Title | Description        |
+| - | - | :---:                        |
+| 4.   | Array using Pointers        | [View](#4-array-using-pointers) 
+| 5.   | Copy Array using Pointers   |[View](#5-copy-array-using-pointers) 
+| 6.   | Swap Arrays using Pointers   |[View](#6-swap-arrays-using-pointers) 
+| 7.   | Reverse Array using Pointers|[View](#7-reverse-array-using-pointers) 
+| 8.   | Search Element using Pointers|[View](#8-search-element-using-pointers) 
+
 
 ### 1. Using Pointers
 WAP in C to create, initialize and use pointers.
@@ -2840,6 +2855,148 @@ Enter the value of B: 8
 
 === [OUTPUT] ===
 A: 8, B: 5
+```
+
+### 4. Array Using Pointers
+WAP in C to input and print array elements using pointers.
+
+``Answer`` [arrayUsingPointers.c](src/sem-2/arrayUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter size of the array: 5
+
+---Enter the elements of the array---
+Enter the element at (0): 1
+Enter the element at (1): 8
+Enter the element at (2): 7
+Enter the element at (3): 9
+Enter the element at (4): 6
+
+=== [OUTPUT] ===
+1 8 7 9 6
+```
+
+### 5. Copy Array Using Pointers
+WAP in C to copy one array to other using pointers.
+
+``Answer`` [copyArrayUsingPointers.c](src/sem-2/copyArrayUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the size of the array: 5
+
+---Enter the elements of the array---
+Enter the element at (0): 1
+Enter the element at (1): 2
+Enter the element at (2): 9
+Enter the element at (3): 8
+Enter the element at (4): 7
+
+=== [OUTPUT] ===
+1 2 9 8 7 
+```
+
+### 6. Swap Arrays Using Pointers
+WAP in C to swap two arrays using pointers.
+
+``Answer`` [swapArraysUsingPointers.c](src/sem-2/swapArraysUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the size of the arrays: 6
+
+
+=== Populating Array 'A (1st Array)' ===
+---Enter the elements of the array---
+Enter the element at (0): 1
+Enter the element at (1): 3
+Enter the element at (2): 4
+Enter the element at (3): 5
+Enter the element at (4): 6
+Enter the element at (5): 7
+
+Array 'A': [1, 3, 4, 5, 6, 7]
+
+=== Populating Array 'B (2nd Array)' ===
+---Enter the elements of the array---
+Enter the element at (0): 2
+Enter the element at (1): 6
+Enter the element at (2): 5
+Enter the element at (3): 3
+Enter the element at (4): 7
+Enter the element at (5): 9
+
+Array 'B': [2, 6, 5, 3, 7, 9]
+
+=== [OUTPUT] ===
+Array 'A': [2, 6, 5, 3, 7, 9]
+Array 'B': [1, 3, 4, 5, 6, 7]
+```
+
+### 7. Reverse Array Using Pointers
+WAP in C to reverse an array using pointers.
+
+``Answer`` [reverseArrayUsingPointers.c](src/sem-2/reverseArrayUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the size of the array: 5
+
+---Enter the elements of the array---
+Enter the element at (0): 7
+Enter the element at (1): 8
+Enter the element at (2): 4
+Enter the element at (3): 5
+Enter the element at (4): 6
+
+=== [OUTPUT] ===
+6 5 4 8 7
+```
+### 8. Search Element Using Pointers
+WAP in C to search an element in array using pointers.
+
+``Answer`` [searchElementUsingPointers.c](src/sem-2/searchElementUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the size of the array: 5
+
+---Enter the elements of the array---
+Enter the element at (0): 8
+Enter the element at (1): 9
+Enter the element at (2): 7
+Enter the element at (3): 5
+Enter the element at (4): 1
+
+Enter the element which is to be searched: 9
+
+
+=== [OUTPUT] ===
+Target element '9' was found at index '1'
+```
+
+```
+=== [INPUT] ===
+Enter the size of the array: 5
+
+---Enter the elements of the array---
+Enter the element at (0): 7
+Enter the element at (1): 5
+Enter the element at (2): 9
+Enter the element at (3): 1
+Enter the element at (4): 3
+
+Enter the element which is to be searched: 2
+
+
+=== [OUTPUT] ===
+Target element '2' wasn't found in the array
 ```
 
 ## Setup
