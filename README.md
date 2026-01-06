@@ -11,7 +11,8 @@ Below are all the questions arranged based on their semester and topic.
 
 | Semester | Question List | Topic Wise Question List |
 | - | - | - |
-| 1| [Question List](#question-list-semester-i)| [Topic Wise List](#topic-wise-questions-list-semester-i)  |
+| 1| [Question List](#question-list-semester-i)|  [Topic Wise List](#topic-wise-questions-list-semester-i)  |
+| 2| [Question List](#question-list-semester-ii)| [Topic Wise List](#topic-wise-questions-list-semester-ii)  |
 
 ### Semester I
 The problems which were covered in Semester I.
@@ -110,7 +111,6 @@ The problems which were covered in Semester I.
 | 88.  | Area Perimeter Finder                    | [View](#88-area-perimeter-finder) |
 | 89.  | Fibonacci Generator                      | [View](#89-fibonacci-generator) |
 | 90.  | Leap Year Checker (Function)             | [View](#90-leap-year-checker) |
-</details>
 
 ### Topic wise Questions List (Semester I)
 
@@ -124,8 +124,8 @@ The problems which were covered in Semester I.
 | 7. | Operators in C | [View](#7-operators-in-c) |
 
 ### Simple Programs
-| No. | Title                          |              Description              |
-| :-: | ------------------------------ | :-----------------------------------: |
+| No. | Title                           |              Description              |
+| :-: | ------------------------------  | :-----------------------------------: |
 |  9.  | Sign Detector                  |        [View](#9-sign-detector)       |
 |  10. | Odd/Even                       |          [View](#10-oddeven)          |
 |  11. | Maximum between 2 numbers      | [View](#11-maximum-between-2-numbers) |
@@ -133,39 +133,39 @@ The problems which were covered in Semester I.
 |  13. | Divisibility check for 3 and 5 |   [View](#13-3-5-divisibility-test)   |
 |  15. | 3 Digit Number                 |       [View](#15-3-digit-number)      |
 |  24. | Leap Year Checker              |     [View](#24-leap-year-checker)     |
-|  69. | Prime Number                  |       [View](#69-prime-number)       |
+|  69. | Prime Number                   |       [View](#69-prime-number)       |
 |  55. | Currency Note Calculator       |  [View](#55-currency-note-calculator) |
 
 ### Simple Maths Programs
-| No. | Title                             |                  Description                  |
-| :-: | --------------------------------- | :-------------------------------------------: |
-|  4. | Rectangle                         |              [View](#4-rectangle)             |
-|  5. | Circle                            |               [View](#5-circle)               |
-|  8. | Collinear Points                  |          [View](#8-collinear-points)          |
+| No. | Title                              |                  Description                  |
+| :-: | ---------------------------------  | :-------------------------------------------: |
+|  4. | Rectangle                          |              [View](#4-rectangle)             |
+|  5. | Circle                             |               [View](#5-circle)               |
+|  8. | Collinear Points                   |          [View](#8-collinear-points)          |
 |  14. | Rectangle Area vs Perimeter Check | [View](#14-rectangle-area-vs-perimeter-check) |
 |  16. | Valid Triangle Sides              |        [View](#16-valid-triangle-sides)       |
 |  17. | Valid Triangle Angles             |       [View](#17-valid-triangle-angles)       |
 |  58. | Greatest Common Divisor           |      [View](#58-greatest-common-divisor)      |
 
 ### Simple Physics Programs
-| No. | Title                      |               Description              |
-| :-: | -------------------------- | :------------------------------------: |
+| No. | Title                       |               Description              |
+| :-: | --------------------------  | :------------------------------------: |
 |  28. | Force Calculation          |      [View](#28-force-calculation)     |
 |  29. | Distance Calculation       |    [View](#29-distance-calculation)    |
 |  30. | Final Velocity Calculation | [View](#30-final-velocity-calculation) |
 
 ### Date and Time Programs
 
-| No. | Title             |          Description          |
-| :-: | ----------------- | :---------------------------: |
+| No. | Title              |          Description          |
+| :-: | -----------------  | :---------------------------: |
 |  31. | Days Convertor    |   [View](#31-days-convertor)  |
 |  32. | Seconds Convertor | [View](#32-seconds-convertor) |
 |  33. | Time Adder        |     [View](#33-time-adder)    |
 |  34. | Distance Adder    |   [View](#34-distance-adder)  |
 
 ### Basic Conditional
-| No. | Title                       |                   Description                  |
-| :-: | --------------------------- | :--------------------------------------------: |
+| No. | Title                        |                   Description                  |
+| :-: | ---------------------------  `| :--------------------------------------------: |
 |  18. | Age Category                |            [View](#18-age-category)            |
 |  19. | Discount Calculator         |         [View](#19-discount-calculator)        |
 |  20. | Salary Calculator           |          [View](#20-salary-calculator)         |
@@ -2776,6 +2776,70 @@ Enter the year: 1600
 
 === [OUTPUT] ===
 1600 is a leap year
+```
+
+### Semester II
+The problems which were covered in Semester II.
+
+### Question List (Semester II)
+
+|      | Title                     | Description 
+|  -   | -                         |:---:
+| 1.   | Using Pointers            | [View](#1-use-pointers) 
+| 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
+| 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
+
+
+### Topic wise Questions List (Semester II)
+
+### Basic Pointer Programs
+| No. | Title | Description        |
+| - | - | -                        |
+| 1.   | Using Pointers            | [View](#1-use-pointers) 
+| 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
+| 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
+
+### 1. Using Pointers
+WAP in C to create, initialize and use pointers.
+
+``Answer`` [usingPointers.c](src/sem-2/usingPointers.c)
+
+`Output Terminal`
+```
+=== [OUTPUT] ===
+a  = 10
+&a = 0000002B593FFCF4
+*p = 10
+p  = 0000002B593FFCF4
+```
+
+### 2. Add using Pointers
+WAP in C to add two numbers using pointers.
+
+``Answer`` [addUsingPointers.c](src/sem-2/addUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of A: 5
+Enter the value of B: 6
+
+=== [OUTPUT] ===
+Sum: 11
+```
+### 3. Swap using Pointers
+WAP in C to swap 2 given numbers using pointers.
+
+``Answer`` [swapUsingPonters.c](src/sem-2/swapUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the value of A: 5
+Enter the value of B: 8
+
+=== [OUTPUT] ===
+A: 8, B: 5
 ```
 
 ## Setup
