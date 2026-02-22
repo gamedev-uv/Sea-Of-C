@@ -2796,6 +2796,11 @@ The problems which were covered in Semester II.
 | 9.   | 2D Matrix using pointers     |[View](#9-2d-matrix-using-pointers) 
 | 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
 | 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
+| 12.  | Length of a string using pointers |[View](#12-length-of-string-using-pointers) 
+| 13.  | Copy string using pointers |[View](#13-copy-string-using-pointers) 
+| 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
+| 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
+| 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
 
 
 ### Topic wise Questions List (Semester II)
@@ -2823,6 +2828,14 @@ The problems which were covered in Semester II.
 | 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
 | 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
 
+### String Pointer Programs
+| No. | Title | Description        |
+| :-: | - | :---:     
+| 12.  | Length of a string using pointers |[View](#12-length-of-string-using-pointers) 
+| 13.  | Copy string using pointers |[View](#13-copy-string-using-pointers) 
+| 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
+| 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
+| 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
 
 ### 1. Using Pointers
 WAP in C to create, initialize and use pointers.
@@ -3132,6 +3145,85 @@ Populating Matrix 'B' [2 x 3]
 26 33 40
 40 51 62
 ```
+
+### 12. Length of string using pointers
+WAP in C to find the length of a string using pointers i.e. create a custom implementation the `strlen` method from the `string.h` header file.
+
+``Answer`` [strlenUsingPointers.c](src/sem-2/strlenUsingPointers.c)
+
+``Output Terminal``
+```
+=== [INPUT] ===
+Enter a string: SeaOfC
+
+=== [OUTPUT] ===
+[BUILT-IN] strlen(SeaOfC): 6
+[.CUSTOM.] length(SeaOfC): 6
+```
+
+### 13. Copy string using pointers
+WAP in C to copy the contents of one string to another i.e. create a custom implementation of the `strcpy` method from the `string.h` header file.
+
+``Answer`` [copyStrPointers.c](src/sem-2/copyStrPointers.c)
+
+``Output Terminal``
+```
+=== [INPUT] ===
+Enter a string: SeaOfC
+
+=== [OUTPUT] ===
+Original Str: SeaOfC, Copied Str: SeaOfC
+```
+
+### 14. Concat strings using pointers
+WAP in C to concat 2 given strings - `destination` and `source`. The `source` string is concatinated to the end of the `destination` string ie. create a custom implementation of the `strcat` method from the `string.h` header file.
+
+
+``Answer`` [concatStrPointers.c](src/sem-2/concatStrPointers.c)
+``Output Terminal``
+```
+=== [INPUT] ===
+Enter your first name: gamedev
+Enter your surname: _uv
+
+=== [OUTPUT] ===
+Concatenated Name: gamedev_uv
+```
+
+### 15. Compare strings using pointers
+WAP in C to compare 2 given strings ie. create a custom implementation of the `strcmp` method from the `string.h` header file.
+
+``Answer`` [strcmpPointers.c](src/sem-2/strcmpPointers.c)
+
+``Ouput Terminal``
+```
+=== [INPUT] ===
+Enter the 1st string: SNU    
+Enter the 2nd string: SUN
+
+=== [OUTPUT] ===
+Compare(SNU, SUN): -7
+```
+
+> [!NOTE]
+> Usage of unsigned char will be recommended for non ASCII input
+
+### 16. Reverse string using pointers
+WAP in C to reverse a string using pointers. Create a custom implementation of `strrev`.
+
+``Answer`` [reverseStrPointers.c](src/sem-2/reverseStrPointers.c)
+
+``Output Terminal``
+```
+=== [INPUT] ===
+Enter the string: CfOaeS
+
+=== [OUTPUT] ===
+Reverse(CfOaeS): SeaOfC
+```
+
+> [!NOTE]
+> If `string.h` is not included, find the length manually using the method used in the previous questions.
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:
