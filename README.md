@@ -2785,33 +2785,43 @@ The problems which were covered in Semester II.
 
 |      | Title                     | Description 
 |  -   | -                         |:---:
-| 1.   | Using Pointers            | [View](#1-use-pointers) 
-| 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
-| 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
-| 4.   | Array using Pointers        | [View](#4-array-using-pointers) 
-| 5.   | Copy Array using Pointers   |[View](#5-copy-array-using-pointers) 
-| 6.   | Swap Arrays using Pointers   |[View](#6-swap-arrays-using-pointers) 
-| 7.   | Reverse Array using Pointers|[View](#7-reverse-array-using-pointers) 
-| 8.   | Search Element using Pointers|[View](#8-search-element-using-pointers) 
+| 1.   | Using pointers            | [View](#1-use-pointers) 
+| 2.   | Add using pointers        | [View](#2-add-using-pointers) 
+| 3.   | Swap using pointers        | [View](#3-swap-using-pointers) 
+| 4.   | Array using pointers        | [View](#4-array-using-pointers) 
+| 5.   | Copy Array using pointers   |[View](#5-copy-array-using-pointers) 
+| 6.   | Swap Arrays using pointers   |[View](#6-swap-arrays-using-pointers) 
+| 7.   | Reverse Array using pointers|[View](#7-reverse-array-using-pointers) 
+| 8.   | Search Element using pointers|[View](#8-search-element-using-pointers) 
+| 9.   | 2D Matrix using pointers     |[View](#9-2d-matrix-using-pointers) 
+| 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
+| 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
 
 
 ### Topic wise Questions List (Semester II)
 
 ### Basic Pointer Programs
 | No. | Title | Description        |
-| - | - | :---:                        |
+| :-: | - | :---:                        |
 | 1.   | Using Pointers            | [View](#1-use-pointers) 
 | 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
 | 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
 
 ### 1D Array Pointer Programs
 | No. | Title | Description        |
-| - | - | :---:                        |
+| :-: | - | :---:                        |
 | 4.   | Array using Pointers        | [View](#4-array-using-pointers) 
 | 5.   | Copy Array using Pointers   |[View](#5-copy-array-using-pointers) 
 | 6.   | Swap Arrays using Pointers   |[View](#6-swap-arrays-using-pointers) 
 | 7.   | Reverse Array using Pointers|[View](#7-reverse-array-using-pointers) 
 | 8.   | Search Element using Pointers|[View](#8-search-element-using-pointers) 
+
+### 2D Array Pointers Programs
+| No. | Title | Description        |
+| :-: | - | :---:                 
+| 9.   | 2D Matrix using pointers     |[View](#9-2d-matrix-using-pointers) 
+| 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
+| 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
 
 
 ### 1. Using Pointers
@@ -2997,6 +3007,130 @@ Enter the element which is to be searched: 2
 
 === [OUTPUT] ===
 Target element '2' wasn't found in the array
+```
+
+### 9. 2D Matrix using pointers
+WAP in C to create a 2D matrix and input and acess its elements using pointers.
+
+``Answer`` [matrix2DUsingPointers.c](src/sem-2/matrix2DUsingPointers.c)
+
+`Output Terminal`
+```
+=== [INPUT] ===
+Enter the number of rows: 3
+Enter the number of columns: 3
+
+---Enter the elements of the matrix---
+ - Enter element at (0, 0): 1
+ - Enter element at (0, 1): 2
+ - Enter element at (0, 2): 3
+ - Enter element at (1, 0): 4
+ - Enter element at (1, 1): 5
+ - Enter element at (1, 2): 6
+ - Enter element at (2, 0): 7
+ - Enter element at (2, 1): 8
+ - Enter element at (2, 2): 9
+
+
+=== [OUTPUT] ===
+---Matrix---
+1 2 3 
+4 5 6 
+7 8 9
+```
+
+### 10. 2D Matrix Sum using pointers
+WAP in C to input 2 2D matrices and find their sum.
+
+``Answer`` [matrix2DSumPointers.c](src/sem-2/matrix2DSumPointers.c)
+
+``Output Terminal``
+```
+=== [INPUT] ===
+Enter the number of rows: 3
+Enter the number of columns: 2
+
+Populating Matrix 'A'
+---Enter the elements of the matrix---
+ - Enter element at (0, 0): 1
+ - Enter element at (0, 1): 2
+ - Enter element at (1, 0): 3
+ - Enter element at (1, 1): 4
+ - Enter element at (2, 0): 5
+ - Enter element at (2, 1): 6
+
+---Matrix A---
+1 2 
+3 4 
+5 6 
+
+Populating Matrix 'B'
+---Enter the elements of the matrix---
+ - Enter element at (0, 0): 3
+ - Enter element at (0, 1): 2
+ - Enter element at (1, 0): 3
+ - Enter element at (1, 1): 2
+ - Enter element at (2, 0): 3
+ - Enter element at (2, 1): 2
+
+---Matrix B---
+3 2
+3 2
+3 2
+
+---Matrix C (SUM)---
+4 4
+6 6
+8 8
+```
+
+### 11. 2D Matrix Product using pointers
+WAP in C to input 2 2D matrices and find their sum.
+
+``Answer``  [matrix2DProductPointers.c](src/sem-2/matrix2DProductPointers.c)
+
+``Output Terminal``
+```
+=== [INPUT] ===
+--- Input for Matrix A ---
+Enter the rows count for Matrix A: 3
+Enter the columns count for Matrix A: 2
+
+--- Input for Matrix B ---
+Enter the rows count for Matrix B: 2
+Enter the columns count for Matrix B: 3
+
+Populating Matrix 'A' [3 x 2]
+---Enter the elements of the matrix---
+ - Enter element at (0, 0): 1
+ - Enter element at (0, 1): 2
+ - Enter element at (1, 0): 3
+ - Enter element at (1, 1): 4
+ - Enter element at (2, 0): 5
+ - Enter element at (2, 1): 6
+
+---Matrix A---
+1 2 
+3 4 
+5 6 
+
+Populating Matrix 'B' [2 x 3]
+---Enter the elements of the matrix---
+ - Enter element at (0, 0): 2
+ - Enter element at (0, 1): 3
+ - Enter element at (0, 2): 4
+ - Enter element at (1, 0): 5
+ - Enter element at (1, 1): 6
+ - Enter element at (1, 2): 7
+
+---Matrix B---
+2 3 4
+5 6 7
+
+---Matrix C (Product)---
+12 15 18
+26 33 40
+40 51 62
 ```
 
 ## Setup
