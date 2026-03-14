@@ -2801,16 +2801,28 @@ The problems which were covered in Semester II.
 | 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
 | 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
 | 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
+| 17.  | Malloc and Calloc              |[View](#17-malloc-and-calloc) 
+| 18.  | Return Multiple Values |[View](#18-multiple-return-values) 
+| 19.  | Write File Contents |[View](#19-write-file-contents) 
+| 20.  | Read File Contents |[View](#20-read-file-contents) 
+| 21.  | Number File Divider |[View](#21-number-file-divider) 
+| 22.  | Append to File |[View](#22-append-to-file) 
+| 23.  | Compare Files |[View](#23-compare-files) 
+| 24.  | Copy File Content |[View](#24-copy-file-contents) 
+| 25.  | Merge Files |[View](#25-merge-files) 
+| 25.  | File Token Counter |[View](#26-token-counter) 
+| 27.  | File Word Remover |[View](#27-remove-word-from-file) 
 
 
 ### Topic wise Questions List (Semester II)
 
-### Basic Pointer Programs
+### Pointer Programs
 | No. | Title | Description        |
 | :-: | - | :---:                        |
 | 1.   | Using Pointers            | [View](#1-use-pointers) 
 | 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
 | 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
+| 18.  | Return Multiple Values |[View](#18-multiple-return-values) 
 
 ### 1D Array Pointer Programs
 | No. | Title | Description        |
@@ -2836,6 +2848,24 @@ The problems which were covered in Semester II.
 | 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
 | 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
 | 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
+
+### Malloc and Calloc
+| No. | Title | Description        |
+| :-: | - | :---:     
+| 17.  | Malloc and Calloc              |[View](#17-malloc-and-calloc) 
+
+### File Programs
+| No. | Title | Description        |
+| :-: | - | :---:     
+| 19.  | Write File Contents |[View](#19-write-file-contents) 
+| 20.  | Read File Contents |[View](#20-read-file-contents) 
+| 21.  | Number File Divider |[View](#21-number-file-divider) 
+| 22.  | Append to File |[View](#22-append-to-file) 
+| 23.  | Compare Files |[View](#23-compare-files) 
+| 24.  | Copy File Content |[View](#24-copy-file-contents) 
+| 25.  | Merge Files |[View](#25-merge-files) 
+| 25.  | File Token Counter |[View](#26-token-counter) 
+| 27.  | File Word Remover |[View](#27-remove-word-from-file) 
 
 ### 1. Using Pointers
 WAP in C to create, initialize and use pointers.
@@ -3224,6 +3254,212 @@ Reverse(CfOaeS): SeaOfC
 
 > [!NOTE]
 > If `string.h` is not included, find the length manually using the method used in the previous questions.
+
+### 17. Malloc and Calloc
+WAP in C to implement and showcase the use of the malloc and calloc functions.
+
+``Answer`` [malloc-calloc.c](src/sem-2/malloc-calloc.c)
+
+``Ouput Terminal``
+```
+=== [INPUT] ===
+Enter the size of the array: 3
+
+=== [OUTPUT] ===
+---Malloc Array---
+Default Value: 5111900 4784214 4784196
+Updated Value: 1 2 3
+
+---Calloc Array---
+Default Value: 0 0 0
+Updated Value: 1 2 3
+```
+
+> [!NOTE]
+> As can be seen unliked `calloc`, `malloc` doesn't assign the default value `0` to the elements after allocating them.
+> So `calloc` is better when used to allocate collections and arrays.
+
+### 18. Multiple return values
+WAP in C to return multiple values from a method using pointers
+
+``Answer`` [multipleReturnPointers.c](src/sem-2/multipleReturnPointers.c)
+
+``Ouput Terminal``
+```
+=== [INPUT] ===
+Enter A: 4
+Enter B: 2
+
+=== [OUTPUT] ===
+Min: 2, Max: 4
+```
+
+### 19. Write File Contents
+WAP in C to create a file, write contents to it, save and close it.
+
+``Answer`` [createFile.c](src/sem-2/createFile.c)
+
+``Ouput Terminal``
+```
+Creating file...
+Writing to file...
+```
+
+`createFileQ19.txt`
+```
+Writing to the file
+```
+
+### 20. Read File Contents
+WAP in C to read contents of a file and display it in the console.
+
+``Answer`` [readFile.c](src/sem-2/readFile.c)
+
+``Output Terminal``
+```
+File was found
+Reading...
+// Write a C program to read file contents and display on console.
+
+#include <stdio.h>
+
+void main()
+{
+    char fileName[] = "readFile.c";   //The file itself
+
+    FILE *file;
+    file = fopen(fileName, "r");
+    if(file == NULL)
+    {
+        printf("File \"%s\" wasn't found, can't read", fileName);
+        return;
+    }
+
+    printf("File was found\nReading...\n");
+    char c;
+    while ((c = fgetc(file)) != EOF)
+        printf("%c", c);
+
+    printf("\nFile has ended");
+    fclose(file);
+}
+File has ended
+```
+### 21. Number File Divider
+WAP in C to read numbers from a file and write odd, even and prime numbers to other files.
+
+``Answer`` [parseToOddEvenPrime](src/sem-2/parseToOddEvenPrime.c)
+
+``Input Files`` [numberInput.txt](src/sem-2/testFiles/Q21/numberInput.txt)
+
+``Output Terminal``
+```
+Input was found
+Reading and parsing...
+Wrote odd, even and prime numbers to files
+```
+
+``Output Files``
+- [Even Numbers](src/sem-2/testFiles/Q21/evenNumbers.txt)
+- [Odd Numbers](src/sem-2/testFiles/Q21/oddNumbers.txt)
+- [Prime Numbers](src/sem-2/testFiles/Q21/primeNumbers.txt)
+
+### 22. Append to File
+WAP in C to append content to a pre-existing file.
+
+``Answer`` [appendToFile.c](src/sem-2/appendToFile.c)
+
+``Output Terminal``
+```
+Sea Of C
+```
+```
+=== [INPUT] ===
+Enter the input which is to be appended: @gamedev_uv
+Input was appended to file
+```
+
+```
+Sea Of C@gamedev_uv
+```
+
+### 23. Compare Files
+WAP in C to compare 2 given files.
+
+``Answer`` [compareFiles.c](src/sem-2/compareFiles.c)
+
+``Input Files`` 
+- [fileA.txt](src/sem-2/testFiles/Q23/fileA.txt) 
+- [fileB.txt](src/sem-2/testFiles/Q23/fileA.txt)
+
+``Output Terminal``
+```
+Files are different
+```
+
+### 24. Copy File Contents
+WAP in C to copy the contents of a file to another.
+
+``Answer`` [copyFile.c](src/sem-2/copyFile.c)
+
+``Input Files`` 
+- [source.txt](src/sem-2/testFiles/Q24/source.txt)
+
+``Output Terminal``
+```
+File was copied
+```
+
+``Output Files``
+- [destinaion.txt](src/sem-2/testFiles/Q24/destination.txt)
+
+### 25. Merge Files 
+WAP in C to merge 2 files into one.
+
+`Answer` [mergeFiles.c](src/sem-2/mergeFiles.c)
+
+``Input Files`` 
+- [fileA.txt](src/sem-2/testFiles/Q25/fileA.txt)
+- [fileB.txt](src/sem-2/testFiles/Q25/fileB.txt)
+
+``Output Terminal``
+```
+Merged files into one
+```
+
+``Output Files``
+- [destFile.txt](src/sem-2/testFiles/Q25/destFile.txt)
+
+### 26. Token Counter
+WAP in C to count characters, words and lines in a text file.
+
+``Answer`` [tokenCounter.c](src/sem-2/tokenCounter.c)
+
+``Input Files`` 
+- [source.txt](src/sem-2/testFiles/Q26/sourceFile.txt)
+
+``Ouput Terminal``
+```
+--- TOKEN INFORMATION ----
+Character Count: 57
+Word Count: 10
+Line Count: 2
+```
+
+### 27. Remove Word from file
+WAP in C to remove a given word from the file.
+
+``Answer`` [removeWord.c](src/sem-2/removeWord.c)
+
+``Output Terminal``
+```
+HI Hello HI World HI 
+```
+
+```
+Enter the word to be removed: HI
+Hello World
+```
 
 ## Setup
 All C programs in this repository were written and tested on Windows using:

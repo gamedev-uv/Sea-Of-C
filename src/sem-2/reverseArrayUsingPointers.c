@@ -3,8 +3,8 @@
 
 void reverse(int array[], int reversedArray[], int length)
 {
-    for(int i = length - 1; i >= 0; i--)
-        *(reversedArray + i) = *(array + (length - (i + 1))); 
+    for(int i = 0; i < length; i++)
+        *(reversedArray + i) = *(array + length - i - 1); 
 }
 
 int main()
