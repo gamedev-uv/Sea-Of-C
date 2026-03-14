@@ -2783,89 +2783,99 @@ The problems which were covered in Semester II.
 
 ### Question List (Semester II)
 
-|      | Title                     | Description 
-|  -   | -                         |:---:
-| 1.   | Using pointers            | [View](#1-use-pointers) 
-| 2.   | Add using pointers        | [View](#2-add-using-pointers) 
-| 3.   | Swap using pointers        | [View](#3-swap-using-pointers) 
-| 4.   | Array using pointers        | [View](#4-array-using-pointers) 
-| 5.   | Copy Array using pointers   |[View](#5-copy-array-using-pointers) 
-| 6.   | Swap Arrays using pointers   |[View](#6-swap-arrays-using-pointers) 
-| 7.   | Reverse Array using pointers|[View](#7-reverse-array-using-pointers) 
-| 8.   | Search Element using pointers|[View](#8-search-element-using-pointers) 
-| 9.   | 2D Matrix using pointers     |[View](#9-2d-matrix-using-pointers) 
-| 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
-| 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
-| 12.  | Length of a string using pointers |[View](#12-length-of-string-using-pointers) 
-| 13.  | Copy string using pointers |[View](#13-copy-string-using-pointers) 
+|      | Title                              | Description 
+|  -   | -                                  |:---:
+| 1.   | Using pointers                     |[View](#1-use-pointers) 
+| 2.   | Add using pointers                 |[View](#2-add-using-pointers) 
+| 3.   | Swap using pointers                |[View](#3-swap-using-pointers) 
+| 4.   | Array using pointers               |[View](#4-array-using-pointers) 
+| 5.   | Copy Array using pointers          |[View](#5-copy-array-using-pointers) 
+| 6.   | Swap Arrays using pointers         |[View](#6-swap-arrays-using-pointers) 
+| 7.   | Reverse Array using pointers       |[View](#7-reverse-array-using-pointers) 
+| 8.   | Search Element using pointers      |[View](#8-search-element-using-pointers) 
+| 9.   | 2D Matrix using pointers           |[View](#9-2d-matrix-using-pointers) 
+| 10.  | 2D Matrix sum using pointers       |[View](#10-2d-matrix-sum-using-pointers) 
+| 11.  | 2D Matrix product using pointers   |[View](#11-2d-matrix-product-using-pointers) 
+| 12.  | Length of a string using pointers  |[View](#12-length-of-string-using-pointers) 
+| 13.  | Copy string using pointers         |[View](#13-copy-string-using-pointers) 
 | 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
-| 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
-| 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
-| 17.  | Malloc and Calloc              |[View](#17-malloc-and-calloc) 
-| 18.  | Return Multiple Values |[View](#18-multiple-return-values) 
-| 19.  | Write File Contents |[View](#19-write-file-contents) 
-| 20.  | Read File Contents |[View](#20-read-file-contents) 
-| 21.  | Number File Divider |[View](#21-number-file-divider) 
-| 22.  | Append to File |[View](#22-append-to-file) 
-| 23.  | Compare Files |[View](#23-compare-files) 
-| 24.  | Copy File Content |[View](#24-copy-file-contents) 
-| 25.  | Merge Files |[View](#25-merge-files) 
-| 25.  | File Token Counter |[View](#26-token-counter) 
-| 27.  | File Word Remover |[View](#27-remove-word-from-file) 
+| 15.  | Compare strings using pointers     |[View](#15-compare-strings-using-pointers) 
+| 16.  | Reverse strings using pointers     |[View](#16-reverse-string-using-pointers) 
+| 17.  | Malloc and Calloc                  |[View](#17-malloc-and-calloc) 
+| 18.  | Return Multiple Values             |[View](#18-multiple-return-values) 
+| 19.  | Write File Contents                |[View](#19-write-file-contents) 
+| 20.  | Read File Contents                 |[View](#20-read-file-contents) 
+| 21.  | Number File Divider                |[View](#21-number-file-divider) 
+| 22.  | Append to File                     |[View](#22-append-to-file) 
+| 23.  | Compare Files                      |[View](#23-compare-files) 
+| 24.  | Copy File Content                  |[View](#24-copy-file-contents) 
+| 25.  | Merge Files                        |[View](#25-merge-files) 
+| 25.  | File Token Counter                 |[View](#26-token-counter) 
+| 27.  | File Word Remover                  |[View](#27-remove-word-from-file) 
+| 28.  | Bubble Sort                        |[View](#28-bubble-sort) 
+| 29.  | Selection Sort                     |[View](#29-selection-sort) 
+| 30.  | Insertion Sort                     |[View](#30-insertion-sort) 
 
 
 ### Topic wise Questions List (Semester II)
 
 ### Pointer Programs
-| No. | Title | Description        |
-| :-: | - | :---:                        |
-| 1.   | Using Pointers            | [View](#1-use-pointers) 
-| 2.   | Add using Pointers        | [View](#2-add-using-pointers) 
-| 3.   | Swap using Pointers        | [View](#3-swap-using-pointers) 
-| 18.  | Return Multiple Values |[View](#18-multiple-return-values) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:                           
+| 1.   | Using pointers                     |[View](#1-use-pointers) 
+| 2.   | Add using pointers                 |[View](#2-add-using-pointers) 
+| 3.   | Swap using pointers                |[View](#3-swap-using-pointers)  
+| 18.  | Return Multiple Values             |[View](#18-multiple-return-values) 
 
 ### 1D Array Pointer Programs
-| No. | Title | Description        |
-| :-: | - | :---:                        |
-| 4.   | Array using Pointers        | [View](#4-array-using-pointers) 
-| 5.   | Copy Array using Pointers   |[View](#5-copy-array-using-pointers) 
-| 6.   | Swap Arrays using Pointers   |[View](#6-swap-arrays-using-pointers) 
-| 7.   | Reverse Array using Pointers|[View](#7-reverse-array-using-pointers) 
-| 8.   | Search Element using Pointers|[View](#8-search-element-using-pointers) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:                           
+| 4.   | Array using pointers               |[View](#4-array-using-pointers) 
+| 5.   | Copy Array using pointers          |[View](#5-copy-array-using-pointers) 
+| 6.   | Swap Arrays using pointers         |[View](#6-swap-arrays-using-pointers) 
+| 7.   | Reverse Array using pointers       |[View](#7-reverse-array-using-pointers) 
+| 8.   | Search Element using pointers      |[View](#8-search-element-using-pointers) 
 
 ### 2D Array Pointers Programs
-| No. | Title | Description        |
-| :-: | - | :---:                 
-| 9.   | 2D Matrix using pointers     |[View](#9-2d-matrix-using-pointers) 
-| 10.  | 2D Matrix sum using pointers |[View](#10-2d-matrix-sum-using-pointers) 
-| 11.  | 2D Matrix product using pointers |[View](#11-2d-matrix-product-using-pointers) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:    
+| 9.   | 2D Matrix using pointers           |[View](#9-2d-matrix-using-pointers) 
+| 10.  | 2D Matrix sum using pointers       |[View](#10-2d-matrix-sum-using-pointers) 
+| 11.  | 2D Matrix product using pointers   |[View](#11-2d-matrix-product-using-pointers) 
 
 ### String Pointer Programs
-| No. | Title | Description        |
-| :-: | - | :---:     
-| 12.  | Length of a string using pointers |[View](#12-length-of-string-using-pointers) 
-| 13.  | Copy string using pointers |[View](#13-copy-string-using-pointers) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:    
+| 12.  | Length of a string using pointers  |[View](#12-length-of-string-using-pointers) 
+| 13.  | Copy string using pointers         |[View](#13-copy-string-using-pointers) 
 | 14.  | Concatinate strings using pointers |[View](#14-concat-strings-using-pointers) 
-| 15.  | Compare strings using pointers |[View](#15-compare-strings-using-pointers) 
-| 16.  | Reverse strings using pointers |[View](#16-reverse-string-using-pointers) 
+| 15.  | Compare strings using pointers     |[View](#15-compare-strings-using-pointers) 
+| 16.  | Reverse strings using pointers     |[View](#16-reverse-string-using-pointers) 
 
 ### Malloc and Calloc
-| No. | Title | Description        |
-| :-: | - | :---:     
-| 17.  | Malloc and Calloc              |[View](#17-malloc-and-calloc) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:    
+| 17.  | Malloc and Calloc                  |[View](#17-malloc-and-calloc) 
 
 ### File Programs
-| No. | Title | Description        |
-| :-: | - | :---:     
-| 19.  | Write File Contents |[View](#19-write-file-contents) 
-| 20.  | Read File Contents |[View](#20-read-file-contents) 
-| 21.  | Number File Divider |[View](#21-number-file-divider) 
-| 22.  | Append to File |[View](#22-append-to-file) 
-| 23.  | Compare Files |[View](#23-compare-files) 
-| 24.  | Copy File Content |[View](#24-copy-file-contents) 
-| 25.  | Merge Files |[View](#25-merge-files) 
-| 25.  | File Token Counter |[View](#26-token-counter) 
-| 27.  | File Word Remover |[View](#27-remove-word-from-file) 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:    
+| 19.  | Write File Contents                |[View](#19-write-file-contents) 
+| 20.  | Read File Contents                 |[View](#20-read-file-contents) 
+| 21.  | Number File Divider                |[View](#21-number-file-divider) 
+| 22.  | Append to File                     |[View](#22-append-to-file) 
+| 23.  | Compare Files                      |[View](#23-compare-files) 
+| 24.  | Copy File Content                  |[View](#24-copy-file-contents) 
+| 25.  | Merge Files                        |[View](#25-merge-files) 
+| 25.  | File Token Counter                 |[View](#26-token-counter) 
+| 27.  | File Word Remover                  |[View](#27-remove-word-from-file) 
+
+### Sorting 
+| No.  | Title                              | Description                 
+| :-:  | -                                  | :---:    
+| 28.  | Bubble Sort                        |[View](#28-bubble-sort) 
+| 29.  | Selection Sort                     |[View](#29-selection-sort) 
+| 30.  | Insertion Sort                     |[View](#30-insertion-sort) 
 
 ### 1. Using Pointers
 WAP in C to create, initialize and use pointers.
@@ -3459,6 +3469,39 @@ HI Hello HI World HI
 ```
 Enter the word to be removed: HI
 Hello World
+```
+
+### 28. Bubble Sort
+WAP in C to implement bubble sort and sort an array of integers.
+
+``Answer`` [bubbleSort.c](src/sem-2/bubbleSort.c)
+
+``Output Terminal``
+```
+Original: 1 -5 2 6 -7 3 
+Sorted: -7 -5 1 2 3 6 
+```
+
+### 29. Selection Sort
+WAP in C to implement selection sort and sort an array of integers.
+
+``Answer`` [selectionSort.c](src/sem-2/selectionSort.c)
+
+``Output Terminal``
+```
+Original: 1 -5 2 6 -7 3 
+Sorted: -7 -5 1 2 3 6
+```
+
+### 30. Insertion Sort
+WAP in C to implement insertion sort and sort an array of integers.
+
+``Answer`` [insertionSort.c](src/sem-2/insertionSort.c)
+
+``Output Terminal``
+```
+Original: 1 -5 2 6 -7 3 
+Sorted: -7 -5 1 2 3 6
 ```
 
 ## Setup

@@ -28,16 +28,16 @@ int main()
     //Sort it using selection sort
     for(int i = 0; i < length; i++)
     {
-        for(int j = i; j <= length - 1; j++)
+        int minIndex = i;
+        for(int j = i; j < length; j++)
         {
-            int a = array[i];
-            int b = array[j];
-
-            if(a < b) continue;
-
-            array[j] = a;
-            array[i] = b;
+            if(array[j] < array[minIndex])
+                minIndex = j;
         }
+
+        int t = array[i];
+        array[i] = array[minIndex];
+        array[minIndex] = t;
     }
 
     //Print the sorted array
